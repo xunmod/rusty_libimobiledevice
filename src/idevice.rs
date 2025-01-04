@@ -233,7 +233,7 @@ impl Device {
                     // SAFETY: ip_addr points to 16 bytes, initialized to zero
                     let ip_addr_slice = unsafe { std::slice::from_raw_parts_mut(ip_addr, 16) };
 
-                    ip_addr_slice[0..4].copy_from_slice(&[0x10, 0x02, 0x00, 0x00]);
+                    ip_addr_slice[0..4].copy_from_slice(&[0x02, 0x00, 0x00, 0x00]);
                     ip_addr_slice[4..8].copy_from_slice(&ip.octets());
                     ip_addr_slice[8..16]
                         .copy_from_slice(&[0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]);
@@ -254,7 +254,7 @@ impl Device {
                     let ip_addr_slice = unsafe { std::slice::from_raw_parts_mut(ip_addr, 29) };
 
                     ip_addr_slice[0..7]
-                        .copy_from_slice(&[0x1C, 0x1E, 0x00, 0x00, 0x00, 0x00, 0x00]);
+                        .copy_from_slice(&[0x1E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]);
                     ip_addr_slice[8..24].copy_from_slice(&ip.octets());
                     ip_addr_slice[24..29].copy_from_slice(&[0x00, 0x00, 0x00, 0x00, 0x00]);
 
