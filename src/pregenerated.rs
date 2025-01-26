@@ -2,297 +2,114 @@
 // Danger: this file was NOT generated at run time and could be out of date
 // Choke on this, rust-analyzer (https://github.com/rust-analyzer/rust-analyzer/issues/9720)
 
-pub const __DARWIN_ONLY_64_BIT_INO_T: u32 = 1;
-pub const __DARWIN_ONLY_UNIX_CONFORMANCE: u32 = 1;
-pub const __DARWIN_ONLY_VERS_1050: u32 = 1;
-pub const __DARWIN_UNIX03: u32 = 1;
-pub const __DARWIN_64_BIT_INO_T: u32 = 1;
-pub const __DARWIN_VERS_1050: u32 = 1;
-pub const __DARWIN_NON_CANCELABLE: u32 = 0;
-pub const __DARWIN_SUF_EXTSN: &'static [u8; 14usize] = b"$DARWIN_EXTSN\0";
-pub const __DARWIN_C_ANSI: u32 = 4096;
-pub const __DARWIN_C_FULL: u32 = 900000;
-pub const __DARWIN_C_LEVEL: u32 = 900000;
-pub const __STDC_WANT_LIB_EXT1__: u32 = 1;
-pub const __DARWIN_NO_LONG_LONG: u32 = 0;
-pub const _DARWIN_FEATURE_64_BIT_INODE: u32 = 1;
-pub const _DARWIN_FEATURE_ONLY_64_BIT_INODE: u32 = 1;
-pub const _DARWIN_FEATURE_ONLY_VERS_1050: u32 = 1;
-pub const _DARWIN_FEATURE_ONLY_UNIX_CONFORMANCE: u32 = 1;
-pub const _DARWIN_FEATURE_UNIX_CONFORMANCE: u32 = 3;
-pub const __PTHREAD_SIZE__: u32 = 8176;
-pub const __PTHREAD_ATTR_SIZE__: u32 = 56;
-pub const __PTHREAD_MUTEXATTR_SIZE__: u32 = 8;
-pub const __PTHREAD_MUTEX_SIZE__: u32 = 56;
-pub const __PTHREAD_CONDATTR_SIZE__: u32 = 8;
-pub const __PTHREAD_COND_SIZE__: u32 = 40;
-pub const __PTHREAD_ONCE_SIZE__: u32 = 8;
-pub const __PTHREAD_RWLOCK_SIZE__: u32 = 192;
-pub const __PTHREAD_RWLOCKATTR_SIZE__: u32 = 16;
-pub const _QUAD_HIGHWORD: u32 = 1;
-pub const _QUAD_LOWWORD: u32 = 0;
-pub const __DARWIN_LITTLE_ENDIAN: u32 = 1234;
-pub const __DARWIN_BIG_ENDIAN: u32 = 4321;
-pub const __DARWIN_PDP_ENDIAN: u32 = 3412;
-pub const __DARWIN_BYTE_ORDER: u32 = 1234;
+pub const _SYS_TYPES_H: u32 = 1;
+pub const _FEATURES_H: u32 = 1;
+pub const _DEFAULT_SOURCE: u32 = 1;
+pub const __GLIBC_USE_ISOC2X: u32 = 0;
+pub const __USE_ISOC11: u32 = 1;
+pub const __USE_ISOC99: u32 = 1;
+pub const __USE_ISOC95: u32 = 1;
+pub const __USE_POSIX_IMPLICITLY: u32 = 1;
+pub const _POSIX_SOURCE: u32 = 1;
+pub const _POSIX_C_SOURCE: u32 = 200809;
+pub const __USE_POSIX: u32 = 1;
+pub const __USE_POSIX2: u32 = 1;
+pub const __USE_POSIX199309: u32 = 1;
+pub const __USE_POSIX199506: u32 = 1;
+pub const __USE_XOPEN2K: u32 = 1;
+pub const __USE_XOPEN2K8: u32 = 1;
+pub const _ATFILE_SOURCE: u32 = 1;
+pub const __WORDSIZE: u32 = 64;
+pub const __WORDSIZE_TIME64_COMPAT32: u32 = 1;
+pub const __SYSCALL_WORDSIZE: u32 = 64;
+pub const __TIMESIZE: u32 = 64;
+pub const __USE_MISC: u32 = 1;
+pub const __USE_ATFILE: u32 = 1;
+pub const __USE_FORTIFY_LEVEL: u32 = 0;
+pub const __GLIBC_USE_DEPRECATED_GETS: u32 = 0;
+pub const __GLIBC_USE_DEPRECATED_SCANF: u32 = 0;
+pub const _STDC_PREDEF_H: u32 = 1;
+pub const __STDC_IEC_559__: u32 = 1;
+pub const __STDC_IEC_60559_BFP__: u32 = 201404;
+pub const __STDC_IEC_559_COMPLEX__: u32 = 1;
+pub const __STDC_IEC_60559_COMPLEX__: u32 = 201404;
+pub const __STDC_ISO_10646__: u32 = 201706;
+pub const __GNU_LIBRARY__: u32 = 6;
+pub const __GLIBC__: u32 = 2;
+pub const __GLIBC_MINOR__: u32 = 35;
+pub const _SYS_CDEFS_H: u32 = 1;
+pub const __glibc_c99_flexarr_available: u32 = 1;
+pub const __LDOUBLE_REDIRECTS_TO_FLOAT128_ABI: u32 = 0;
+pub const __HAVE_GENERIC_SELECTION: u32 = 1;
+pub const _BITS_TYPES_H: u32 = 1;
+pub const _BITS_TYPESIZES_H: u32 = 1;
+pub const __OFF_T_MATCHES_OFF64_T: u32 = 1;
+pub const __INO_T_MATCHES_INO64_T: u32 = 1;
+pub const __RLIM_T_MATCHES_RLIM64_T: u32 = 1;
+pub const __STATFS_MATCHES_STATFS64: u32 = 1;
+pub const __KERNEL_OLD_TIMEVAL_MATCHES_TIMEVAL64: u32 = 1;
+pub const __FD_SETSIZE: u32 = 1024;
+pub const _BITS_TIME64_H: u32 = 1;
+pub const __clock_t_defined: u32 = 1;
+pub const __clockid_t_defined: u32 = 1;
+pub const __time_t_defined: u32 = 1;
+pub const __timer_t_defined: u32 = 1;
+pub const _BITS_STDINT_INTN_H: u32 = 1;
+pub const __BIT_TYPES_DEFINED__: u32 = 1;
+pub const _ENDIAN_H: u32 = 1;
+pub const _BITS_ENDIAN_H: u32 = 1;
+pub const __LITTLE_ENDIAN: u32 = 1234;
+pub const __BIG_ENDIAN: u32 = 4321;
+pub const __PDP_ENDIAN: u32 = 3412;
+pub const _BITS_ENDIANNESS_H: u32 = 1;
+pub const __BYTE_ORDER: u32 = 1234;
+pub const __FLOAT_WORD_ORDER: u32 = 1234;
 pub const LITTLE_ENDIAN: u32 = 1234;
 pub const BIG_ENDIAN: u32 = 4321;
 pub const PDP_ENDIAN: u32 = 3412;
 pub const BYTE_ORDER: u32 = 1234;
-pub const __WORDSIZE: u32 = 64;
-pub const INT8_MAX: u32 = 127;
-pub const INT16_MAX: u32 = 32767;
-pub const INT32_MAX: u32 = 2147483647;
-pub const INT64_MAX: u64 = 9223372036854775807;
-pub const INT8_MIN: i32 = -128;
-pub const INT16_MIN: i32 = -32768;
-pub const INT32_MIN: i32 = -2147483648;
-pub const INT64_MIN: i64 = -9223372036854775808;
-pub const UINT8_MAX: u32 = 255;
-pub const UINT16_MAX: u32 = 65535;
-pub const UINT32_MAX: u32 = 4294967295;
-pub const UINT64_MAX: i32 = -1;
-pub const INT_LEAST8_MIN: i32 = -128;
-pub const INT_LEAST16_MIN: i32 = -32768;
-pub const INT_LEAST32_MIN: i32 = -2147483648;
-pub const INT_LEAST64_MIN: i64 = -9223372036854775808;
-pub const INT_LEAST8_MAX: u32 = 127;
-pub const INT_LEAST16_MAX: u32 = 32767;
-pub const INT_LEAST32_MAX: u32 = 2147483647;
-pub const INT_LEAST64_MAX: u64 = 9223372036854775807;
-pub const UINT_LEAST8_MAX: u32 = 255;
-pub const UINT_LEAST16_MAX: u32 = 65535;
-pub const UINT_LEAST32_MAX: u32 = 4294967295;
-pub const UINT_LEAST64_MAX: i32 = -1;
-pub const INT_FAST8_MIN: i32 = -128;
-pub const INT_FAST16_MIN: i32 = -32768;
-pub const INT_FAST32_MIN: i32 = -2147483648;
-pub const INT_FAST64_MIN: i64 = -9223372036854775808;
-pub const INT_FAST8_MAX: u32 = 127;
-pub const INT_FAST16_MAX: u32 = 32767;
-pub const INT_FAST32_MAX: u32 = 2147483647;
-pub const INT_FAST64_MAX: u64 = 9223372036854775807;
-pub const UINT_FAST8_MAX: u32 = 255;
-pub const UINT_FAST16_MAX: u32 = 65535;
-pub const UINT_FAST32_MAX: u32 = 4294967295;
-pub const UINT_FAST64_MAX: i32 = -1;
-pub const INTPTR_MAX: u64 = 9223372036854775807;
-pub const INTPTR_MIN: i64 = -9223372036854775808;
-pub const UINTPTR_MAX: i32 = -1;
-pub const SIZE_MAX: i32 = -1;
-pub const RSIZE_MAX: i32 = -1;
-pub const WINT_MIN: i32 = -2147483648;
-pub const WINT_MAX: u32 = 2147483647;
-pub const SIG_ATOMIC_MIN: i32 = -2147483648;
-pub const SIG_ATOMIC_MAX: u32 = 2147483647;
-pub const __API_TO_BE_DEPRECATED: u32 = 100000;
-pub const __MAC_10_0: u32 = 1000;
-pub const __MAC_10_1: u32 = 1010;
-pub const __MAC_10_2: u32 = 1020;
-pub const __MAC_10_3: u32 = 1030;
-pub const __MAC_10_4: u32 = 1040;
-pub const __MAC_10_5: u32 = 1050;
-pub const __MAC_10_6: u32 = 1060;
-pub const __MAC_10_7: u32 = 1070;
-pub const __MAC_10_8: u32 = 1080;
-pub const __MAC_10_9: u32 = 1090;
-pub const __MAC_10_10: u32 = 101000;
-pub const __MAC_10_10_2: u32 = 101002;
-pub const __MAC_10_10_3: u32 = 101003;
-pub const __MAC_10_11: u32 = 101100;
-pub const __MAC_10_11_2: u32 = 101102;
-pub const __MAC_10_11_3: u32 = 101103;
-pub const __MAC_10_11_4: u32 = 101104;
-pub const __MAC_10_12: u32 = 101200;
-pub const __MAC_10_12_1: u32 = 101201;
-pub const __MAC_10_12_2: u32 = 101202;
-pub const __MAC_10_12_4: u32 = 101204;
-pub const __MAC_10_13: u32 = 101300;
-pub const __MAC_10_13_1: u32 = 101301;
-pub const __MAC_10_13_2: u32 = 101302;
-pub const __MAC_10_13_4: u32 = 101304;
-pub const __MAC_10_14: u32 = 101400;
-pub const __MAC_10_14_1: u32 = 101401;
-pub const __MAC_10_14_4: u32 = 101404;
-pub const __MAC_10_14_6: u32 = 101406;
-pub const __MAC_10_15: u32 = 101500;
-pub const __MAC_10_15_1: u32 = 101501;
-pub const __MAC_10_15_4: u32 = 101504;
-pub const __MAC_10_16: u32 = 101600;
-pub const __MAC_11_0: u32 = 110000;
-pub const __MAC_11_1: u32 = 110100;
-pub const __MAC_11_3: u32 = 110300;
-pub const __MAC_11_4: u32 = 110400;
-pub const __MAC_11_5: u32 = 110500;
-pub const __MAC_11_6: u32 = 110600;
-pub const __MAC_12_0: u32 = 120000;
-pub const __MAC_12_1: u32 = 120100;
-pub const __IPHONE_2_0: u32 = 20000;
-pub const __IPHONE_2_1: u32 = 20100;
-pub const __IPHONE_2_2: u32 = 20200;
-pub const __IPHONE_3_0: u32 = 30000;
-pub const __IPHONE_3_1: u32 = 30100;
-pub const __IPHONE_3_2: u32 = 30200;
-pub const __IPHONE_4_0: u32 = 40000;
-pub const __IPHONE_4_1: u32 = 40100;
-pub const __IPHONE_4_2: u32 = 40200;
-pub const __IPHONE_4_3: u32 = 40300;
-pub const __IPHONE_5_0: u32 = 50000;
-pub const __IPHONE_5_1: u32 = 50100;
-pub const __IPHONE_6_0: u32 = 60000;
-pub const __IPHONE_6_1: u32 = 60100;
-pub const __IPHONE_7_0: u32 = 70000;
-pub const __IPHONE_7_1: u32 = 70100;
-pub const __IPHONE_8_0: u32 = 80000;
-pub const __IPHONE_8_1: u32 = 80100;
-pub const __IPHONE_8_2: u32 = 80200;
-pub const __IPHONE_8_3: u32 = 80300;
-pub const __IPHONE_8_4: u32 = 80400;
-pub const __IPHONE_9_0: u32 = 90000;
-pub const __IPHONE_9_1: u32 = 90100;
-pub const __IPHONE_9_2: u32 = 90200;
-pub const __IPHONE_9_3: u32 = 90300;
-pub const __IPHONE_10_0: u32 = 100000;
-pub const __IPHONE_10_1: u32 = 100100;
-pub const __IPHONE_10_2: u32 = 100200;
-pub const __IPHONE_10_3: u32 = 100300;
-pub const __IPHONE_11_0: u32 = 110000;
-pub const __IPHONE_11_1: u32 = 110100;
-pub const __IPHONE_11_2: u32 = 110200;
-pub const __IPHONE_11_3: u32 = 110300;
-pub const __IPHONE_11_4: u32 = 110400;
-pub const __IPHONE_12_0: u32 = 120000;
-pub const __IPHONE_12_1: u32 = 120100;
-pub const __IPHONE_12_2: u32 = 120200;
-pub const __IPHONE_12_3: u32 = 120300;
-pub const __IPHONE_12_4: u32 = 120400;
-pub const __IPHONE_13_0: u32 = 130000;
-pub const __IPHONE_13_1: u32 = 130100;
-pub const __IPHONE_13_2: u32 = 130200;
-pub const __IPHONE_13_3: u32 = 130300;
-pub const __IPHONE_13_4: u32 = 130400;
-pub const __IPHONE_13_5: u32 = 130500;
-pub const __IPHONE_13_6: u32 = 130600;
-pub const __IPHONE_13_7: u32 = 130700;
-pub const __IPHONE_14_0: u32 = 140000;
-pub const __IPHONE_14_1: u32 = 140100;
-pub const __IPHONE_14_2: u32 = 140200;
-pub const __IPHONE_14_3: u32 = 140300;
-pub const __IPHONE_14_5: u32 = 140500;
-pub const __IPHONE_14_6: u32 = 140600;
-pub const __IPHONE_14_7: u32 = 140700;
-pub const __IPHONE_14_8: u32 = 140800;
-pub const __IPHONE_15_0: u32 = 150000;
-pub const __IPHONE_15_1: u32 = 150100;
-pub const __IPHONE_15_2: u32 = 150200;
-pub const __TVOS_9_0: u32 = 90000;
-pub const __TVOS_9_1: u32 = 90100;
-pub const __TVOS_9_2: u32 = 90200;
-pub const __TVOS_10_0: u32 = 100000;
-pub const __TVOS_10_0_1: u32 = 100001;
-pub const __TVOS_10_1: u32 = 100100;
-pub const __TVOS_10_2: u32 = 100200;
-pub const __TVOS_11_0: u32 = 110000;
-pub const __TVOS_11_1: u32 = 110100;
-pub const __TVOS_11_2: u32 = 110200;
-pub const __TVOS_11_3: u32 = 110300;
-pub const __TVOS_11_4: u32 = 110400;
-pub const __TVOS_12_0: u32 = 120000;
-pub const __TVOS_12_1: u32 = 120100;
-pub const __TVOS_12_2: u32 = 120200;
-pub const __TVOS_12_3: u32 = 120300;
-pub const __TVOS_12_4: u32 = 120400;
-pub const __TVOS_13_0: u32 = 130000;
-pub const __TVOS_13_2: u32 = 130200;
-pub const __TVOS_13_3: u32 = 130300;
-pub const __TVOS_13_4: u32 = 130400;
-pub const __TVOS_14_0: u32 = 140000;
-pub const __TVOS_14_1: u32 = 140100;
-pub const __TVOS_14_2: u32 = 140200;
-pub const __TVOS_14_3: u32 = 140300;
-pub const __TVOS_14_5: u32 = 140500;
-pub const __TVOS_14_6: u32 = 140600;
-pub const __TVOS_14_7: u32 = 140700;
-pub const __TVOS_15_0: u32 = 150000;
-pub const __TVOS_15_1: u32 = 150100;
-pub const __TVOS_15_2: u32 = 150200;
-pub const __WATCHOS_1_0: u32 = 10000;
-pub const __WATCHOS_2_0: u32 = 20000;
-pub const __WATCHOS_2_1: u32 = 20100;
-pub const __WATCHOS_2_2: u32 = 20200;
-pub const __WATCHOS_3_0: u32 = 30000;
-pub const __WATCHOS_3_1: u32 = 30100;
-pub const __WATCHOS_3_1_1: u32 = 30101;
-pub const __WATCHOS_3_2: u32 = 30200;
-pub const __WATCHOS_4_0: u32 = 40000;
-pub const __WATCHOS_4_1: u32 = 40100;
-pub const __WATCHOS_4_2: u32 = 40200;
-pub const __WATCHOS_4_3: u32 = 40300;
-pub const __WATCHOS_5_0: u32 = 50000;
-pub const __WATCHOS_5_1: u32 = 50100;
-pub const __WATCHOS_5_2: u32 = 50200;
-pub const __WATCHOS_5_3: u32 = 50300;
-pub const __WATCHOS_6_0: u32 = 60000;
-pub const __WATCHOS_6_1: u32 = 60100;
-pub const __WATCHOS_6_2: u32 = 60200;
-pub const __WATCHOS_7_0: u32 = 70000;
-pub const __WATCHOS_7_1: u32 = 70100;
-pub const __WATCHOS_7_2: u32 = 70200;
-pub const __WATCHOS_7_3: u32 = 70300;
-pub const __WATCHOS_7_4: u32 = 70400;
-pub const __WATCHOS_7_5: u32 = 70500;
-pub const __WATCHOS_7_6: u32 = 70600;
-pub const __WATCHOS_8_0: u32 = 80000;
-pub const __WATCHOS_8_1: u32 = 80100;
-pub const __WATCHOS_8_3: u32 = 80300;
-pub const MAC_OS_X_VERSION_10_0: u32 = 1000;
-pub const MAC_OS_X_VERSION_10_1: u32 = 1010;
-pub const MAC_OS_X_VERSION_10_2: u32 = 1020;
-pub const MAC_OS_X_VERSION_10_3: u32 = 1030;
-pub const MAC_OS_X_VERSION_10_4: u32 = 1040;
-pub const MAC_OS_X_VERSION_10_5: u32 = 1050;
-pub const MAC_OS_X_VERSION_10_6: u32 = 1060;
-pub const MAC_OS_X_VERSION_10_7: u32 = 1070;
-pub const MAC_OS_X_VERSION_10_8: u32 = 1080;
-pub const MAC_OS_X_VERSION_10_9: u32 = 1090;
-pub const MAC_OS_X_VERSION_10_10: u32 = 101000;
-pub const MAC_OS_X_VERSION_10_10_2: u32 = 101002;
-pub const MAC_OS_X_VERSION_10_10_3: u32 = 101003;
-pub const MAC_OS_X_VERSION_10_11: u32 = 101100;
-pub const MAC_OS_X_VERSION_10_11_2: u32 = 101102;
-pub const MAC_OS_X_VERSION_10_11_3: u32 = 101103;
-pub const MAC_OS_X_VERSION_10_11_4: u32 = 101104;
-pub const MAC_OS_X_VERSION_10_12: u32 = 101200;
-pub const MAC_OS_X_VERSION_10_12_1: u32 = 101201;
-pub const MAC_OS_X_VERSION_10_12_2: u32 = 101202;
-pub const MAC_OS_X_VERSION_10_12_4: u32 = 101204;
-pub const MAC_OS_X_VERSION_10_13: u32 = 101300;
-pub const MAC_OS_X_VERSION_10_13_1: u32 = 101301;
-pub const MAC_OS_X_VERSION_10_13_2: u32 = 101302;
-pub const MAC_OS_X_VERSION_10_13_4: u32 = 101304;
-pub const MAC_OS_X_VERSION_10_14: u32 = 101400;
-pub const MAC_OS_X_VERSION_10_14_1: u32 = 101401;
-pub const MAC_OS_X_VERSION_10_14_4: u32 = 101404;
-pub const MAC_OS_X_VERSION_10_14_6: u32 = 101406;
-pub const MAC_OS_X_VERSION_10_15: u32 = 101500;
-pub const MAC_OS_X_VERSION_10_15_1: u32 = 101501;
-pub const MAC_OS_X_VERSION_10_16: u32 = 101600;
-pub const MAC_OS_VERSION_11_0: u32 = 110000;
-pub const MAC_OS_VERSION_12_0: u32 = 120000;
-pub const __DRIVERKIT_19_0: u32 = 190000;
-pub const __DRIVERKIT_20_0: u32 = 200000;
-pub const __DRIVERKIT_21_0: u32 = 210000;
-pub const __MAC_OS_X_VERSION_MAX_ALLOWED: u32 = 120100;
-pub const __ENABLE_LEGACY_MAC_AVAILABILITY: u32 = 1;
-pub const __DARWIN_FD_SETSIZE: u32 = 1024;
-pub const __DARWIN_NBBY: u32 = 8;
-pub const NBBY: u32 = 8;
+pub const _BITS_BYTESWAP_H: u32 = 1;
+pub const _BITS_UINTN_IDENTITY_H: u32 = 1;
+pub const _SYS_SELECT_H: u32 = 1;
+pub const __sigset_t_defined: u32 = 1;
+pub const __timeval_defined: u32 = 1;
+pub const _STRUCT_TIMESPEC: u32 = 1;
 pub const FD_SETSIZE: u32 = 1024;
-pub const __DARWIN_WCHAR_MIN: i32 = -2147483648;
-pub const _FORTIFY_SOURCE: u32 = 2;
-pub const CLOCKS_PER_SEC: u32 = 1000000;
+pub const _BITS_PTHREADTYPES_COMMON_H: u32 = 1;
+pub const _THREAD_SHARED_TYPES_H: u32 = 1;
+pub const _BITS_PTHREADTYPES_ARCH_H: u32 = 1;
+pub const __SIZEOF_PTHREAD_MUTEX_T: u32 = 40;
+pub const __SIZEOF_PTHREAD_ATTR_T: u32 = 56;
+pub const __SIZEOF_PTHREAD_RWLOCK_T: u32 = 56;
+pub const __SIZEOF_PTHREAD_BARRIER_T: u32 = 32;
+pub const __SIZEOF_PTHREAD_MUTEXATTR_T: u32 = 4;
+pub const __SIZEOF_PTHREAD_COND_T: u32 = 48;
+pub const __SIZEOF_PTHREAD_CONDATTR_T: u32 = 4;
+pub const __SIZEOF_PTHREAD_RWLOCKATTR_T: u32 = 8;
+pub const __SIZEOF_PTHREAD_BARRIERATTR_T: u32 = 4;
+pub const _THREAD_MUTEX_INTERNAL_H: u32 = 1;
+pub const __PTHREAD_MUTEX_HAVE_PREV: u32 = 1;
+pub const __have_pthread_attr_t: u32 = 1;
+pub const _TIME_H: u32 = 1;
+pub const _BITS_TIME_H: u32 = 1;
+pub const CLOCK_REALTIME: u32 = 0;
+pub const CLOCK_MONOTONIC: u32 = 1;
+pub const CLOCK_PROCESS_CPUTIME_ID: u32 = 2;
+pub const CLOCK_THREAD_CPUTIME_ID: u32 = 3;
+pub const CLOCK_MONOTONIC_RAW: u32 = 4;
+pub const CLOCK_REALTIME_COARSE: u32 = 5;
+pub const CLOCK_MONOTONIC_COARSE: u32 = 6;
+pub const CLOCK_BOOTTIME: u32 = 7;
+pub const CLOCK_REALTIME_ALARM: u32 = 8;
+pub const CLOCK_BOOTTIME_ALARM: u32 = 9;
+pub const CLOCK_TAI: u32 = 11;
+pub const TIMER_ABSTIME: u32 = 1;
+pub const __struct_tm_defined: u32 = 1;
+pub const __itimerspec_defined: u32 = 1;
+pub const _BITS_TYPES_LOCALE_T_H: u32 = 1;
+pub const _BITS_TYPES___LOCALE_T_H: u32 = 1;
 pub const TIME_UTC: u32 = 1;
-pub const GNUTLS_VERSION: &'static [u8; 6usize] = b"3.7.3\0";
+pub const GNUTLS_VERSION: &[u8; 6usize] = b"3.7.3\0";
 pub const GNUTLS_VERSION_MAJOR: u32 = 3;
 pub const GNUTLS_VERSION_MINOR: u32 = 7;
 pub const GNUTLS_VERSION_PATCH: u32 = 3;
@@ -326,6 +143,11 @@ pub const GNUTLS_HOOK_POST: u32 = 1;
 pub const GNUTLS_HOOK_PRE: u32 = 0;
 pub const GNUTLS_HOOK_BOTH: i32 = -1;
 pub const GNUTLS_OCSP_SR_IS_AVAIL: u32 = 1;
+pub const _SYS_UIO_H: u32 = 1;
+pub const __iovec_defined: u32 = 1;
+pub const _BITS_UIO_LIM_H: u32 = 1;
+pub const __IOV_MAX: u32 = 1024;
+pub const UIO_MAXIOV: u32 = 1024;
 pub const GNUTLS_IDNA_FORCE_2008: u32 = 2;
 pub const GNUTLS_KEY_DIGITAL_SIGNATURE: u32 = 128;
 pub const GNUTLS_KEY_NON_REPUDIATION: u32 = 64;
@@ -546,898 +368,374 @@ pub const GNUTLS_E_INT_CHECK_AGAIN: i32 = -1252;
 pub const GNUTLS_E_APPLICATION_ERROR_MAX: i32 = -65000;
 pub const GNUTLS_E_APPLICATION_ERROR_MIN: i32 = -65500;
 pub const GNUTLS_VERIFY_ALLOW_X509_V1_CA_CRT: u32 = 0;
-pub const LIBGNUTLS_VERSION: &'static [u8; 6usize] = b"3.7.3\0";
+pub const LIBGNUTLS_VERSION: &[u8; 6usize] = b"3.7.3\0";
 pub const LIBGNUTLS_VERSION_MAJOR: u32 = 3;
 pub const LIBGNUTLS_VERSION_MINOR: u32 = 7;
 pub const LIBGNUTLS_VERSION_PATCH: u32 = 3;
 pub const LIBGNUTLS_VERSION_NUMBER: u32 = 198403;
-pub const LIBGNUTLS_EXTRA_VERSION: &'static [u8; 6usize] = b"3.7.3\0";
+pub const LIBGNUTLS_EXTRA_VERSION: &[u8; 6usize] = b"3.7.3\0";
 pub const GNUTLS_SUPPLEMENTAL_USER_MAPPING_DATA: u32 = 0;
+pub const _STDINT_H: u32 = 1;
+pub const __GLIBC_USE_LIB_EXT2: u32 = 0;
+pub const __GLIBC_USE_IEC_60559_BFP_EXT: u32 = 0;
+pub const __GLIBC_USE_IEC_60559_BFP_EXT_C2X: u32 = 0;
+pub const __GLIBC_USE_IEC_60559_EXT: u32 = 0;
+pub const __GLIBC_USE_IEC_60559_FUNCS_EXT: u32 = 0;
+pub const __GLIBC_USE_IEC_60559_FUNCS_EXT_C2X: u32 = 0;
+pub const __GLIBC_USE_IEC_60559_TYPES_EXT: u32 = 0;
+pub const _BITS_WCHAR_H: u32 = 1;
+pub const _BITS_STDINT_UINTN_H: u32 = 1;
+pub const INT8_MIN: i32 = -128;
+pub const INT16_MIN: i32 = -32768;
+pub const INT32_MIN: i32 = -2147483648;
+pub const INT8_MAX: u32 = 127;
+pub const INT16_MAX: u32 = 32767;
+pub const INT32_MAX: u32 = 2147483647;
+pub const UINT8_MAX: u32 = 255;
+pub const UINT16_MAX: u32 = 65535;
+pub const UINT32_MAX: u32 = 4294967295;
+pub const INT_LEAST8_MIN: i32 = -128;
+pub const INT_LEAST16_MIN: i32 = -32768;
+pub const INT_LEAST32_MIN: i32 = -2147483648;
+pub const INT_LEAST8_MAX: u32 = 127;
+pub const INT_LEAST16_MAX: u32 = 32767;
+pub const INT_LEAST32_MAX: u32 = 2147483647;
+pub const UINT_LEAST8_MAX: u32 = 255;
+pub const UINT_LEAST16_MAX: u32 = 65535;
+pub const UINT_LEAST32_MAX: u32 = 4294967295;
+pub const INT_FAST8_MIN: i32 = -128;
+pub const INT_FAST16_MIN: i64 = -9223372036854775808;
+pub const INT_FAST32_MIN: i64 = -9223372036854775808;
+pub const INT_FAST8_MAX: u32 = 127;
+pub const INT_FAST16_MAX: u64 = 9223372036854775807;
+pub const INT_FAST32_MAX: u64 = 9223372036854775807;
+pub const UINT_FAST8_MAX: u32 = 255;
+pub const UINT_FAST16_MAX: i32 = -1;
+pub const UINT_FAST32_MAX: i32 = -1;
+pub const INTPTR_MIN: i64 = -9223372036854775808;
+pub const INTPTR_MAX: u64 = 9223372036854775807;
+pub const UINTPTR_MAX: i32 = -1;
+pub const PTRDIFF_MIN: i64 = -9223372036854775808;
+pub const PTRDIFF_MAX: u64 = 9223372036854775807;
+pub const SIG_ATOMIC_MIN: i32 = -2147483648;
+pub const SIG_ATOMIC_MAX: u32 = 2147483647;
+pub const SIZE_MAX: i32 = -1;
+pub const WINT_MIN: u32 = 0;
+pub const WINT_MAX: u32 = 4294967295;
 pub const __GNUC_VA_LIST: u32 = 1;
-pub const USERPREF_DEVICE_CERTIFICATE_KEY: &'static [u8; 18usize] = b"DeviceCertificate\0";
-pub const USERPREF_ESCROW_BAG_KEY: &'static [u8; 10usize] = b"EscrowBag\0";
-pub const USERPREF_HOST_CERTIFICATE_KEY: &'static [u8; 16usize] = b"HostCertificate\0";
-pub const USERPREF_ROOT_CERTIFICATE_KEY: &'static [u8; 16usize] = b"RootCertificate\0";
-pub const USERPREF_HOST_PRIVATE_KEY_KEY: &'static [u8; 15usize] = b"HostPrivateKey\0";
-pub const USERPREF_ROOT_PRIVATE_KEY_KEY: &'static [u8; 15usize] = b"RootPrivateKey\0";
-pub const USERPREF_HOST_ID_KEY: &'static [u8; 7usize] = b"HostID\0";
-pub const USERPREF_SYSTEM_BUID_KEY: &'static [u8; 11usize] = b"SystemBUID\0";
-pub const USERPREF_WIFI_MAC_ADDRESS_KEY: &'static [u8; 15usize] = b"WiFiMACAddress\0";
-pub const S_IFMT: u32 = 61440;
-pub const S_IFIFO: u32 = 4096;
-pub const S_IFCHR: u32 = 8192;
-pub const S_IFDIR: u32 = 16384;
-pub const S_IFBLK: u32 = 24576;
-pub const S_IFREG: u32 = 32768;
-pub const S_IFLNK: u32 = 40960;
-pub const S_IFSOCK: u32 = 49152;
-pub const S_IFWHT: u32 = 57344;
-pub const S_IRWXU: u32 = 448;
-pub const S_IRUSR: u32 = 256;
-pub const S_IWUSR: u32 = 128;
-pub const S_IXUSR: u32 = 64;
-pub const S_IRWXG: u32 = 56;
-pub const S_IRGRP: u32 = 32;
-pub const S_IWGRP: u32 = 16;
-pub const S_IXGRP: u32 = 8;
-pub const S_IRWXO: u32 = 7;
-pub const S_IROTH: u32 = 4;
-pub const S_IWOTH: u32 = 2;
-pub const S_IXOTH: u32 = 1;
-pub const S_ISUID: u32 = 2048;
-pub const S_ISGID: u32 = 1024;
-pub const S_ISVTX: u32 = 512;
-pub const S_ISTXT: u32 = 512;
-pub const S_IREAD: u32 = 256;
-pub const S_IWRITE: u32 = 128;
-pub const S_IEXEC: u32 = 64;
-pub const ACCESSPERMS: u32 = 511;
-pub const ALLPERMS: u32 = 4095;
-pub const DEFFILEMODE: u32 = 438;
-pub const S_BLKSIZE: u32 = 512;
-pub const UF_SETTABLE: u32 = 65535;
-pub const UF_NODUMP: u32 = 1;
-pub const UF_IMMUTABLE: u32 = 2;
-pub const UF_APPEND: u32 = 4;
-pub const UF_OPAQUE: u32 = 8;
-pub const UF_COMPRESSED: u32 = 32;
-pub const UF_TRACKED: u32 = 64;
-pub const UF_DATAVAULT: u32 = 128;
-pub const UF_HIDDEN: u32 = 32768;
-pub const SF_SUPPORTED: u32 = 10420224;
-pub const SF_SETTABLE: u32 = 1073676288;
-pub const SF_SYNTHETIC: u32 = 3221225472;
-pub const SF_ARCHIVED: u32 = 65536;
-pub const SF_IMMUTABLE: u32 = 131072;
-pub const SF_APPEND: u32 = 262144;
-pub const SF_RESTRICTED: u32 = 524288;
-pub const SF_NOUNLINK: u32 = 1048576;
-pub const SF_FIRMLINK: u32 = 8388608;
-pub const SF_DATALESS: u32 = 1073741824;
-pub const EF_MAY_SHARE_BLOCKS: u32 = 1;
-pub const EF_NO_XATTRS: u32 = 2;
-pub const EF_IS_SYNC_ROOT: u32 = 4;
-pub const EF_IS_PURGEABLE: u32 = 8;
-pub const EF_IS_SPARSE: u32 = 16;
-pub const EF_IS_SYNTHETIC: u32 = 32;
-pub const UTIME_NOW: i32 = -1;
-pub const UTIME_OMIT: i32 = -2;
-pub const AFC_SERVICE_NAME: &'static [u8; 14usize] = b"com.apple.afc\0";
-pub const COMPANION_PROXY_SERVICE_NAME: &'static [u8; 26usize] = b"com.apple.companion_proxy\0";
-pub const DEBUGSERVER_SERVICE_NAME: &'static [u8; 22usize] = b"com.apple.debugserver\0";
-pub const DEBUGSERVER_SECURE_SERVICE_NAME: &'static [u8; 43usize] =
+pub const _STDIO_H: u32 = 1;
+pub const _____fpos_t_defined: u32 = 1;
+pub const ____mbstate_t_defined: u32 = 1;
+pub const _____fpos64_t_defined: u32 = 1;
+pub const ____FILE_defined: u32 = 1;
+pub const __FILE_defined: u32 = 1;
+pub const __struct_FILE_defined: u32 = 1;
+pub const _IO_EOF_SEEN: u32 = 16;
+pub const _IO_ERR_SEEN: u32 = 32;
+pub const _IO_USER_LOCK: u32 = 32768;
+pub const _IOFBF: u32 = 0;
+pub const _IOLBF: u32 = 1;
+pub const _IONBF: u32 = 2;
+pub const BUFSIZ: u32 = 8192;
+pub const EOF: i32 = -1;
+pub const SEEK_SET: u32 = 0;
+pub const SEEK_CUR: u32 = 1;
+pub const SEEK_END: u32 = 2;
+pub const P_tmpdir: &[u8; 5usize] = b"/tmp\0";
+pub const _BITS_STDIO_LIM_H: u32 = 1;
+pub const L_tmpnam: u32 = 20;
+pub const TMP_MAX: u32 = 238328;
+pub const FILENAME_MAX: u32 = 4096;
+pub const L_ctermid: u32 = 9;
+pub const FOPEN_MAX: u32 = 16;
+pub const __HAVE_FLOAT128: u32 = 0;
+pub const __HAVE_DISTINCT_FLOAT128: u32 = 0;
+pub const __HAVE_FLOAT64X: u32 = 1;
+pub const __HAVE_FLOAT64X_LONG_DOUBLE: u32 = 1;
+pub const __HAVE_FLOAT16: u32 = 0;
+pub const __HAVE_FLOAT32: u32 = 1;
+pub const __HAVE_FLOAT64: u32 = 1;
+pub const __HAVE_FLOAT32X: u32 = 1;
+pub const __HAVE_FLOAT128X: u32 = 0;
+pub const __HAVE_DISTINCT_FLOAT16: u32 = 0;
+pub const __HAVE_DISTINCT_FLOAT32: u32 = 0;
+pub const __HAVE_DISTINCT_FLOAT64: u32 = 0;
+pub const __HAVE_DISTINCT_FLOAT32X: u32 = 0;
+pub const __HAVE_DISTINCT_FLOAT64X: u32 = 0;
+pub const __HAVE_DISTINCT_FLOAT128X: u32 = 0;
+pub const __HAVE_FLOATN_NOT_TYPEDEF: u32 = 0;
+pub const USERPREF_DEVICE_CERTIFICATE_KEY: &[u8; 18usize] = b"DeviceCertificate\0";
+pub const USERPREF_ESCROW_BAG_KEY: &[u8; 10usize] = b"EscrowBag\0";
+pub const USERPREF_HOST_CERTIFICATE_KEY: &[u8; 16usize] = b"HostCertificate\0";
+pub const USERPREF_ROOT_CERTIFICATE_KEY: &[u8; 16usize] = b"RootCertificate\0";
+pub const USERPREF_HOST_PRIVATE_KEY_KEY: &[u8; 15usize] = b"HostPrivateKey\0";
+pub const USERPREF_ROOT_PRIVATE_KEY_KEY: &[u8; 15usize] = b"RootPrivateKey\0";
+pub const USERPREF_HOST_ID_KEY: &[u8; 7usize] = b"HostID\0";
+pub const USERPREF_SYSTEM_BUID_KEY: &[u8; 11usize] = b"SystemBUID\0";
+pub const USERPREF_WIFI_MAC_ADDRESS_KEY: &[u8; 15usize] = b"WiFiMACAddress\0";
+pub const AFC_SERVICE_NAME: &[u8; 14usize] = b"com.apple.afc\0";
+pub const COMPANION_PROXY_SERVICE_NAME: &[u8; 26usize] = b"com.apple.companion_proxy\0";
+pub const DEBUGSERVER_SERVICE_NAME: &[u8; 22usize] = b"com.apple.debugserver\0";
+pub const DEBUGSERVER_SECURE_SERVICE_NAME: &[u8; 43usize] =
     b"com.apple.debugserver.DVTSecureSocketProxy\0";
-pub const DIAGNOSTICS_RELAY_SERVICE_NAME: &'static [u8; 35usize] =
-    b"com.apple.mobile.diagnostics_relay\0";
-pub const DIAGNOSTICS_RELAY_REQUEST_TYPE_ALL: &'static [u8; 4usize] = b"All\0";
-pub const DIAGNOSTICS_RELAY_REQUEST_TYPE_WIFI: &'static [u8; 5usize] = b"WiFi\0";
-pub const DIAGNOSTICS_RELAY_REQUEST_TYPE_GAS_GAUGE: &'static [u8; 9usize] = b"GasGauge\0";
-pub const DIAGNOSTICS_RELAY_REQUEST_TYPE_NAND: &'static [u8; 5usize] = b"NAND\0";
-pub const FILE_RELAY_SERVICE_NAME: &'static [u8; 28usize] = b"com.apple.mobile.file_relay\0";
-pub const HEARTBEAT_SERVICE_NAME: &'static [u8; 27usize] = b"com.apple.mobile.heartbeat\0";
-pub const HOUSE_ARREST_SERVICE_NAME: &'static [u8; 30usize] = b"com.apple.mobile.house_arrest\0";
-pub const INSTPROXY_SERVICE_NAME: &'static [u8; 36usize] = b"com.apple.mobile.installation_proxy\0";
-pub const MISAGENT_SERVICE_NAME: &'static [u8; 19usize] = b"com.apple.misagent\0";
-pub const MOBILE_IMAGE_MOUNTER_SERVICE_NAME: &'static [u8; 38usize] =
+pub const DIAGNOSTICS_RELAY_SERVICE_NAME: &[u8; 35usize] = b"com.apple.mobile.diagnostics_relay\0";
+pub const DIAGNOSTICS_RELAY_REQUEST_TYPE_ALL: &[u8; 4usize] = b"All\0";
+pub const DIAGNOSTICS_RELAY_REQUEST_TYPE_WIFI: &[u8; 5usize] = b"WiFi\0";
+pub const DIAGNOSTICS_RELAY_REQUEST_TYPE_GAS_GAUGE: &[u8; 9usize] = b"GasGauge\0";
+pub const DIAGNOSTICS_RELAY_REQUEST_TYPE_NAND: &[u8; 5usize] = b"NAND\0";
+pub const FILE_RELAY_SERVICE_NAME: &[u8; 28usize] = b"com.apple.mobile.file_relay\0";
+pub const HEARTBEAT_SERVICE_NAME: &[u8; 27usize] = b"com.apple.mobile.heartbeat\0";
+pub const HOUSE_ARREST_SERVICE_NAME: &[u8; 30usize] = b"com.apple.mobile.house_arrest\0";
+pub const INSTPROXY_SERVICE_NAME: &[u8; 36usize] = b"com.apple.mobile.installation_proxy\0";
+pub const MISAGENT_SERVICE_NAME: &[u8; 19usize] = b"com.apple.misagent\0";
+pub const MOBILE_IMAGE_MOUNTER_SERVICE_NAME: &[u8; 38usize] =
     b"com.apple.mobile.mobile_image_mounter\0";
-pub const MOBILEACTIVATION_SERVICE_NAME: &'static [u8; 28usize] = b"com.apple.mobileactivationd\0";
-pub const MOBILEBACKUP_SERVICE_NAME: &'static [u8; 23usize] = b"com.apple.mobilebackup\0";
-pub const MOBILEBACKUP2_SERVICE_NAME: &'static [u8; 24usize] = b"com.apple.mobilebackup2\0";
-pub const MOBILESYNC_SERVICE_NAME: &'static [u8; 21usize] = b"com.apple.mobilesync\0";
-pub const NP_SERVICE_NAME: &'static [u8; 36usize] = b"com.apple.mobile.notification_proxy\0";
-pub const NP_SYNC_WILL_START: &'static [u8; 38usize] = b"com.apple.itunes-mobdev.syncWillStart\0";
-pub const NP_SYNC_DID_START: &'static [u8; 37usize] = b"com.apple.itunes-mobdev.syncDidStart\0";
-pub const NP_SYNC_DID_FINISH: &'static [u8; 38usize] = b"com.apple.itunes-mobdev.syncDidFinish\0";
-pub const NP_SYNC_LOCK_REQUEST: &'static [u8; 40usize] =
-    b"com.apple.itunes-mobdev.syncLockRequest\0";
-pub const NP_SYNC_CANCEL_REQUEST: &'static [u8; 42usize] =
-    b"com.apple.itunes-client.syncCancelRequest\0";
-pub const NP_SYNC_SUSPEND_REQUEST: &'static [u8; 43usize] =
-    b"com.apple.itunes-client.syncSuspendRequest\0";
-pub const NP_SYNC_RESUME_REQUEST: &'static [u8; 42usize] =
-    b"com.apple.itunes-client.syncResumeRequest\0";
-pub const NP_PHONE_NUMBER_CHANGED: &'static [u8; 47usize] =
+pub const MOBILEACTIVATION_SERVICE_NAME: &[u8; 28usize] = b"com.apple.mobileactivationd\0";
+pub const MOBILEBACKUP_SERVICE_NAME: &[u8; 23usize] = b"com.apple.mobilebackup\0";
+pub const MOBILEBACKUP2_SERVICE_NAME: &[u8; 24usize] = b"com.apple.mobilebackup2\0";
+pub const MOBILESYNC_SERVICE_NAME: &[u8; 21usize] = b"com.apple.mobilesync\0";
+pub const NP_SERVICE_NAME: &[u8; 36usize] = b"com.apple.mobile.notification_proxy\0";
+pub const NP_SYNC_WILL_START: &[u8; 38usize] = b"com.apple.itunes-mobdev.syncWillStart\0";
+pub const NP_SYNC_DID_START: &[u8; 37usize] = b"com.apple.itunes-mobdev.syncDidStart\0";
+pub const NP_SYNC_DID_FINISH: &[u8; 38usize] = b"com.apple.itunes-mobdev.syncDidFinish\0";
+pub const NP_SYNC_LOCK_REQUEST: &[u8; 40usize] = b"com.apple.itunes-mobdev.syncLockRequest\0";
+pub const NP_SYNC_CANCEL_REQUEST: &[u8; 42usize] = b"com.apple.itunes-client.syncCancelRequest\0";
+pub const NP_SYNC_SUSPEND_REQUEST: &[u8; 43usize] = b"com.apple.itunes-client.syncSuspendRequest\0";
+pub const NP_SYNC_RESUME_REQUEST: &[u8; 42usize] = b"com.apple.itunes-client.syncResumeRequest\0";
+pub const NP_PHONE_NUMBER_CHANGED: &[u8; 47usize] =
     b"com.apple.mobile.lockdown.phone_number_changed\0";
-pub const NP_DEVICE_NAME_CHANGED: &'static [u8; 46usize] =
+pub const NP_DEVICE_NAME_CHANGED: &[u8; 46usize] =
     b"com.apple.mobile.lockdown.device_name_changed\0";
-pub const NP_TIMEZONE_CHANGED: &'static [u8; 43usize] =
-    b"com.apple.mobile.lockdown.timezone_changed\0";
-pub const NP_TRUSTED_HOST_ATTACHED: &'static [u8; 48usize] =
+pub const NP_TIMEZONE_CHANGED: &[u8; 43usize] = b"com.apple.mobile.lockdown.timezone_changed\0";
+pub const NP_TRUSTED_HOST_ATTACHED: &[u8; 48usize] =
     b"com.apple.mobile.lockdown.trusted_host_attached\0";
-pub const NP_HOST_DETACHED: &'static [u8; 40usize] = b"com.apple.mobile.lockdown.host_detached\0";
-pub const NP_HOST_ATTACHED: &'static [u8; 40usize] = b"com.apple.mobile.lockdown.host_attached\0";
-pub const NP_REGISTRATION_FAILED: &'static [u8; 46usize] =
+pub const NP_HOST_DETACHED: &[u8; 40usize] = b"com.apple.mobile.lockdown.host_detached\0";
+pub const NP_HOST_ATTACHED: &[u8; 40usize] = b"com.apple.mobile.lockdown.host_attached\0";
+pub const NP_REGISTRATION_FAILED: &[u8; 46usize] =
     b"com.apple.mobile.lockdown.registration_failed\0";
-pub const NP_ACTIVATION_STATE: &'static [u8; 43usize] =
-    b"com.apple.mobile.lockdown.activation_state\0";
-pub const NP_BRICK_STATE: &'static [u8; 38usize] = b"com.apple.mobile.lockdown.brick_state\0";
-pub const NP_DISK_USAGE_CHANGED: &'static [u8; 45usize] =
-    b"com.apple.mobile.lockdown.disk_usage_changed\0";
-pub const NP_DS_DOMAIN_CHANGED: &'static [u8; 42usize] =
-    b"com.apple.mobile.data_sync.domain_changed\0";
-pub const NP_BACKUP_DOMAIN_CHANGED: &'static [u8; 39usize] =
-    b"com.apple.mobile.backup.domain_changed\0";
-pub const NP_APP_INSTALLED: &'static [u8; 39usize] = b"com.apple.mobile.application_installed\0";
-pub const NP_APP_UNINSTALLED: &'static [u8; 41usize] =
-    b"com.apple.mobile.application_uninstalled\0";
-pub const NP_DEV_IMAGE_MOUNTED: &'static [u8; 41usize] =
-    b"com.apple.mobile.developer_image_mounted\0";
-pub const NP_ATTEMPTACTIVATION: &'static [u8; 40usize] =
-    b"com.apple.springboard.attemptactivation\0";
-pub const NP_ITDBPREP_DID_END: &'static [u8; 39usize] = b"com.apple.itdbprep.notification.didEnd\0";
-pub const NP_LANGUAGE_CHANGED: &'static [u8; 27usize] = b"com.apple.language.changed\0";
-pub const NP_ADDRESS_BOOK_PREF_CHANGED: &'static [u8; 40usize] =
+pub const NP_ACTIVATION_STATE: &[u8; 43usize] = b"com.apple.mobile.lockdown.activation_state\0";
+pub const NP_BRICK_STATE: &[u8; 38usize] = b"com.apple.mobile.lockdown.brick_state\0";
+pub const NP_DISK_USAGE_CHANGED: &[u8; 45usize] = b"com.apple.mobile.lockdown.disk_usage_changed\0";
+pub const NP_DS_DOMAIN_CHANGED: &[u8; 42usize] = b"com.apple.mobile.data_sync.domain_changed\0";
+pub const NP_BACKUP_DOMAIN_CHANGED: &[u8; 39usize] = b"com.apple.mobile.backup.domain_changed\0";
+pub const NP_APP_INSTALLED: &[u8; 39usize] = b"com.apple.mobile.application_installed\0";
+pub const NP_APP_UNINSTALLED: &[u8; 41usize] = b"com.apple.mobile.application_uninstalled\0";
+pub const NP_DEV_IMAGE_MOUNTED: &[u8; 41usize] = b"com.apple.mobile.developer_image_mounted\0";
+pub const NP_ATTEMPTACTIVATION: &[u8; 40usize] = b"com.apple.springboard.attemptactivation\0";
+pub const NP_ITDBPREP_DID_END: &[u8; 39usize] = b"com.apple.itdbprep.notification.didEnd\0";
+pub const NP_LANGUAGE_CHANGED: &[u8; 27usize] = b"com.apple.language.changed\0";
+pub const NP_ADDRESS_BOOK_PREF_CHANGED: &[u8; 40usize] =
     b"com.apple.AddressBook.PreferenceChanged\0";
-pub const PREBOARD_SERVICE_NAME: &'static [u8; 29usize] = b"com.apple.preboardservice_v2\0";
+pub const PREBOARD_SERVICE_NAME: &[u8; 29usize] = b"com.apple.preboardservice_v2\0";
 pub const REVERSE_PROXY_DEFAULT_PORT: u32 = 1082;
-pub const SBSERVICES_SERVICE_NAME: &'static [u8; 30usize] = b"com.apple.springboardservices\0";
-pub const SCREENSHOTR_SERVICE_NAME: &'static [u8; 29usize] = b"com.apple.mobile.screenshotr\0";
-pub const SYSLOG_RELAY_SERVICE_NAME: &'static [u8; 23usize] = b"com.apple.syslog_relay\0";
-pub const WEBINSPECTOR_SERVICE_NAME: &'static [u8; 23usize] = b"com.apple.webinspector\0";
+pub const SBSERVICES_SERVICE_NAME: &[u8; 30usize] = b"com.apple.springboardservices\0";
+pub const SCREENSHOTR_SERVICE_NAME: &[u8; 29usize] = b"com.apple.mobile.screenshotr\0";
+pub const SYSLOG_RELAY_SERVICE_NAME: &[u8; 23usize] = b"com.apple.syslog_relay\0";
+pub const WEBINSPECTOR_SERVICE_NAME: &[u8; 23usize] = b"com.apple.webinspector\0";
 pub const DEVICE_CLASS_IPHONE: u32 = 1;
 pub const DEVICE_CLASS_IPAD: u32 = 2;
 pub const DEVICE_CLASS_IPOD: u32 = 3;
 pub const DEVICE_CLASS_APPLETV: u32 = 4;
 pub const DEVICE_CLASS_WATCH: u32 = 5;
 pub const DEVICE_CLASS_UNKNOWN: u32 = 255;
-pub const LOCKDOWN_PROTOCOL_VERSION: &'static [u8; 2usize] = b"2\0";
+pub const LOCKDOWN_PROTOCOL_VERSION: &[u8; 2usize] = b"2\0";
+pub type __u_char = ::std::os::raw::c_uchar;
+pub type __u_short = ::std::os::raw::c_ushort;
+pub type __u_int = ::std::os::raw::c_uint;
+pub type __u_long = ::std::os::raw::c_ulong;
 pub type __int8_t = ::std::os::raw::c_schar;
 pub type __uint8_t = ::std::os::raw::c_uchar;
 pub type __int16_t = ::std::os::raw::c_short;
 pub type __uint16_t = ::std::os::raw::c_ushort;
 pub type __int32_t = ::std::os::raw::c_int;
 pub type __uint32_t = ::std::os::raw::c_uint;
-pub type __int64_t = ::std::os::raw::c_longlong;
-pub type __uint64_t = ::std::os::raw::c_ulonglong;
-pub type __darwin_intptr_t = ::std::os::raw::c_long;
-pub type __darwin_natural_t = ::std::os::raw::c_uint;
-pub type __darwin_ct_rune_t = ::std::os::raw::c_int;
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union __mbstate_t {
-    pub __mbstate8: [::std::os::raw::c_char; 128usize],
-    pub _mbstateL: ::std::os::raw::c_longlong,
-}
-#[test]
-fn bindgen_test_layout___mbstate_t() {
-    assert_eq!(
-        ::std::mem::size_of::<__mbstate_t>(),
-        128usize,
-        concat!("Size of: ", stringify!(__mbstate_t))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<__mbstate_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(__mbstate_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<__mbstate_t>())).__mbstate8 as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__mbstate_t),
-            "::",
-            stringify!(__mbstate8)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<__mbstate_t>()))._mbstateL as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__mbstate_t),
-            "::",
-            stringify!(_mbstateL)
-        )
-    );
-}
-pub type __darwin_mbstate_t = __mbstate_t;
-pub type __darwin_ptrdiff_t = ::std::os::raw::c_long;
-pub type __darwin_size_t = ::std::os::raw::c_ulong;
-pub type __darwin_va_list = __builtin_va_list;
-pub type __darwin_wchar_t = ::std::os::raw::c_int;
-pub type __darwin_rune_t = __darwin_wchar_t;
-pub type __darwin_wint_t = ::std::os::raw::c_int;
-pub type __darwin_clock_t = ::std::os::raw::c_ulong;
-pub type __darwin_socklen_t = __uint32_t;
-pub type __darwin_ssize_t = ::std::os::raw::c_long;
-pub type __darwin_time_t = ::std::os::raw::c_long;
-pub type u_int8_t = ::std::os::raw::c_uchar;
-pub type u_int16_t = ::std::os::raw::c_ushort;
-pub type u_int32_t = ::std::os::raw::c_uint;
-pub type u_int64_t = ::std::os::raw::c_ulonglong;
-pub type register_t = i64;
-pub type user_addr_t = u_int64_t;
-pub type user_size_t = u_int64_t;
-pub type user_ssize_t = i64;
-pub type user_long_t = i64;
-pub type user_ulong_t = u_int64_t;
-pub type user_time_t = i64;
-pub type user_off_t = i64;
-pub type syscall_arg_t = u_int64_t;
-pub type __darwin_blkcnt_t = __int64_t;
-pub type __darwin_blksize_t = __int32_t;
-pub type __darwin_dev_t = __int32_t;
-pub type __darwin_fsblkcnt_t = ::std::os::raw::c_uint;
-pub type __darwin_fsfilcnt_t = ::std::os::raw::c_uint;
-pub type __darwin_gid_t = __uint32_t;
-pub type __darwin_id_t = __uint32_t;
-pub type __darwin_ino64_t = __uint64_t;
-pub type __darwin_ino_t = __darwin_ino64_t;
-pub type __darwin_mach_port_name_t = __darwin_natural_t;
-pub type __darwin_mach_port_t = __darwin_mach_port_name_t;
-pub type __darwin_mode_t = __uint16_t;
-pub type __darwin_off_t = __int64_t;
-pub type __darwin_pid_t = __int32_t;
-pub type __darwin_sigset_t = __uint32_t;
-pub type __darwin_suseconds_t = __int32_t;
-pub type __darwin_uid_t = __uint32_t;
-pub type __darwin_useconds_t = __uint32_t;
-pub type __darwin_uuid_t = [::std::os::raw::c_uchar; 16usize];
-pub type __darwin_uuid_string_t = [::std::os::raw::c_char; 37usize];
+pub type __int64_t = ::std::os::raw::c_long;
+pub type __uint64_t = ::std::os::raw::c_ulong;
+pub type __int_least8_t = __int8_t;
+pub type __uint_least8_t = __uint8_t;
+pub type __int_least16_t = __int16_t;
+pub type __uint_least16_t = __uint16_t;
+pub type __int_least32_t = __int32_t;
+pub type __uint_least32_t = __uint32_t;
+pub type __int_least64_t = __int64_t;
+pub type __uint_least64_t = __uint64_t;
+pub type __quad_t = ::std::os::raw::c_long;
+pub type __u_quad_t = ::std::os::raw::c_ulong;
+pub type __intmax_t = ::std::os::raw::c_long;
+pub type __uintmax_t = ::std::os::raw::c_ulong;
+pub type __dev_t = ::std::os::raw::c_ulong;
+pub type __uid_t = ::std::os::raw::c_uint;
+pub type __gid_t = ::std::os::raw::c_uint;
+pub type __ino_t = ::std::os::raw::c_ulong;
+pub type __ino64_t = ::std::os::raw::c_ulong;
+pub type __mode_t = ::std::os::raw::c_uint;
+pub type __nlink_t = ::std::os::raw::c_ulong;
+pub type __off_t = ::std::os::raw::c_long;
+pub type __off64_t = ::std::os::raw::c_long;
+pub type __pid_t = ::std::os::raw::c_int;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
-pub struct __darwin_pthread_handler_rec {
-    pub __routine: ::std::option::Option<unsafe extern "C" fn(arg1: *mut ::std::os::raw::c_void)>,
-    pub __arg: *mut ::std::os::raw::c_void,
-    pub __next: *mut __darwin_pthread_handler_rec,
+pub struct __fsid_t {
+    pub __val: [::std::os::raw::c_int; 2usize],
 }
 #[test]
-fn bindgen_test_layout___darwin_pthread_handler_rec() {
+fn bindgen_test_layout___fsid_t() {
     assert_eq!(
-        ::std::mem::size_of::<__darwin_pthread_handler_rec>(),
-        24usize,
-        concat!("Size of: ", stringify!(__darwin_pthread_handler_rec))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<__darwin_pthread_handler_rec>(),
+        ::std::mem::size_of::<__fsid_t>(),
         8usize,
-        concat!("Alignment of ", stringify!(__darwin_pthread_handler_rec))
+        concat!("Size of: ", stringify!(__fsid_t))
     );
     assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<__darwin_pthread_handler_rec>())).__routine as *const _ as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__darwin_pthread_handler_rec),
-            "::",
-            stringify!(__routine)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<__darwin_pthread_handler_rec>())).__arg as *const _ as usize
-        },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__darwin_pthread_handler_rec),
-            "::",
-            stringify!(__arg)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<__darwin_pthread_handler_rec>())).__next as *const _ as usize
-        },
-        16usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__darwin_pthread_handler_rec),
-            "::",
-            stringify!(__next)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct _opaque_pthread_attr_t {
-    pub __sig: ::std::os::raw::c_long,
-    pub __opaque: [::std::os::raw::c_char; 56usize],
-}
-#[test]
-fn bindgen_test_layout__opaque_pthread_attr_t() {
-    assert_eq!(
-        ::std::mem::size_of::<_opaque_pthread_attr_t>(),
-        64usize,
-        concat!("Size of: ", stringify!(_opaque_pthread_attr_t))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<_opaque_pthread_attr_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(_opaque_pthread_attr_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_opaque_pthread_attr_t>())).__sig as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_attr_t),
-            "::",
-            stringify!(__sig)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_opaque_pthread_attr_t>())).__opaque as *const _ as usize },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_attr_t),
-            "::",
-            stringify!(__opaque)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct _opaque_pthread_cond_t {
-    pub __sig: ::std::os::raw::c_long,
-    pub __opaque: [::std::os::raw::c_char; 40usize],
-}
-#[test]
-fn bindgen_test_layout__opaque_pthread_cond_t() {
-    assert_eq!(
-        ::std::mem::size_of::<_opaque_pthread_cond_t>(),
-        48usize,
-        concat!("Size of: ", stringify!(_opaque_pthread_cond_t))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<_opaque_pthread_cond_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(_opaque_pthread_cond_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_opaque_pthread_cond_t>())).__sig as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_cond_t),
-            "::",
-            stringify!(__sig)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_opaque_pthread_cond_t>())).__opaque as *const _ as usize },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_cond_t),
-            "::",
-            stringify!(__opaque)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct _opaque_pthread_condattr_t {
-    pub __sig: ::std::os::raw::c_long,
-    pub __opaque: [::std::os::raw::c_char; 8usize],
-}
-#[test]
-fn bindgen_test_layout__opaque_pthread_condattr_t() {
-    assert_eq!(
-        ::std::mem::size_of::<_opaque_pthread_condattr_t>(),
-        16usize,
-        concat!("Size of: ", stringify!(_opaque_pthread_condattr_t))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<_opaque_pthread_condattr_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(_opaque_pthread_condattr_t))
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<_opaque_pthread_condattr_t>())).__sig as *const _ as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_condattr_t),
-            "::",
-            stringify!(__sig)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<_opaque_pthread_condattr_t>())).__opaque as *const _ as usize
-        },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_condattr_t),
-            "::",
-            stringify!(__opaque)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct _opaque_pthread_mutex_t {
-    pub __sig: ::std::os::raw::c_long,
-    pub __opaque: [::std::os::raw::c_char; 56usize],
-}
-#[test]
-fn bindgen_test_layout__opaque_pthread_mutex_t() {
-    assert_eq!(
-        ::std::mem::size_of::<_opaque_pthread_mutex_t>(),
-        64usize,
-        concat!("Size of: ", stringify!(_opaque_pthread_mutex_t))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<_opaque_pthread_mutex_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(_opaque_pthread_mutex_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_opaque_pthread_mutex_t>())).__sig as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_mutex_t),
-            "::",
-            stringify!(__sig)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<_opaque_pthread_mutex_t>())).__opaque as *const _ as usize
-        },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_mutex_t),
-            "::",
-            stringify!(__opaque)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct _opaque_pthread_mutexattr_t {
-    pub __sig: ::std::os::raw::c_long,
-    pub __opaque: [::std::os::raw::c_char; 8usize],
-}
-#[test]
-fn bindgen_test_layout__opaque_pthread_mutexattr_t() {
-    assert_eq!(
-        ::std::mem::size_of::<_opaque_pthread_mutexattr_t>(),
-        16usize,
-        concat!("Size of: ", stringify!(_opaque_pthread_mutexattr_t))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<_opaque_pthread_mutexattr_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(_opaque_pthread_mutexattr_t))
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<_opaque_pthread_mutexattr_t>())).__sig as *const _ as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_mutexattr_t),
-            "::",
-            stringify!(__sig)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<_opaque_pthread_mutexattr_t>())).__opaque as *const _ as usize
-        },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_mutexattr_t),
-            "::",
-            stringify!(__opaque)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct _opaque_pthread_once_t {
-    pub __sig: ::std::os::raw::c_long,
-    pub __opaque: [::std::os::raw::c_char; 8usize],
-}
-#[test]
-fn bindgen_test_layout__opaque_pthread_once_t() {
-    assert_eq!(
-        ::std::mem::size_of::<_opaque_pthread_once_t>(),
-        16usize,
-        concat!("Size of: ", stringify!(_opaque_pthread_once_t))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<_opaque_pthread_once_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(_opaque_pthread_once_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_opaque_pthread_once_t>())).__sig as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_once_t),
-            "::",
-            stringify!(__sig)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_opaque_pthread_once_t>())).__opaque as *const _ as usize },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_once_t),
-            "::",
-            stringify!(__opaque)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct _opaque_pthread_rwlock_t {
-    pub __sig: ::std::os::raw::c_long,
-    pub __opaque: [::std::os::raw::c_char; 192usize],
-}
-#[test]
-fn bindgen_test_layout__opaque_pthread_rwlock_t() {
-    assert_eq!(
-        ::std::mem::size_of::<_opaque_pthread_rwlock_t>(),
-        200usize,
-        concat!("Size of: ", stringify!(_opaque_pthread_rwlock_t))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<_opaque_pthread_rwlock_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(_opaque_pthread_rwlock_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_opaque_pthread_rwlock_t>())).__sig as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_rwlock_t),
-            "::",
-            stringify!(__sig)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<_opaque_pthread_rwlock_t>())).__opaque as *const _ as usize
-        },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_rwlock_t),
-            "::",
-            stringify!(__opaque)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct _opaque_pthread_rwlockattr_t {
-    pub __sig: ::std::os::raw::c_long,
-    pub __opaque: [::std::os::raw::c_char; 16usize],
-}
-#[test]
-fn bindgen_test_layout__opaque_pthread_rwlockattr_t() {
-    assert_eq!(
-        ::std::mem::size_of::<_opaque_pthread_rwlockattr_t>(),
-        24usize,
-        concat!("Size of: ", stringify!(_opaque_pthread_rwlockattr_t))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<_opaque_pthread_rwlockattr_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(_opaque_pthread_rwlockattr_t))
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<_opaque_pthread_rwlockattr_t>())).__sig as *const _ as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_rwlockattr_t),
-            "::",
-            stringify!(__sig)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<_opaque_pthread_rwlockattr_t>())).__opaque as *const _ as usize
-        },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_rwlockattr_t),
-            "::",
-            stringify!(__opaque)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct _opaque_pthread_t {
-    pub __sig: ::std::os::raw::c_long,
-    pub __cleanup_stack: *mut __darwin_pthread_handler_rec,
-    pub __opaque: [::std::os::raw::c_char; 8176usize],
-}
-#[test]
-fn bindgen_test_layout__opaque_pthread_t() {
-    assert_eq!(
-        ::std::mem::size_of::<_opaque_pthread_t>(),
-        8192usize,
-        concat!("Size of: ", stringify!(_opaque_pthread_t))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<_opaque_pthread_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(_opaque_pthread_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_opaque_pthread_t>())).__sig as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_t),
-            "::",
-            stringify!(__sig)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<_opaque_pthread_t>())).__cleanup_stack as *const _ as usize
-        },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_t),
-            "::",
-            stringify!(__cleanup_stack)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_opaque_pthread_t>())).__opaque as *const _ as usize },
-        16usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_opaque_pthread_t),
-            "::",
-            stringify!(__opaque)
-        )
-    );
-}
-pub type __darwin_pthread_attr_t = _opaque_pthread_attr_t;
-pub type __darwin_pthread_cond_t = _opaque_pthread_cond_t;
-pub type __darwin_pthread_condattr_t = _opaque_pthread_condattr_t;
-pub type __darwin_pthread_key_t = ::std::os::raw::c_ulong;
-pub type __darwin_pthread_mutex_t = _opaque_pthread_mutex_t;
-pub type __darwin_pthread_mutexattr_t = _opaque_pthread_mutexattr_t;
-pub type __darwin_pthread_once_t = _opaque_pthread_once_t;
-pub type __darwin_pthread_rwlock_t = _opaque_pthread_rwlock_t;
-pub type __darwin_pthread_rwlockattr_t = _opaque_pthread_rwlockattr_t;
-pub type __darwin_pthread_t = *mut _opaque_pthread_t;
-pub type int_least8_t = i8;
-pub type int_least16_t = i16;
-pub type int_least32_t = i32;
-pub type int_least64_t = i64;
-pub type uint_least8_t = u8;
-pub type uint_least16_t = u16;
-pub type uint_least32_t = u32;
-pub type uint_least64_t = u64;
-pub type int_fast8_t = i8;
-pub type int_fast16_t = i16;
-pub type int_fast32_t = i32;
-pub type int_fast64_t = i64;
-pub type uint_fast8_t = u8;
-pub type uint_fast16_t = u16;
-pub type uint_fast32_t = u32;
-pub type uint_fast64_t = u64;
-pub type intmax_t = ::std::os::raw::c_long;
-pub type uintmax_t = ::std::os::raw::c_ulong;
-#[repr(C, packed)]
-#[derive(Debug, Copy, Clone)]
-pub struct _OSUnalignedU16 {
-    pub __val: u16,
-}
-#[test]
-fn bindgen_test_layout__OSUnalignedU16() {
-    assert_eq!(
-        ::std::mem::size_of::<_OSUnalignedU16>(),
-        2usize,
-        concat!("Size of: ", stringify!(_OSUnalignedU16))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<_OSUnalignedU16>(),
-        1usize,
-        concat!("Alignment of ", stringify!(_OSUnalignedU16))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_OSUnalignedU16>())).__val as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_OSUnalignedU16),
-            "::",
-            stringify!(__val)
-        )
-    );
-}
-#[repr(C, packed)]
-#[derive(Debug, Copy, Clone)]
-pub struct _OSUnalignedU32 {
-    pub __val: u32,
-}
-#[test]
-fn bindgen_test_layout__OSUnalignedU32() {
-    assert_eq!(
-        ::std::mem::size_of::<_OSUnalignedU32>(),
+        ::std::mem::align_of::<__fsid_t>(),
         4usize,
-        concat!("Size of: ", stringify!(_OSUnalignedU32))
+        concat!("Alignment of ", stringify!(__fsid_t))
     );
     assert_eq!(
-        ::std::mem::align_of::<_OSUnalignedU32>(),
-        1usize,
-        concat!("Alignment of ", stringify!(_OSUnalignedU32))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_OSUnalignedU32>())).__val as *const _ as usize },
+        unsafe { &(*(::std::ptr::null::<__fsid_t>())).__val as *const _ as usize },
         0usize,
         concat!(
             "Offset of field: ",
-            stringify!(_OSUnalignedU32),
+            stringify!(__fsid_t),
             "::",
             stringify!(__val)
         )
     );
 }
-#[repr(C, packed)]
-#[derive(Debug, Copy, Clone)]
-pub struct _OSUnalignedU64 {
-    pub __val: u64,
-}
-#[test]
-fn bindgen_test_layout__OSUnalignedU64() {
-    assert_eq!(
-        ::std::mem::size_of::<_OSUnalignedU64>(),
-        8usize,
-        concat!("Size of: ", stringify!(_OSUnalignedU64))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<_OSUnalignedU64>(),
-        1usize,
-        concat!("Alignment of ", stringify!(_OSUnalignedU64))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_OSUnalignedU64>())).__val as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_OSUnalignedU64),
-            "::",
-            stringify!(__val)
-        )
-    );
-}
-pub type u_char = ::std::os::raw::c_uchar;
-pub type u_short = ::std::os::raw::c_ushort;
-pub type u_int = ::std::os::raw::c_uint;
-pub type u_long = ::std::os::raw::c_ulong;
+pub type __clock_t = ::std::os::raw::c_long;
+pub type __rlim_t = ::std::os::raw::c_ulong;
+pub type __rlim64_t = ::std::os::raw::c_ulong;
+pub type __id_t = ::std::os::raw::c_uint;
+pub type __time_t = ::std::os::raw::c_long;
+pub type __useconds_t = ::std::os::raw::c_uint;
+pub type __suseconds_t = ::std::os::raw::c_long;
+pub type __suseconds64_t = ::std::os::raw::c_long;
+pub type __daddr_t = ::std::os::raw::c_int;
+pub type __key_t = ::std::os::raw::c_int;
+pub type __clockid_t = ::std::os::raw::c_int;
+pub type __timer_t = *mut ::std::os::raw::c_void;
+pub type __blksize_t = ::std::os::raw::c_long;
+pub type __blkcnt_t = ::std::os::raw::c_long;
+pub type __blkcnt64_t = ::std::os::raw::c_long;
+pub type __fsblkcnt_t = ::std::os::raw::c_ulong;
+pub type __fsblkcnt64_t = ::std::os::raw::c_ulong;
+pub type __fsfilcnt_t = ::std::os::raw::c_ulong;
+pub type __fsfilcnt64_t = ::std::os::raw::c_ulong;
+pub type __fsword_t = ::std::os::raw::c_long;
+pub type __ssize_t = ::std::os::raw::c_long;
+pub type __syscall_slong_t = ::std::os::raw::c_long;
+pub type __syscall_ulong_t = ::std::os::raw::c_ulong;
+pub type __loff_t = __off64_t;
+pub type __caddr_t = *mut ::std::os::raw::c_char;
+pub type __intptr_t = ::std::os::raw::c_long;
+pub type __socklen_t = ::std::os::raw::c_uint;
+pub type __sig_atomic_t = ::std::os::raw::c_int;
+pub type u_char = __u_char;
+pub type u_short = __u_short;
+pub type u_int = __u_int;
+pub type u_long = __u_long;
+pub type quad_t = __quad_t;
+pub type u_quad_t = __u_quad_t;
+pub type fsid_t = __fsid_t;
+pub type loff_t = __loff_t;
+pub type ino_t = __ino_t;
+pub type dev_t = __dev_t;
+pub type gid_t = __gid_t;
+pub type mode_t = __mode_t;
+pub type nlink_t = __nlink_t;
+pub type uid_t = __uid_t;
+pub type off_t = __off_t;
+pub type pid_t = __pid_t;
+pub type id_t = __id_t;
+pub type ssize_t = __ssize_t;
+pub type daddr_t = __daddr_t;
+pub type caddr_t = __caddr_t;
+pub type key_t = __key_t;
+pub type clock_t = __clock_t;
+pub type clockid_t = __clockid_t;
+pub type time_t = __time_t;
+pub type timer_t = __timer_t;
+pub type size_t = ::std::os::raw::c_ulong;
+pub type ulong = ::std::os::raw::c_ulong;
 pub type ushort = ::std::os::raw::c_ushort;
 pub type uint = ::std::os::raw::c_uint;
-pub type u_quad_t = u_int64_t;
-pub type quad_t = i64;
-pub type qaddr_t = *mut quad_t;
-pub type caddr_t = *mut ::std::os::raw::c_char;
-pub type daddr_t = i32;
-pub type dev_t = __darwin_dev_t;
-pub type fixpt_t = u_int32_t;
-pub type blkcnt_t = __darwin_blkcnt_t;
-pub type blksize_t = __darwin_blksize_t;
-pub type gid_t = __darwin_gid_t;
-pub type in_addr_t = __uint32_t;
-pub type in_port_t = __uint16_t;
-pub type ino_t = __darwin_ino_t;
-pub type ino64_t = __darwin_ino64_t;
-pub type key_t = __int32_t;
-pub type mode_t = __darwin_mode_t;
-pub type nlink_t = __uint16_t;
-pub type id_t = __darwin_id_t;
-pub type pid_t = __darwin_pid_t;
-pub type off_t = __darwin_off_t;
-pub type segsz_t = i32;
-pub type swblk_t = i32;
-pub type uid_t = __darwin_uid_t;
-pub type clock_t = __darwin_clock_t;
-pub type size_t = __darwin_size_t;
-pub type ssize_t = __darwin_ssize_t;
-pub type time_t = __darwin_time_t;
-pub type useconds_t = __darwin_useconds_t;
-pub type suseconds_t = __darwin_suseconds_t;
-pub type rsize_t = __darwin_size_t;
-pub type errno_t = ::std::os::raw::c_int;
+pub type u_int8_t = __uint8_t;
+pub type u_int16_t = __uint16_t;
+pub type u_int32_t = __uint32_t;
+pub type u_int64_t = __uint64_t;
+pub type register_t = ::std::os::raw::c_long;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
-pub struct fd_set {
-    pub fds_bits: [__int32_t; 32usize],
+pub struct __sigset_t {
+    pub __val: [::std::os::raw::c_ulong; 16usize],
 }
 #[test]
-fn bindgen_test_layout_fd_set() {
+fn bindgen_test_layout___sigset_t() {
     assert_eq!(
-        ::std::mem::size_of::<fd_set>(),
+        ::std::mem::size_of::<__sigset_t>(),
         128usize,
-        concat!("Size of: ", stringify!(fd_set))
+        concat!("Size of: ", stringify!(__sigset_t))
     );
     assert_eq!(
-        ::std::mem::align_of::<fd_set>(),
-        4usize,
-        concat!("Alignment of ", stringify!(fd_set))
+        ::std::mem::align_of::<__sigset_t>(),
+        8usize,
+        concat!("Alignment of ", stringify!(__sigset_t))
     );
     assert_eq!(
-        unsafe { &(*(::std::ptr::null::<fd_set>())).fds_bits as *const _ as usize },
+        unsafe { &(*(::std::ptr::null::<__sigset_t>())).__val as *const _ as usize },
         0usize,
         concat!(
             "Offset of field: ",
-            stringify!(fd_set),
+            stringify!(__sigset_t),
             "::",
-            stringify!(fds_bits)
+            stringify!(__val)
         )
     );
 }
-extern "C" {
-    pub fn __darwin_check_fd_set_overflow(
-        arg1: ::std::os::raw::c_int,
-        arg2: *const ::std::os::raw::c_void,
-        arg3: ::std::os::raw::c_int,
-    ) -> ::std::os::raw::c_int;
+pub type sigset_t = __sigset_t;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct timeval {
+    pub tv_sec: __time_t,
+    pub tv_usec: __suseconds_t,
 }
-pub type fd_mask = __int32_t;
-pub type pthread_attr_t = __darwin_pthread_attr_t;
-pub type pthread_cond_t = __darwin_pthread_cond_t;
-pub type pthread_condattr_t = __darwin_pthread_condattr_t;
-pub type pthread_mutex_t = __darwin_pthread_mutex_t;
-pub type pthread_mutexattr_t = __darwin_pthread_mutexattr_t;
-pub type pthread_once_t = __darwin_pthread_once_t;
-pub type pthread_rwlock_t = __darwin_pthread_rwlock_t;
-pub type pthread_rwlockattr_t = __darwin_pthread_rwlockattr_t;
-pub type pthread_t = __darwin_pthread_t;
-pub type pthread_key_t = __darwin_pthread_key_t;
-pub type fsblkcnt_t = __darwin_fsblkcnt_t;
-pub type fsfilcnt_t = __darwin_fsfilcnt_t;
-pub type wchar_t = ::std::os::raw::c_int;
-pub type max_align_t = f64;
-pub type __darwin_nl_item = ::std::os::raw::c_int;
-pub type __darwin_wctrans_t = ::std::os::raw::c_int;
-pub type __darwin_wctype_t = __uint32_t;
+#[test]
+fn bindgen_test_layout_timeval() {
+    assert_eq!(
+        ::std::mem::size_of::<timeval>(),
+        16usize,
+        concat!("Size of: ", stringify!(timeval))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<timeval>(),
+        8usize,
+        concat!("Alignment of ", stringify!(timeval))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<timeval>())).tv_sec as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(timeval),
+            "::",
+            stringify!(tv_sec)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<timeval>())).tv_usec as *const _ as usize },
+        8usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(timeval),
+            "::",
+            stringify!(tv_usec)
+        )
+    );
+}
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct timespec {
-    pub tv_sec: __darwin_time_t,
-    pub tv_nsec: ::std::os::raw::c_long,
+    pub tv_sec: __time_t,
+    pub tv_nsec: __syscall_slong_t,
 }
 #[test]
 fn bindgen_test_layout_timespec() {
@@ -1472,6 +770,1042 @@ fn bindgen_test_layout_timespec() {
         )
     );
 }
+pub type suseconds_t = __suseconds_t;
+pub type __fd_mask = ::std::os::raw::c_long;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct fd_set {
+    pub __fds_bits: [__fd_mask; 16usize],
+}
+#[test]
+fn bindgen_test_layout_fd_set() {
+    assert_eq!(
+        ::std::mem::size_of::<fd_set>(),
+        128usize,
+        concat!("Size of: ", stringify!(fd_set))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<fd_set>(),
+        8usize,
+        concat!("Alignment of ", stringify!(fd_set))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<fd_set>())).__fds_bits as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(fd_set),
+            "::",
+            stringify!(__fds_bits)
+        )
+    );
+}
+pub type fd_mask = __fd_mask;
+extern "C" {
+    pub fn select(
+        __nfds: ::std::os::raw::c_int,
+        __readfds: *mut fd_set,
+        __writefds: *mut fd_set,
+        __exceptfds: *mut fd_set,
+        __timeout: *mut timeval,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn pselect(
+        __nfds: ::std::os::raw::c_int,
+        __readfds: *mut fd_set,
+        __writefds: *mut fd_set,
+        __exceptfds: *mut fd_set,
+        __timeout: *const timespec,
+        __sigmask: *const __sigset_t,
+    ) -> ::std::os::raw::c_int;
+}
+pub type blksize_t = __blksize_t;
+pub type blkcnt_t = __blkcnt_t;
+pub type fsblkcnt_t = __fsblkcnt_t;
+pub type fsfilcnt_t = __fsfilcnt_t;
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub union __atomic_wide_counter {
+    pub __value64: ::std::os::raw::c_ulonglong,
+    pub __value32: __atomic_wide_counter__bindgen_ty_1,
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __atomic_wide_counter__bindgen_ty_1 {
+    pub __low: ::std::os::raw::c_uint,
+    pub __high: ::std::os::raw::c_uint,
+}
+#[test]
+fn bindgen_test_layout___atomic_wide_counter__bindgen_ty_1() {
+    assert_eq!(
+        ::std::mem::size_of::<__atomic_wide_counter__bindgen_ty_1>(),
+        8usize,
+        concat!("Size of: ", stringify!(__atomic_wide_counter__bindgen_ty_1))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__atomic_wide_counter__bindgen_ty_1>(),
+        4usize,
+        concat!(
+            "Alignment of ",
+            stringify!(__atomic_wide_counter__bindgen_ty_1)
+        )
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<__atomic_wide_counter__bindgen_ty_1>())).__low as *const _
+                as usize
+        },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__atomic_wide_counter__bindgen_ty_1),
+            "::",
+            stringify!(__low)
+        )
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<__atomic_wide_counter__bindgen_ty_1>())).__high as *const _
+                as usize
+        },
+        4usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__atomic_wide_counter__bindgen_ty_1),
+            "::",
+            stringify!(__high)
+        )
+    );
+}
+#[test]
+fn bindgen_test_layout___atomic_wide_counter() {
+    assert_eq!(
+        ::std::mem::size_of::<__atomic_wide_counter>(),
+        8usize,
+        concat!("Size of: ", stringify!(__atomic_wide_counter))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__atomic_wide_counter>(),
+        8usize,
+        concat!("Alignment of ", stringify!(__atomic_wide_counter))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__atomic_wide_counter>())).__value64 as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__atomic_wide_counter),
+            "::",
+            stringify!(__value64)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__atomic_wide_counter>())).__value32 as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__atomic_wide_counter),
+            "::",
+            stringify!(__value32)
+        )
+    );
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __pthread_internal_list {
+    pub __prev: *mut __pthread_internal_list,
+    pub __next: *mut __pthread_internal_list,
+}
+#[test]
+fn bindgen_test_layout___pthread_internal_list() {
+    assert_eq!(
+        ::std::mem::size_of::<__pthread_internal_list>(),
+        16usize,
+        concat!("Size of: ", stringify!(__pthread_internal_list))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__pthread_internal_list>(),
+        8usize,
+        concat!("Alignment of ", stringify!(__pthread_internal_list))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_internal_list>())).__prev as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_internal_list),
+            "::",
+            stringify!(__prev)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_internal_list>())).__next as *const _ as usize },
+        8usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_internal_list),
+            "::",
+            stringify!(__next)
+        )
+    );
+}
+pub type __pthread_list_t = __pthread_internal_list;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __pthread_internal_slist {
+    pub __next: *mut __pthread_internal_slist,
+}
+#[test]
+fn bindgen_test_layout___pthread_internal_slist() {
+    assert_eq!(
+        ::std::mem::size_of::<__pthread_internal_slist>(),
+        8usize,
+        concat!("Size of: ", stringify!(__pthread_internal_slist))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__pthread_internal_slist>(),
+        8usize,
+        concat!("Alignment of ", stringify!(__pthread_internal_slist))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_internal_slist>())).__next as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_internal_slist),
+            "::",
+            stringify!(__next)
+        )
+    );
+}
+pub type __pthread_slist_t = __pthread_internal_slist;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __pthread_mutex_s {
+    pub __lock: ::std::os::raw::c_int,
+    pub __count: ::std::os::raw::c_uint,
+    pub __owner: ::std::os::raw::c_int,
+    pub __nusers: ::std::os::raw::c_uint,
+    pub __kind: ::std::os::raw::c_int,
+    pub __spins: ::std::os::raw::c_short,
+    pub __elision: ::std::os::raw::c_short,
+    pub __list: __pthread_list_t,
+}
+#[test]
+fn bindgen_test_layout___pthread_mutex_s() {
+    assert_eq!(
+        ::std::mem::size_of::<__pthread_mutex_s>(),
+        40usize,
+        concat!("Size of: ", stringify!(__pthread_mutex_s))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__pthread_mutex_s>(),
+        8usize,
+        concat!("Alignment of ", stringify!(__pthread_mutex_s))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_mutex_s>())).__lock as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__lock)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_mutex_s>())).__count as *const _ as usize },
+        4usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__count)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_mutex_s>())).__owner as *const _ as usize },
+        8usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__owner)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_mutex_s>())).__nusers as *const _ as usize },
+        12usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__nusers)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_mutex_s>())).__kind as *const _ as usize },
+        16usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__kind)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_mutex_s>())).__spins as *const _ as usize },
+        20usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__spins)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_mutex_s>())).__elision as *const _ as usize },
+        22usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__elision)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_mutex_s>())).__list as *const _ as usize },
+        24usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__list)
+        )
+    );
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __pthread_rwlock_arch_t {
+    pub __readers: ::std::os::raw::c_uint,
+    pub __writers: ::std::os::raw::c_uint,
+    pub __wrphase_futex: ::std::os::raw::c_uint,
+    pub __writers_futex: ::std::os::raw::c_uint,
+    pub __pad3: ::std::os::raw::c_uint,
+    pub __pad4: ::std::os::raw::c_uint,
+    pub __cur_writer: ::std::os::raw::c_int,
+    pub __shared: ::std::os::raw::c_int,
+    pub __rwelision: ::std::os::raw::c_schar,
+    pub __pad1: [::std::os::raw::c_uchar; 7usize],
+    pub __pad2: ::std::os::raw::c_ulong,
+    pub __flags: ::std::os::raw::c_uint,
+}
+#[test]
+fn bindgen_test_layout___pthread_rwlock_arch_t() {
+    assert_eq!(
+        ::std::mem::size_of::<__pthread_rwlock_arch_t>(),
+        56usize,
+        concat!("Size of: ", stringify!(__pthread_rwlock_arch_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__pthread_rwlock_arch_t>(),
+        8usize,
+        concat!("Alignment of ", stringify!(__pthread_rwlock_arch_t))
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<__pthread_rwlock_arch_t>())).__readers as *const _ as usize
+        },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__readers)
+        )
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<__pthread_rwlock_arch_t>())).__writers as *const _ as usize
+        },
+        4usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__writers)
+        )
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<__pthread_rwlock_arch_t>())).__wrphase_futex as *const _ as usize
+        },
+        8usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__wrphase_futex)
+        )
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<__pthread_rwlock_arch_t>())).__writers_futex as *const _ as usize
+        },
+        12usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__writers_futex)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_rwlock_arch_t>())).__pad3 as *const _ as usize },
+        16usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__pad3)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_rwlock_arch_t>())).__pad4 as *const _ as usize },
+        20usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__pad4)
+        )
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<__pthread_rwlock_arch_t>())).__cur_writer as *const _ as usize
+        },
+        24usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__cur_writer)
+        )
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<__pthread_rwlock_arch_t>())).__shared as *const _ as usize
+        },
+        28usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__shared)
+        )
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<__pthread_rwlock_arch_t>())).__rwelision as *const _ as usize
+        },
+        32usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__rwelision)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_rwlock_arch_t>())).__pad1 as *const _ as usize },
+        33usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__pad1)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_rwlock_arch_t>())).__pad2 as *const _ as usize },
+        40usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__pad2)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_rwlock_arch_t>())).__flags as *const _ as usize },
+        48usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__flags)
+        )
+    );
+}
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub struct __pthread_cond_s {
+    pub __wseq: __atomic_wide_counter,
+    pub __g1_start: __atomic_wide_counter,
+    pub __g_refs: [::std::os::raw::c_uint; 2usize],
+    pub __g_size: [::std::os::raw::c_uint; 2usize],
+    pub __g1_orig_size: ::std::os::raw::c_uint,
+    pub __wrefs: ::std::os::raw::c_uint,
+    pub __g_signals: [::std::os::raw::c_uint; 2usize],
+}
+#[test]
+fn bindgen_test_layout___pthread_cond_s() {
+    assert_eq!(
+        ::std::mem::size_of::<__pthread_cond_s>(),
+        48usize,
+        concat!("Size of: ", stringify!(__pthread_cond_s))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__pthread_cond_s>(),
+        8usize,
+        concat!("Alignment of ", stringify!(__pthread_cond_s))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_cond_s>())).__wseq as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__wseq)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_cond_s>())).__g1_start as *const _ as usize },
+        8usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__g1_start)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_cond_s>())).__g_refs as *const _ as usize },
+        16usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__g_refs)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_cond_s>())).__g_size as *const _ as usize },
+        24usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__g_size)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_cond_s>())).__g1_orig_size as *const _ as usize },
+        32usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__g1_orig_size)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_cond_s>())).__wrefs as *const _ as usize },
+        36usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__wrefs)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__pthread_cond_s>())).__g_signals as *const _ as usize },
+        40usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__g_signals)
+        )
+    );
+}
+pub type __tss_t = ::std::os::raw::c_uint;
+pub type __thrd_t = ::std::os::raw::c_ulong;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __once_flag {
+    pub __data: ::std::os::raw::c_int,
+}
+#[test]
+fn bindgen_test_layout___once_flag() {
+    assert_eq!(
+        ::std::mem::size_of::<__once_flag>(),
+        4usize,
+        concat!("Size of: ", stringify!(__once_flag))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__once_flag>(),
+        4usize,
+        concat!("Alignment of ", stringify!(__once_flag))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__once_flag>())).__data as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__once_flag),
+            "::",
+            stringify!(__data)
+        )
+    );
+}
+pub type pthread_t = ::std::os::raw::c_ulong;
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub union pthread_mutexattr_t {
+    pub __size: [::std::os::raw::c_char; 4usize],
+    pub __align: ::std::os::raw::c_int,
+}
+#[test]
+fn bindgen_test_layout_pthread_mutexattr_t() {
+    assert_eq!(
+        ::std::mem::size_of::<pthread_mutexattr_t>(),
+        4usize,
+        concat!("Size of: ", stringify!(pthread_mutexattr_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<pthread_mutexattr_t>(),
+        4usize,
+        concat!("Alignment of ", stringify!(pthread_mutexattr_t))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_mutexattr_t>())).__size as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_mutexattr_t),
+            "::",
+            stringify!(__size)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_mutexattr_t>())).__align as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_mutexattr_t),
+            "::",
+            stringify!(__align)
+        )
+    );
+}
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub union pthread_condattr_t {
+    pub __size: [::std::os::raw::c_char; 4usize],
+    pub __align: ::std::os::raw::c_int,
+}
+#[test]
+fn bindgen_test_layout_pthread_condattr_t() {
+    assert_eq!(
+        ::std::mem::size_of::<pthread_condattr_t>(),
+        4usize,
+        concat!("Size of: ", stringify!(pthread_condattr_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<pthread_condattr_t>(),
+        4usize,
+        concat!("Alignment of ", stringify!(pthread_condattr_t))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_condattr_t>())).__size as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_condattr_t),
+            "::",
+            stringify!(__size)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_condattr_t>())).__align as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_condattr_t),
+            "::",
+            stringify!(__align)
+        )
+    );
+}
+pub type pthread_key_t = ::std::os::raw::c_uint;
+pub type pthread_once_t = ::std::os::raw::c_int;
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub union pthread_attr_t {
+    pub __size: [::std::os::raw::c_char; 56usize],
+    pub __align: ::std::os::raw::c_long,
+}
+#[test]
+fn bindgen_test_layout_pthread_attr_t() {
+    assert_eq!(
+        ::std::mem::size_of::<pthread_attr_t>(),
+        56usize,
+        concat!("Size of: ", stringify!(pthread_attr_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<pthread_attr_t>(),
+        8usize,
+        concat!("Alignment of ", stringify!(pthread_attr_t))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_attr_t>())).__size as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_attr_t),
+            "::",
+            stringify!(__size)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_attr_t>())).__align as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_attr_t),
+            "::",
+            stringify!(__align)
+        )
+    );
+}
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub union pthread_mutex_t {
+    pub __data: __pthread_mutex_s,
+    pub __size: [::std::os::raw::c_char; 40usize],
+    pub __align: ::std::os::raw::c_long,
+}
+#[test]
+fn bindgen_test_layout_pthread_mutex_t() {
+    assert_eq!(
+        ::std::mem::size_of::<pthread_mutex_t>(),
+        40usize,
+        concat!("Size of: ", stringify!(pthread_mutex_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<pthread_mutex_t>(),
+        8usize,
+        concat!("Alignment of ", stringify!(pthread_mutex_t))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_mutex_t>())).__data as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_mutex_t),
+            "::",
+            stringify!(__data)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_mutex_t>())).__size as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_mutex_t),
+            "::",
+            stringify!(__size)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_mutex_t>())).__align as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_mutex_t),
+            "::",
+            stringify!(__align)
+        )
+    );
+}
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub union pthread_cond_t {
+    pub __data: __pthread_cond_s,
+    pub __size: [::std::os::raw::c_char; 48usize],
+    pub __align: ::std::os::raw::c_longlong,
+}
+#[test]
+fn bindgen_test_layout_pthread_cond_t() {
+    assert_eq!(
+        ::std::mem::size_of::<pthread_cond_t>(),
+        48usize,
+        concat!("Size of: ", stringify!(pthread_cond_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<pthread_cond_t>(),
+        8usize,
+        concat!("Alignment of ", stringify!(pthread_cond_t))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_cond_t>())).__data as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_cond_t),
+            "::",
+            stringify!(__data)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_cond_t>())).__size as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_cond_t),
+            "::",
+            stringify!(__size)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_cond_t>())).__align as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_cond_t),
+            "::",
+            stringify!(__align)
+        )
+    );
+}
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub union pthread_rwlock_t {
+    pub __data: __pthread_rwlock_arch_t,
+    pub __size: [::std::os::raw::c_char; 56usize],
+    pub __align: ::std::os::raw::c_long,
+}
+#[test]
+fn bindgen_test_layout_pthread_rwlock_t() {
+    assert_eq!(
+        ::std::mem::size_of::<pthread_rwlock_t>(),
+        56usize,
+        concat!("Size of: ", stringify!(pthread_rwlock_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<pthread_rwlock_t>(),
+        8usize,
+        concat!("Alignment of ", stringify!(pthread_rwlock_t))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_rwlock_t>())).__data as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_rwlock_t),
+            "::",
+            stringify!(__data)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_rwlock_t>())).__size as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_rwlock_t),
+            "::",
+            stringify!(__size)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_rwlock_t>())).__align as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_rwlock_t),
+            "::",
+            stringify!(__align)
+        )
+    );
+}
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub union pthread_rwlockattr_t {
+    pub __size: [::std::os::raw::c_char; 8usize],
+    pub __align: ::std::os::raw::c_long,
+}
+#[test]
+fn bindgen_test_layout_pthread_rwlockattr_t() {
+    assert_eq!(
+        ::std::mem::size_of::<pthread_rwlockattr_t>(),
+        8usize,
+        concat!("Size of: ", stringify!(pthread_rwlockattr_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<pthread_rwlockattr_t>(),
+        8usize,
+        concat!("Alignment of ", stringify!(pthread_rwlockattr_t))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_rwlockattr_t>())).__size as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_rwlockattr_t),
+            "::",
+            stringify!(__size)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_rwlockattr_t>())).__align as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_rwlockattr_t),
+            "::",
+            stringify!(__align)
+        )
+    );
+}
+pub type pthread_spinlock_t = ::std::os::raw::c_int;
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub union pthread_barrier_t {
+    pub __size: [::std::os::raw::c_char; 32usize],
+    pub __align: ::std::os::raw::c_long,
+}
+#[test]
+fn bindgen_test_layout_pthread_barrier_t() {
+    assert_eq!(
+        ::std::mem::size_of::<pthread_barrier_t>(),
+        32usize,
+        concat!("Size of: ", stringify!(pthread_barrier_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<pthread_barrier_t>(),
+        8usize,
+        concat!("Alignment of ", stringify!(pthread_barrier_t))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_barrier_t>())).__size as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_barrier_t),
+            "::",
+            stringify!(__size)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_barrier_t>())).__align as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_barrier_t),
+            "::",
+            stringify!(__align)
+        )
+    );
+}
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub union pthread_barrierattr_t {
+    pub __size: [::std::os::raw::c_char; 4usize],
+    pub __align: ::std::os::raw::c_int,
+}
+#[test]
+fn bindgen_test_layout_pthread_barrierattr_t() {
+    assert_eq!(
+        ::std::mem::size_of::<pthread_barrierattr_t>(),
+        4usize,
+        concat!("Size of: ", stringify!(pthread_barrierattr_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<pthread_barrierattr_t>(),
+        4usize,
+        concat!("Alignment of ", stringify!(pthread_barrierattr_t))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_barrierattr_t>())).__size as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_barrierattr_t),
+            "::",
+            stringify!(__size)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<pthread_barrierattr_t>())).__align as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(pthread_barrierattr_t),
+            "::",
+            stringify!(__align)
+        )
+    );
+}
+pub type wchar_t = ::std::os::raw::c_int;
+#[repr(C)]
+#[repr(align(16))]
+#[derive(Debug, Copy, Clone)]
+pub struct max_align_t {
+    pub __clang_max_align_nonce1: ::std::os::raw::c_longlong,
+    pub __bindgen_padding_0: u64,
+    pub __clang_max_align_nonce2: u128,
+}
+#[test]
+fn bindgen_test_layout_max_align_t() {
+    assert_eq!(
+        ::std::mem::size_of::<max_align_t>(),
+        32usize,
+        concat!("Size of: ", stringify!(max_align_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<max_align_t>(),
+        16usize,
+        concat!("Alignment of ", stringify!(max_align_t))
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<max_align_t>())).__clang_max_align_nonce1 as *const _ as usize
+        },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(max_align_t),
+            "::",
+            stringify!(__clang_max_align_nonce1)
+        )
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<max_align_t>())).__clang_max_align_nonce2 as *const _ as usize
+        },
+        16usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(max_align_t),
+            "::",
+            stringify!(__clang_max_align_nonce2)
+        )
+    );
+}
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct tm {
@@ -1485,7 +1819,7 @@ pub struct tm {
     pub tm_yday: ::std::os::raw::c_int,
     pub tm_isdst: ::std::os::raw::c_int,
     pub tm_gmtoff: ::std::os::raw::c_long,
-    pub tm_zone: *mut ::std::os::raw::c_char,
+    pub tm_zone: *const ::std::os::raw::c_char,
 }
 #[test]
 fn bindgen_test_layout_tm() {
@@ -1610,108 +1944,219 @@ fn bindgen_test_layout_tm() {
         )
     );
 }
-extern "C" {
-    pub static mut tzname: [*mut ::std::os::raw::c_char; 0usize];
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct itimerspec {
+    pub it_interval: timespec,
+    pub it_value: timespec,
 }
-extern "C" {
-    pub static mut getdate_err: ::std::os::raw::c_int;
+#[test]
+fn bindgen_test_layout_itimerspec() {
+    assert_eq!(
+        ::std::mem::size_of::<itimerspec>(),
+        32usize,
+        concat!("Size of: ", stringify!(itimerspec))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<itimerspec>(),
+        8usize,
+        concat!("Alignment of ", stringify!(itimerspec))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<itimerspec>())).it_interval as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(itimerspec),
+            "::",
+            stringify!(it_interval)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<itimerspec>())).it_value as *const _ as usize },
+        16usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(itimerspec),
+            "::",
+            stringify!(it_value)
+        )
+    );
 }
-extern "C" {
-    pub static mut timezone: ::std::os::raw::c_long;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct sigevent {
+    _unused: [u8; 0],
 }
-extern "C" {
-    pub static mut daylight: ::std::os::raw::c_int;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __locale_struct {
+    pub __locales: [*mut __locale_data; 13usize],
+    pub __ctype_b: *const ::std::os::raw::c_ushort,
+    pub __ctype_tolower: *const ::std::os::raw::c_int,
+    pub __ctype_toupper: *const ::std::os::raw::c_int,
+    pub __names: [*const ::std::os::raw::c_char; 13usize],
 }
-extern "C" {
-    pub fn asctime(arg1: *const tm) -> *mut ::std::os::raw::c_char;
+#[test]
+fn bindgen_test_layout___locale_struct() {
+    assert_eq!(
+        ::std::mem::size_of::<__locale_struct>(),
+        232usize,
+        concat!("Size of: ", stringify!(__locale_struct))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__locale_struct>(),
+        8usize,
+        concat!("Alignment of ", stringify!(__locale_struct))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__locale_struct>())).__locales as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__locale_struct),
+            "::",
+            stringify!(__locales)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__locale_struct>())).__ctype_b as *const _ as usize },
+        104usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__locale_struct),
+            "::",
+            stringify!(__ctype_b)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__locale_struct>())).__ctype_tolower as *const _ as usize },
+        112usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__locale_struct),
+            "::",
+            stringify!(__ctype_tolower)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__locale_struct>())).__ctype_toupper as *const _ as usize },
+        120usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__locale_struct),
+            "::",
+            stringify!(__ctype_toupper)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__locale_struct>())).__names as *const _ as usize },
+        128usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__locale_struct),
+            "::",
+            stringify!(__names)
+        )
+    );
 }
+pub type __locale_t = *mut __locale_struct;
+pub type locale_t = __locale_t;
 extern "C" {
     pub fn clock() -> clock_t;
 }
 extern "C" {
-    pub fn ctime(arg1: *const time_t) -> *mut ::std::os::raw::c_char;
+    pub fn time(__timer: *mut time_t) -> time_t;
 }
 extern "C" {
-    pub fn difftime(arg1: time_t, arg2: time_t) -> f64;
+    pub fn difftime(__time1: time_t, __time0: time_t) -> f64;
 }
 extern "C" {
-    pub fn getdate(arg1: *const ::std::os::raw::c_char) -> *mut tm;
-}
-extern "C" {
-    pub fn gmtime(arg1: *const time_t) -> *mut tm;
-}
-extern "C" {
-    pub fn localtime(arg1: *const time_t) -> *mut tm;
-}
-extern "C" {
-    pub fn mktime(arg1: *mut tm) -> time_t;
+    pub fn mktime(__tp: *mut tm) -> time_t;
 }
 extern "C" {
     pub fn strftime(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: size_t,
-        arg3: *const ::std::os::raw::c_char,
-        arg4: *const tm,
+        __s: *mut ::std::os::raw::c_char,
+        __maxsize: size_t,
+        __format: *const ::std::os::raw::c_char,
+        __tp: *const tm,
     ) -> size_t;
 }
 extern "C" {
-    pub fn strptime(
-        arg1: *const ::std::os::raw::c_char,
-        arg2: *const ::std::os::raw::c_char,
-        arg3: *mut tm,
+    pub fn strftime_l(
+        __s: *mut ::std::os::raw::c_char,
+        __maxsize: size_t,
+        __format: *const ::std::os::raw::c_char,
+        __tp: *const tm,
+        __loc: locale_t,
+    ) -> size_t;
+}
+extern "C" {
+    pub fn gmtime(__timer: *const time_t) -> *mut tm;
+}
+extern "C" {
+    pub fn localtime(__timer: *const time_t) -> *mut tm;
+}
+extern "C" {
+    pub fn gmtime_r(__timer: *const time_t, __tp: *mut tm) -> *mut tm;
+}
+extern "C" {
+    pub fn localtime_r(__timer: *const time_t, __tp: *mut tm) -> *mut tm;
+}
+extern "C" {
+    pub fn asctime(__tp: *const tm) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn ctime(__timer: *const time_t) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn asctime_r(
+        __tp: *const tm,
+        __buf: *mut ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn time(arg1: *mut time_t) -> time_t;
+    pub fn ctime_r(
+        __timer: *const time_t,
+        __buf: *mut ::std::os::raw::c_char,
+    ) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub static mut __tzname: [*mut ::std::os::raw::c_char; 2usize];
+}
+extern "C" {
+    pub static mut __daylight: ::std::os::raw::c_int;
+}
+extern "C" {
+    pub static mut __timezone: ::std::os::raw::c_long;
+}
+extern "C" {
+    pub static mut tzname: [*mut ::std::os::raw::c_char; 2usize];
 }
 extern "C" {
     pub fn tzset();
 }
 extern "C" {
-    pub fn asctime_r(
-        arg1: *const tm,
-        arg2: *mut ::std::os::raw::c_char,
-    ) -> *mut ::std::os::raw::c_char;
+    pub static mut daylight: ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn ctime_r(
-        arg1: *const time_t,
-        arg2: *mut ::std::os::raw::c_char,
-    ) -> *mut ::std::os::raw::c_char;
+    pub static mut timezone: ::std::os::raw::c_long;
 }
 extern "C" {
-    pub fn gmtime_r(arg1: *const time_t, arg2: *mut tm) -> *mut tm;
+    pub fn timegm(__tp: *mut tm) -> time_t;
 }
 extern "C" {
-    pub fn localtime_r(arg1: *const time_t, arg2: *mut tm) -> *mut tm;
+    pub fn timelocal(__tp: *mut tm) -> time_t;
 }
 extern "C" {
-    pub fn posix2time(arg1: time_t) -> time_t;
+    pub fn dysize(__year: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn tzsetwall();
+    pub fn nanosleep(
+        __requested_time: *const timespec,
+        __remaining: *mut timespec,
+    ) -> ::std::os::raw::c_int;
 }
-extern "C" {
-    pub fn time2posix(arg1: time_t) -> time_t;
-}
-extern "C" {
-    pub fn timelocal(arg1: *mut tm) -> time_t;
-}
-extern "C" {
-    pub fn timegm(arg1: *mut tm) -> time_t;
-}
-extern "C" {
-    pub fn nanosleep(__rqtp: *const timespec, __rmtp: *mut timespec) -> ::std::os::raw::c_int;
-}
-pub const clockid_t__CLOCK_REALTIME: clockid_t = 0;
-pub const clockid_t__CLOCK_MONOTONIC: clockid_t = 6;
-pub const clockid_t__CLOCK_MONOTONIC_RAW: clockid_t = 4;
-pub const clockid_t__CLOCK_MONOTONIC_RAW_APPROX: clockid_t = 5;
-pub const clockid_t__CLOCK_UPTIME_RAW: clockid_t = 8;
-pub const clockid_t__CLOCK_UPTIME_RAW_APPROX: clockid_t = 9;
-pub const clockid_t__CLOCK_PROCESS_CPUTIME_ID: clockid_t = 12;
-pub const clockid_t__CLOCK_THREAD_CPUTIME_ID: clockid_t = 16;
-pub type clockid_t = ::std::os::raw::c_uint;
 extern "C" {
     pub fn clock_getres(__clock_id: clockid_t, __res: *mut timespec) -> ::std::os::raw::c_int;
 }
@@ -1719,13 +2164,48 @@ extern "C" {
     pub fn clock_gettime(__clock_id: clockid_t, __tp: *mut timespec) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn clock_gettime_nsec_np(__clock_id: clockid_t) -> __uint64_t;
-}
-extern "C" {
     pub fn clock_settime(__clock_id: clockid_t, __tp: *const timespec) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn timespec_get(ts: *mut timespec, base: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
+    pub fn clock_nanosleep(
+        __clock_id: clockid_t,
+        __flags: ::std::os::raw::c_int,
+        __req: *const timespec,
+        __rem: *mut timespec,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn clock_getcpuclockid(__pid: pid_t, __clock_id: *mut clockid_t) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn timer_create(
+        __clock_id: clockid_t,
+        __evp: *mut sigevent,
+        __timerid: *mut timer_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn timer_delete(__timerid: timer_t) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn timer_settime(
+        __timerid: timer_t,
+        __flags: ::std::os::raw::c_int,
+        __value: *const itimerspec,
+        __ovalue: *mut itimerspec,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn timer_gettime(__timerid: timer_t, __value: *mut itimerspec) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn timer_getoverrun(__timerid: timer_t) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn timespec_get(
+        __ts: *mut timespec,
+        __base: ::std::os::raw::c_int,
+    ) -> ::std::os::raw::c_int;
 }
 pub const gnutls_cipher_algorithm_GNUTLS_CIPHER_UNKNOWN: gnutls_cipher_algorithm = 0;
 pub const gnutls_cipher_algorithm_GNUTLS_CIPHER_NULL: gnutls_cipher_algorithm = 1;
@@ -1778,131 +2258,7 @@ pub const gnutls_cipher_algorithm_GNUTLS_CIPHER_AES128_PGP_CFB: gnutls_cipher_al
 pub const gnutls_cipher_algorithm_GNUTLS_CIPHER_AES192_PGP_CFB: gnutls_cipher_algorithm = 206;
 pub const gnutls_cipher_algorithm_GNUTLS_CIPHER_AES256_PGP_CFB: gnutls_cipher_algorithm = 207;
 pub const gnutls_cipher_algorithm_GNUTLS_CIPHER_TWOFISH_PGP_CFB: gnutls_cipher_algorithm = 208;
-#[doc = " gnutls_cipher_algorithm_t:"]
-#[doc = " @GNUTLS_CIPHER_UNKNOWN: Value to identify an unknown/unsupported algorithm."]
-#[doc = " @GNUTLS_CIPHER_NULL: The NULL (identity) encryption algorithm."]
-#[doc = " @GNUTLS_CIPHER_ARCFOUR_128: ARCFOUR stream cipher with 128-bit keys."]
-#[doc = " @GNUTLS_CIPHER_3DES_CBC: 3DES in CBC mode."]
-#[doc = " @GNUTLS_CIPHER_AES_128_CBC: AES in CBC mode with 128-bit keys."]
-#[doc = " @GNUTLS_CIPHER_AES_192_CBC: AES in CBC mode with 192-bit keys."]
-#[doc = " @GNUTLS_CIPHER_AES_256_CBC: AES in CBC mode with 256-bit keys."]
-#[doc = " @GNUTLS_CIPHER_AES_128_CFB8: AES in CFB8 mode with 128-bit keys."]
-#[doc = " @GNUTLS_CIPHER_AES_192_CFB8: AES in CFB8 mode with 192-bit keys."]
-#[doc = " @GNUTLS_CIPHER_AES_256_CFB8: AES in CFB8 mode with 256-bit keys."]
-#[doc = " @GNUTLS_CIPHER_ARCFOUR_40: ARCFOUR stream cipher with 40-bit keys."]
-#[doc = " @GNUTLS_CIPHER_CAMELLIA_128_CBC: Camellia in CBC mode with 128-bit keys."]
-#[doc = " @GNUTLS_CIPHER_CAMELLIA_192_CBC: Camellia in CBC mode with 192-bit keys."]
-#[doc = " @GNUTLS_CIPHER_CAMELLIA_256_CBC: Camellia in CBC mode with 256-bit keys."]
-#[doc = " @GNUTLS_CIPHER_RC2_40_CBC: RC2 in CBC mode with 40-bit keys."]
-#[doc = " @GNUTLS_CIPHER_DES_CBC: DES in CBC mode (56-bit keys)."]
-#[doc = " @GNUTLS_CIPHER_AES_128_GCM: AES in GCM mode with 128-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_AES_256_GCM: AES in GCM mode with 256-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_AES_128_CCM: AES in CCM mode with 128-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_AES_256_CCM: AES in CCM mode with 256-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_AES_128_CCM_8: AES in CCM mode with 64-bit tag and 128-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_AES_256_CCM_8: AES in CCM mode with 64-bit tag and 256-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_CAMELLIA_128_GCM: CAMELLIA in GCM mode with 128-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_CAMELLIA_256_GCM: CAMELLIA in GCM mode with 256-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_SALSA20_256: Salsa20 with 256-bit keys."]
-#[doc = " @GNUTLS_CIPHER_ESTREAM_SALSA20_256: Estream's Salsa20 variant with 256-bit keys."]
-#[doc = " @GNUTLS_CIPHER_CHACHA20_32: Chacha20 cipher with 96-bit nonces and 32-bit block counters."]
-#[doc = " @GNUTLS_CIPHER_CHACHA20_64: Chacha20 cipher with 64-bit nonces and 64-bit block counters."]
-#[doc = " @GNUTLS_CIPHER_CHACHA20_POLY1305: The Chacha20 cipher with the Poly1305 authenticator (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_GOST28147_TC26Z_CFB: GOST 28147-89 (Magma) cipher in CFB mode with TC26 Z S-box."]
-#[doc = " @GNUTLS_CIPHER_GOST28147_CPA_CFB: GOST 28147-89 (Magma) cipher in CFB mode with CryptoPro A S-box."]
-#[doc = " @GNUTLS_CIPHER_GOST28147_CPB_CFB: GOST 28147-89 (Magma) cipher in CFB mode with CryptoPro B S-box."]
-#[doc = " @GNUTLS_CIPHER_GOST28147_CPC_CFB: GOST 28147-89 (Magma) cipher in CFB mode with CryptoPro C S-box."]
-#[doc = " @GNUTLS_CIPHER_GOST28147_CPD_CFB: GOST 28147-89 (Magma) cipher in CFB mode with CryptoPro D S-box."]
-#[doc = " @GNUTLS_CIPHER_AES_128_XTS: AES in XTS mode with 128-bit key + 128bit tweak key."]
-#[doc = " @GNUTLS_CIPHER_AES_256_XTS: AES in XTS mode with 256-bit key + 256bit tweak key."]
-#[doc = "                             Note that the XTS ciphers are message oriented."]
-#[doc = "                             The whole message needs to be provided with a single call, because"]
-#[doc = "                             cipher-stealing requires to know where the message actually terminates"]
-#[doc = "                             in order to be able to compute where the stealing occurs."]
-#[doc = " @GNUTLS_CIPHER_GOST28147_TC26Z_CNT: GOST 28147-89 (Magma) cipher in CNT mode with TC26 Z S-box."]
-#[doc = " @GNUTLS_CIPHER_MAGMA_CTR_ACPKM: GOST R 34.12-2015 (Magma) cipher in CTR-ACPKM mode."]
-#[doc = " @GNUTLS_CIPHER_KUZNYECHIK_CTR_ACPKM: GOST R 34.12-2015 (Kuznyechik) cipher in CTR-ACPKM mode."]
-#[doc = " @GNUTLS_CIPHER_IDEA_PGP_CFB: IDEA in CFB mode (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_3DES_PGP_CFB: 3DES in CFB mode (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_CAST5_PGP_CFB: CAST5 in CFB mode (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_BLOWFISH_PGP_CFB: Blowfish in CFB mode (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_SAFER_SK128_PGP_CFB: Safer-SK in CFB mode with 128-bit keys (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_AES128_PGP_CFB: AES in CFB mode with 128-bit keys (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_AES192_PGP_CFB: AES in CFB mode with 192-bit keys (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_AES256_PGP_CFB: AES in CFB mode with 256-bit keys (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_TWOFISH_PGP_CFB: Twofish in CFB mode (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_AES_128_SIV: AES in SIV mode with 128-bit key."]
-#[doc = " @GNUTLS_CIPHER_AES_256_SIV: AES in SIV mode with 256-bit key."]
-#[doc = "                             Note that the SIV ciphers can only be used with"]
-#[doc = "                             the AEAD interface, and the IV plays a role as"]
-#[doc = "                             the authentication tag while it is prepended to"]
-#[doc = "                             the cipher text."]
-#[doc = " @GNUTLS_CIPHER_AES_192_GCM: AES in GCM mode with 192-bit keys (AEAD)."]
-#[doc = ""]
-#[doc = " Enumeration of different symmetric encryption algorithms."]
 pub type gnutls_cipher_algorithm = ::std::os::raw::c_uint;
-#[doc = " gnutls_cipher_algorithm_t:"]
-#[doc = " @GNUTLS_CIPHER_UNKNOWN: Value to identify an unknown/unsupported algorithm."]
-#[doc = " @GNUTLS_CIPHER_NULL: The NULL (identity) encryption algorithm."]
-#[doc = " @GNUTLS_CIPHER_ARCFOUR_128: ARCFOUR stream cipher with 128-bit keys."]
-#[doc = " @GNUTLS_CIPHER_3DES_CBC: 3DES in CBC mode."]
-#[doc = " @GNUTLS_CIPHER_AES_128_CBC: AES in CBC mode with 128-bit keys."]
-#[doc = " @GNUTLS_CIPHER_AES_192_CBC: AES in CBC mode with 192-bit keys."]
-#[doc = " @GNUTLS_CIPHER_AES_256_CBC: AES in CBC mode with 256-bit keys."]
-#[doc = " @GNUTLS_CIPHER_AES_128_CFB8: AES in CFB8 mode with 128-bit keys."]
-#[doc = " @GNUTLS_CIPHER_AES_192_CFB8: AES in CFB8 mode with 192-bit keys."]
-#[doc = " @GNUTLS_CIPHER_AES_256_CFB8: AES in CFB8 mode with 256-bit keys."]
-#[doc = " @GNUTLS_CIPHER_ARCFOUR_40: ARCFOUR stream cipher with 40-bit keys."]
-#[doc = " @GNUTLS_CIPHER_CAMELLIA_128_CBC: Camellia in CBC mode with 128-bit keys."]
-#[doc = " @GNUTLS_CIPHER_CAMELLIA_192_CBC: Camellia in CBC mode with 192-bit keys."]
-#[doc = " @GNUTLS_CIPHER_CAMELLIA_256_CBC: Camellia in CBC mode with 256-bit keys."]
-#[doc = " @GNUTLS_CIPHER_RC2_40_CBC: RC2 in CBC mode with 40-bit keys."]
-#[doc = " @GNUTLS_CIPHER_DES_CBC: DES in CBC mode (56-bit keys)."]
-#[doc = " @GNUTLS_CIPHER_AES_128_GCM: AES in GCM mode with 128-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_AES_256_GCM: AES in GCM mode with 256-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_AES_128_CCM: AES in CCM mode with 128-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_AES_256_CCM: AES in CCM mode with 256-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_AES_128_CCM_8: AES in CCM mode with 64-bit tag and 128-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_AES_256_CCM_8: AES in CCM mode with 64-bit tag and 256-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_CAMELLIA_128_GCM: CAMELLIA in GCM mode with 128-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_CAMELLIA_256_GCM: CAMELLIA in GCM mode with 256-bit keys (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_SALSA20_256: Salsa20 with 256-bit keys."]
-#[doc = " @GNUTLS_CIPHER_ESTREAM_SALSA20_256: Estream's Salsa20 variant with 256-bit keys."]
-#[doc = " @GNUTLS_CIPHER_CHACHA20_32: Chacha20 cipher with 96-bit nonces and 32-bit block counters."]
-#[doc = " @GNUTLS_CIPHER_CHACHA20_64: Chacha20 cipher with 64-bit nonces and 64-bit block counters."]
-#[doc = " @GNUTLS_CIPHER_CHACHA20_POLY1305: The Chacha20 cipher with the Poly1305 authenticator (AEAD)."]
-#[doc = " @GNUTLS_CIPHER_GOST28147_TC26Z_CFB: GOST 28147-89 (Magma) cipher in CFB mode with TC26 Z S-box."]
-#[doc = " @GNUTLS_CIPHER_GOST28147_CPA_CFB: GOST 28147-89 (Magma) cipher in CFB mode with CryptoPro A S-box."]
-#[doc = " @GNUTLS_CIPHER_GOST28147_CPB_CFB: GOST 28147-89 (Magma) cipher in CFB mode with CryptoPro B S-box."]
-#[doc = " @GNUTLS_CIPHER_GOST28147_CPC_CFB: GOST 28147-89 (Magma) cipher in CFB mode with CryptoPro C S-box."]
-#[doc = " @GNUTLS_CIPHER_GOST28147_CPD_CFB: GOST 28147-89 (Magma) cipher in CFB mode with CryptoPro D S-box."]
-#[doc = " @GNUTLS_CIPHER_AES_128_XTS: AES in XTS mode with 128-bit key + 128bit tweak key."]
-#[doc = " @GNUTLS_CIPHER_AES_256_XTS: AES in XTS mode with 256-bit key + 256bit tweak key."]
-#[doc = "                             Note that the XTS ciphers are message oriented."]
-#[doc = "                             The whole message needs to be provided with a single call, because"]
-#[doc = "                             cipher-stealing requires to know where the message actually terminates"]
-#[doc = "                             in order to be able to compute where the stealing occurs."]
-#[doc = " @GNUTLS_CIPHER_GOST28147_TC26Z_CNT: GOST 28147-89 (Magma) cipher in CNT mode with TC26 Z S-box."]
-#[doc = " @GNUTLS_CIPHER_MAGMA_CTR_ACPKM: GOST R 34.12-2015 (Magma) cipher in CTR-ACPKM mode."]
-#[doc = " @GNUTLS_CIPHER_KUZNYECHIK_CTR_ACPKM: GOST R 34.12-2015 (Kuznyechik) cipher in CTR-ACPKM mode."]
-#[doc = " @GNUTLS_CIPHER_IDEA_PGP_CFB: IDEA in CFB mode (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_3DES_PGP_CFB: 3DES in CFB mode (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_CAST5_PGP_CFB: CAST5 in CFB mode (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_BLOWFISH_PGP_CFB: Blowfish in CFB mode (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_SAFER_SK128_PGP_CFB: Safer-SK in CFB mode with 128-bit keys (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_AES128_PGP_CFB: AES in CFB mode with 128-bit keys (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_AES192_PGP_CFB: AES in CFB mode with 192-bit keys (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_AES256_PGP_CFB: AES in CFB mode with 256-bit keys (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_TWOFISH_PGP_CFB: Twofish in CFB mode (placeholder - unsupported)."]
-#[doc = " @GNUTLS_CIPHER_AES_128_SIV: AES in SIV mode with 128-bit key."]
-#[doc = " @GNUTLS_CIPHER_AES_256_SIV: AES in SIV mode with 256-bit key."]
-#[doc = "                             Note that the SIV ciphers can only be used with"]
-#[doc = "                             the AEAD interface, and the IV plays a role as"]
-#[doc = "                             the authentication tag while it is prepended to"]
-#[doc = "                             the cipher text."]
-#[doc = " @GNUTLS_CIPHER_AES_192_GCM: AES in GCM mode with 192-bit keys (AEAD)."]
-#[doc = ""]
-#[doc = " Enumeration of different symmetric encryption algorithms."]
 pub use self::gnutls_cipher_algorithm as gnutls_cipher_algorithm_t;
 pub const gnutls_kx_algorithm_t_GNUTLS_KX_UNKNOWN: gnutls_kx_algorithm_t = 0;
 pub const gnutls_kx_algorithm_t_GNUTLS_KX_RSA: gnutls_kx_algorithm_t = 1;
@@ -1921,50 +2277,16 @@ pub const gnutls_kx_algorithm_t_GNUTLS_KX_ECDHE_ECDSA: gnutls_kx_algorithm_t = 1
 pub const gnutls_kx_algorithm_t_GNUTLS_KX_ECDHE_PSK: gnutls_kx_algorithm_t = 14;
 pub const gnutls_kx_algorithm_t_GNUTLS_KX_RSA_PSK: gnutls_kx_algorithm_t = 15;
 pub const gnutls_kx_algorithm_t_GNUTLS_KX_VKO_GOST_12: gnutls_kx_algorithm_t = 16;
-#[doc = " gnutls_kx_algorithm_t:"]
-#[doc = " @GNUTLS_KX_UNKNOWN: Unknown key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_RSA: RSA key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_DHE_DSS: DHE-DSS key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_DHE_RSA: DHE-RSA key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_ECDHE_RSA: ECDHE-RSA key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_ECDHE_ECDSA: ECDHE-ECDSA key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_ANON_DH: Anon-DH key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_ANON_ECDH: Anon-ECDH key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_SRP: SRP key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_RSA_EXPORT: RSA-EXPORT key-exchange algorithm (defunc)."]
-#[doc = " @GNUTLS_KX_SRP_RSA: SRP-RSA key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_SRP_DSS: SRP-DSS key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_PSK: PSK key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_DHE_PSK: DHE-PSK key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_ECDHE_PSK: ECDHE-PSK key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_RSA_PSK: RSA-PSK key-exchange algorithm."]
-#[doc = " @GNUTLS_KX_VKO_GOST_12: VKO GOST R 34.10-2012 key-exchange algorithm."]
-#[doc = ""]
-#[doc = " Enumeration of different key exchange algorithms."]
 pub type gnutls_kx_algorithm_t = ::std::os::raw::c_uint;
 pub const gnutls_params_type_t_GNUTLS_PARAMS_RSA_EXPORT: gnutls_params_type_t = 1;
 pub const gnutls_params_type_t_GNUTLS_PARAMS_DH: gnutls_params_type_t = 2;
 pub const gnutls_params_type_t_GNUTLS_PARAMS_ECDH: gnutls_params_type_t = 3;
-#[doc = " gnutls_params_type_t:"]
-#[doc = " @GNUTLS_PARAMS_RSA_EXPORT: Session RSA-EXPORT parameters (defunc)."]
-#[doc = " @GNUTLS_PARAMS_DH: Session Diffie-Hellman parameters."]
-#[doc = " @GNUTLS_PARAMS_ECDH: Session Elliptic-Curve Diffie-Hellman parameters."]
-#[doc = ""]
-#[doc = " Enumeration of different TLS session parameter types."]
 pub type gnutls_params_type_t = ::std::os::raw::c_uint;
 pub const gnutls_credentials_type_t_GNUTLS_CRD_CERTIFICATE: gnutls_credentials_type_t = 1;
 pub const gnutls_credentials_type_t_GNUTLS_CRD_ANON: gnutls_credentials_type_t = 2;
 pub const gnutls_credentials_type_t_GNUTLS_CRD_SRP: gnutls_credentials_type_t = 3;
 pub const gnutls_credentials_type_t_GNUTLS_CRD_PSK: gnutls_credentials_type_t = 4;
 pub const gnutls_credentials_type_t_GNUTLS_CRD_IA: gnutls_credentials_type_t = 5;
-#[doc = " gnutls_credentials_type_t:"]
-#[doc = " @GNUTLS_CRD_CERTIFICATE: Certificate credential."]
-#[doc = " @GNUTLS_CRD_ANON: Anonymous credential."]
-#[doc = " @GNUTLS_CRD_SRP: SRP credential."]
-#[doc = " @GNUTLS_CRD_PSK: PSK credential."]
-#[doc = " @GNUTLS_CRD_IA: IA credential."]
-#[doc = ""]
-#[doc = " Enumeration of different credential types."]
 pub type gnutls_credentials_type_t = ::std::os::raw::c_uint;
 pub const gnutls_mac_algorithm_t_GNUTLS_MAC_UNKNOWN: gnutls_mac_algorithm_t = 0;
 pub const gnutls_mac_algorithm_t_GNUTLS_MAC_NULL: gnutls_mac_algorithm_t = 1;
@@ -1997,41 +2319,6 @@ pub const gnutls_mac_algorithm_t_GNUTLS_MAC_SHAKE_128: gnutls_mac_algorithm_t = 
 pub const gnutls_mac_algorithm_t_GNUTLS_MAC_SHAKE_256: gnutls_mac_algorithm_t = 210;
 pub const gnutls_mac_algorithm_t_GNUTLS_MAC_MAGMA_OMAC: gnutls_mac_algorithm_t = 211;
 pub const gnutls_mac_algorithm_t_GNUTLS_MAC_KUZNYECHIK_OMAC: gnutls_mac_algorithm_t = 212;
-#[doc = " gnutls_mac_algorithm_t:"]
-#[doc = " @GNUTLS_MAC_UNKNOWN: Unknown MAC algorithm."]
-#[doc = " @GNUTLS_MAC_NULL: NULL MAC algorithm (empty output)."]
-#[doc = " @GNUTLS_MAC_MD5: HMAC-MD5 algorithm."]
-#[doc = " @GNUTLS_MAC_SHA1: HMAC-SHA-1 algorithm."]
-#[doc = " @GNUTLS_MAC_RMD160: HMAC-RMD160 algorithm."]
-#[doc = " @GNUTLS_MAC_MD2: HMAC-MD2 algorithm."]
-#[doc = " @GNUTLS_MAC_SHA256: HMAC-SHA-256 algorithm."]
-#[doc = " @GNUTLS_MAC_SHA384: HMAC-SHA-384 algorithm."]
-#[doc = " @GNUTLS_MAC_SHA512: HMAC-SHA-512 algorithm."]
-#[doc = " @GNUTLS_MAC_SHA224: HMAC-SHA-224 algorithm."]
-#[doc = " @GNUTLS_MAC_MD5_SHA1: Combined MD5+SHA1 MAC placeholder."]
-#[doc = " @GNUTLS_MAC_GOSTR_94: HMAC GOST R 34.11-94 algorithm."]
-#[doc = " @GNUTLS_MAC_STREEBOG_256: HMAC GOST R 34.11-2001 (Streebog) algorithm, 256 bit."]
-#[doc = " @GNUTLS_MAC_STREEBOG_512: HMAC GOST R 34.11-2001 (Streebog) algorithm, 512 bit."]
-#[doc = " @GNUTLS_MAC_AEAD: MAC implicit through AEAD cipher."]
-#[doc = " @GNUTLS_MAC_UMAC_96: The UMAC-96 MAC algorithm (requires nonce)."]
-#[doc = " @GNUTLS_MAC_UMAC_128: The UMAC-128 MAC algorithm (requires nonce)."]
-#[doc = " @GNUTLS_MAC_AES_CMAC_128: The AES-CMAC-128 MAC algorithm."]
-#[doc = " @GNUTLS_MAC_AES_CMAC_256: The AES-CMAC-256 MAC algorithm."]
-#[doc = " @GNUTLS_MAC_AES_GMAC_128: The AES-GMAC-128 MAC algorithm (requires nonce)."]
-#[doc = " @GNUTLS_MAC_AES_GMAC_192: The AES-GMAC-192 MAC algorithm (requires nonce)."]
-#[doc = " @GNUTLS_MAC_AES_GMAC_256: The AES-GMAC-256 MAC algorithm (requires nonce)."]
-#[doc = " @GNUTLS_MAC_SHA3_224: Reserved; unimplemented."]
-#[doc = " @GNUTLS_MAC_SHA3_256: Reserved; unimplemented."]
-#[doc = " @GNUTLS_MAC_SHA3_384: Reserved; unimplemented."]
-#[doc = " @GNUTLS_MAC_SHA3_512: Reserved; unimplemented."]
-#[doc = " @GNUTLS_MAC_GOST28147_TC26Z_IMIT: The GOST 28147-89 working in IMIT mode with TC26 Z S-box."]
-#[doc = " @GNUTLS_MAC_SHAKE_128: Reserved; unimplemented."]
-#[doc = " @GNUTLS_MAC_SHAKE_256: Reserved; unimplemented."]
-#[doc = " @GNUTLS_MAC_MAGMA_OMAC: GOST R 34.12-2015 (Magma) in OMAC (CMAC) mode."]
-#[doc = " @GNUTLS_MAC_KUZNYECHIK_OMAC: GOST R 34.12-2015 (Kuznyechik) in OMAC (CMAC) mode."]
-#[doc = ""]
-#[doc = " Enumeration of different Message Authentication Code (MAC)"]
-#[doc = " algorithms."]
 pub type gnutls_mac_algorithm_t = ::std::os::raw::c_uint;
 pub const gnutls_digest_algorithm_t_GNUTLS_DIG_UNKNOWN: gnutls_digest_algorithm_t = 0;
 pub const gnutls_digest_algorithm_t_GNUTLS_DIG_NULL: gnutls_digest_algorithm_t = 1;
@@ -2053,41 +2340,11 @@ pub const gnutls_digest_algorithm_t_GNUTLS_DIG_STREEBOG_256: gnutls_digest_algor
 pub const gnutls_digest_algorithm_t_GNUTLS_DIG_STREEBOG_512: gnutls_digest_algorithm_t = 17;
 pub const gnutls_digest_algorithm_t_GNUTLS_DIG_SHAKE_128: gnutls_digest_algorithm_t = 209;
 pub const gnutls_digest_algorithm_t_GNUTLS_DIG_SHAKE_256: gnutls_digest_algorithm_t = 210;
-#[doc = " gnutls_digest_algorithm_t:"]
-#[doc = " @GNUTLS_DIG_UNKNOWN: Unknown hash algorithm."]
-#[doc = " @GNUTLS_DIG_NULL: NULL hash algorithm (empty output)."]
-#[doc = " @GNUTLS_DIG_MD5: MD5 algorithm."]
-#[doc = " @GNUTLS_DIG_SHA1: SHA-1 algorithm."]
-#[doc = " @GNUTLS_DIG_RMD160: RMD160 algorithm."]
-#[doc = " @GNUTLS_DIG_MD2: MD2 algorithm."]
-#[doc = " @GNUTLS_DIG_SHA256: SHA-256 algorithm."]
-#[doc = " @GNUTLS_DIG_SHA384: SHA-384 algorithm."]
-#[doc = " @GNUTLS_DIG_SHA512: SHA-512 algorithm."]
-#[doc = " @GNUTLS_DIG_SHA224: SHA-224 algorithm."]
-#[doc = " @GNUTLS_DIG_SHA3_224: SHA3-224 algorithm."]
-#[doc = " @GNUTLS_DIG_SHA3_256: SHA3-256 algorithm."]
-#[doc = " @GNUTLS_DIG_SHA3_384: SHA3-384 algorithm."]
-#[doc = " @GNUTLS_DIG_SHA3_512: SHA3-512 algorithm."]
-#[doc = " @GNUTLS_DIG_MD5_SHA1: Combined MD5+SHA1 algorithm."]
-#[doc = " @GNUTLS_DIG_GOSTR_94: GOST R 34.11-94 algorithm."]
-#[doc = " @GNUTLS_DIG_STREEBOG_256: GOST R 34.11-2001 (Streebog) algorithm, 256 bit."]
-#[doc = " @GNUTLS_DIG_STREEBOG_512: GOST R 34.11-2001 (Streebog) algorithm, 512 bit."]
-#[doc = " @GNUTLS_DIG_SHAKE_128: Reserved; unimplemented."]
-#[doc = " @GNUTLS_DIG_SHAKE_256: Reserved; unimplemented."]
-#[doc = ""]
-#[doc = " Enumeration of different digest (hash) algorithms."]
 pub type gnutls_digest_algorithm_t = ::std::os::raw::c_uint;
 pub const gnutls_compression_method_t_GNUTLS_COMP_UNKNOWN: gnutls_compression_method_t = 0;
 pub const gnutls_compression_method_t_GNUTLS_COMP_NULL: gnutls_compression_method_t = 1;
 pub const gnutls_compression_method_t_GNUTLS_COMP_DEFLATE: gnutls_compression_method_t = 2;
 pub const gnutls_compression_method_t_GNUTLS_COMP_ZLIB: gnutls_compression_method_t = 2;
-#[doc = " gnutls_compression_method_t:"]
-#[doc = " @GNUTLS_COMP_UNKNOWN: Unknown compression method."]
-#[doc = " @GNUTLS_COMP_NULL: The NULL compression method (no compression)."]
-#[doc = " @GNUTLS_COMP_DEFLATE: The DEFLATE compression method from zlib."]
-#[doc = " @GNUTLS_COMP_ZLIB: Same as %GNUTLS_COMP_DEFLATE."]
-#[doc = ""]
-#[doc = " Enumeration of different TLS compression methods."]
 pub type gnutls_compression_method_t = ::std::os::raw::c_uint;
 pub const gnutls_init_flags_t_GNUTLS_SERVER: gnutls_init_flags_t = 1;
 pub const gnutls_init_flags_t_GNUTLS_CLIENT: gnutls_init_flags_t = 2;
@@ -2112,73 +2369,9 @@ pub const gnutls_init_flags_t_GNUTLS_AUTO_REAUTH: gnutls_init_flags_t = 524288;
 pub const gnutls_init_flags_t_GNUTLS_ENABLE_EARLY_DATA: gnutls_init_flags_t = 1048576;
 pub const gnutls_init_flags_t_GNUTLS_NO_AUTO_SEND_TICKET: gnutls_init_flags_t = 2097152;
 pub const gnutls_init_flags_t_GNUTLS_NO_END_OF_EARLY_DATA: gnutls_init_flags_t = 4194304;
-#[doc = " gnutls_init_flags_t:"]
-#[doc = ""]
-#[doc = " @GNUTLS_SERVER: Connection end is a server."]
-#[doc = " @GNUTLS_CLIENT: Connection end is a client."]
-#[doc = " @GNUTLS_DATAGRAM: Connection is datagram oriented (DTLS). Since 3.0.0."]
-#[doc = " @GNUTLS_NONBLOCK: Connection should not block. Since 3.0.0."]
-#[doc = " @GNUTLS_NO_SIGNAL: In systems where SIGPIPE is delivered on send, it will be disabled. That flag has effect in systems which support the MSG_NOSIGNAL sockets flag (since 3.4.2)."]
-#[doc = " @GNUTLS_NO_EXTENSIONS: Do not enable any TLS extensions by default (since 3.1.2). As TLS 1.2 and later require extensions this option is considered obsolete and should not be used."]
-#[doc = " @GNUTLS_NO_REPLAY_PROTECTION: Disable any replay protection in DTLS. This must only be used if  replay protection is achieved using other means. Since 3.2.2."]
-#[doc = " @GNUTLS_ALLOW_ID_CHANGE: Allow the peer to replace its certificate, or change its ID during a rehandshake. This change is often used in attacks and thus prohibited by default. Since 3.5.0."]
-#[doc = " @GNUTLS_ENABLE_FALSE_START: Enable the TLS false start on client side if the negotiated ciphersuites allow it. This will enable sending data prior to the handshake being complete, and may introduce a risk of crypto failure when combined with certain key exchanged; for that GnuTLS may not enable that option in ciphersuites that are known to be not safe for false start. Since 3.5.0."]
-#[doc = " @GNUTLS_ENABLE_EARLY_START: Under TLS1.3 allow the server to return earlier than the full handshake"]
-#[doc = "   finish; similarly to false start the handshake will be completed once data are received by the"]
-#[doc = "   client, while the server is able to transmit sooner. This is not enabled by default as it could"]
-#[doc = "   break certain existing server assumptions and use-cases. Since 3.6.4."]
-#[doc = " @GNUTLS_ENABLE_EARLY_DATA: Under TLS1.3 allow the server to receive early data sent as part of the initial ClientHello (0-RTT)."]
-#[doc = "   This can also be used to explicitly indicate that the client will send early data."]
-#[doc = "   This is not enabled by default as early data has weaker security properties than other data. Since 3.6.5."]
-#[doc = " @GNUTLS_FORCE_CLIENT_CERT: When in client side and only a single cert is specified, send that certificate irrespective of the issuers expected by the server. Since 3.5.0."]
-#[doc = " @GNUTLS_NO_TICKETS: Flag to indicate that the session should not use resumption with session tickets."]
-#[doc = " @GNUTLS_KEY_SHARE_TOP3: Generate key shares for the top-3 different groups which are enabled."]
-#[doc = "   That is, as each group is associated with a key type (EC, finite field, x25519), generate"]
-#[doc = "   three keys using %GNUTLS_PK_DH, %GNUTLS_PK_EC, %GNUTLS_PK_ECDH_X25519 if all of them are enabled."]
-#[doc = " @GNUTLS_KEY_SHARE_TOP2: Generate key shares for the top-2 different groups which are enabled."]
-#[doc = "   For example (ECDH + x25519). This is the default."]
-#[doc = " @GNUTLS_KEY_SHARE_TOP: Generate key share for the first group which is enabled."]
-#[doc = "   For example x25519. This option is the most performant for client (less CPU spent"]
-#[doc = "   generating keys), but if the server doesn't support the advertized option it may"]
-#[doc = "   result to more roundtrips needed to discover the server's choice."]
-#[doc = " @GNUTLS_NO_AUTO_REKEY: Disable auto-rekeying under TLS1.3. If this option is not specified"]
-#[doc = "   gnutls will force a rekey after 2^24 records have been sent."]
-#[doc = " @GNUTLS_POST_HANDSHAKE_AUTH: Enable post handshake authentication for server and client. When set and"]
-#[doc = "   a server requests authentication after handshake %GNUTLS_E_REAUTH_REQUEST will be returned"]
-#[doc = "   by gnutls_record_recv(). A client should then call gnutls_reauth() to re-authenticate."]
-#[doc = " @GNUTLS_SAFE_PADDING_CHECK: Flag to indicate that the TLS 1.3 padding check will be done in a"]
-#[doc = "   safe way which doesn't leak the pad size based on GnuTLS processing time. This is of use to"]
-#[doc = "   applications which hide the length of transferred data via the TLS1.3 padding mechanism and"]
-#[doc = "   are already taking steps to hide the data processing time. This comes at a performance"]
-#[doc = "   penalty."]
-#[doc = " @GNUTLS_AUTO_REAUTH: Enable transparent re-authentication in client side when the server"]
-#[doc = "    requests to. That is, reauthentication is handled within gnutls_record_recv(), and"]
-#[doc = "    the %GNUTLS_E_REHANDSHAKE or %GNUTLS_E_REAUTH_REQUEST are not returned. This must be"]
-#[doc = "    enabled with %GNUTLS_POST_HANDSHAKE_AUTH for TLS1.3. Enabling this flag requires to restore"]
-#[doc = "    interrupted calls to gnutls_record_recv() based on the output of gnutls_record_get_direction(),"]
-#[doc = "    since gnutls_record_recv() could be interrupted when sending when this flag is enabled."]
-#[doc = "    Note this flag may not be used if you are using the same session for sending and receiving"]
-#[doc = "    in different threads."]
-#[doc = " @GNUTLS_ENABLE_RAWPK: Allows raw public-keys to be negotiated during the handshake. Since 3.6.6."]
-#[doc = " @GNUTLS_NO_AUTO_SEND_TICKET: Under TLS1.3 disable auto-sending of"]
-#[doc = "    session tickets during the handshake."]
-#[doc = " @GNUTLS_NO_END_OF_EARLY_DATA: Under TLS1.3 suppress sending EndOfEarlyData message. Since 3.7.2."]
-#[doc = ""]
-#[doc = " Enumeration of different flags for gnutls_init() function. All the flags"]
-#[doc = " can be combined except @GNUTLS_SERVER and @GNUTLS_CLIENT which are mutually"]
-#[doc = " exclusive."]
-#[doc = ""]
-#[doc = " The key share options relate to the TLS 1.3 key share extension"]
-#[doc = " which is a speculative key generation expecting that the server"]
-#[doc = " would support the generated key."]
 pub type gnutls_init_flags_t = ::std::os::raw::c_uint;
 pub const gnutls_alert_level_t_GNUTLS_AL_WARNING: gnutls_alert_level_t = 1;
 pub const gnutls_alert_level_t_GNUTLS_AL_FATAL: gnutls_alert_level_t = 2;
-#[doc = " gnutls_alert_level_t:"]
-#[doc = " @GNUTLS_AL_WARNING: Alert of warning severity."]
-#[doc = " @GNUTLS_AL_FATAL: Alert of fatal severity."]
-#[doc = ""]
-#[doc = " Enumeration of different TLS alert severities."]
 pub type gnutls_alert_level_t = ::std::os::raw::c_uint;
 pub const gnutls_alert_description_t_GNUTLS_A_CLOSE_NOTIFY: gnutls_alert_description_t = 0;
 pub const gnutls_alert_description_t_GNUTLS_A_UNEXPECTED_MESSAGE: gnutls_alert_description_t = 10;
@@ -2222,46 +2415,6 @@ pub const gnutls_alert_description_t_GNUTLS_A_CERTIFICATE_REQUIRED: gnutls_alert
 pub const gnutls_alert_description_t_GNUTLS_A_NO_APPLICATION_PROTOCOL: gnutls_alert_description_t =
     120;
 pub const gnutls_alert_description_t_GNUTLS_A_MAX: gnutls_alert_description_t = 120;
-#[doc = " gnutls_alert_description_t:"]
-#[doc = " @GNUTLS_A_CLOSE_NOTIFY: Close notify."]
-#[doc = " @GNUTLS_A_UNEXPECTED_MESSAGE: Unexpected message."]
-#[doc = " @GNUTLS_A_BAD_RECORD_MAC: Bad record MAC."]
-#[doc = " @GNUTLS_A_DECRYPTION_FAILED: Decryption failed."]
-#[doc = " @GNUTLS_A_RECORD_OVERFLOW: Record overflow."]
-#[doc = " @GNUTLS_A_DECOMPRESSION_FAILURE: Decompression failed."]
-#[doc = " @GNUTLS_A_HANDSHAKE_FAILURE: Handshake failed."]
-#[doc = " @GNUTLS_A_SSL3_NO_CERTIFICATE: No certificate."]
-#[doc = " @GNUTLS_A_BAD_CERTIFICATE: Certificate is bad."]
-#[doc = " @GNUTLS_A_UNSUPPORTED_CERTIFICATE: Certificate is not supported."]
-#[doc = " @GNUTLS_A_CERTIFICATE_REVOKED: Certificate was revoked."]
-#[doc = " @GNUTLS_A_CERTIFICATE_EXPIRED: Certificate is expired."]
-#[doc = " @GNUTLS_A_CERTIFICATE_UNKNOWN: Unknown certificate."]
-#[doc = " @GNUTLS_A_ILLEGAL_PARAMETER: Illegal parameter."]
-#[doc = " @GNUTLS_A_UNKNOWN_CA: CA is unknown."]
-#[doc = " @GNUTLS_A_ACCESS_DENIED: Access was denied."]
-#[doc = " @GNUTLS_A_DECODE_ERROR: Decode error."]
-#[doc = " @GNUTLS_A_DECRYPT_ERROR: Decrypt error."]
-#[doc = " @GNUTLS_A_EXPORT_RESTRICTION: Export restriction."]
-#[doc = " @GNUTLS_A_PROTOCOL_VERSION: Error in protocol version."]
-#[doc = " @GNUTLS_A_INSUFFICIENT_SECURITY: Insufficient security."]
-#[doc = " @GNUTLS_A_INTERNAL_ERROR: Internal error."]
-#[doc = " @GNUTLS_A_INAPPROPRIATE_FALLBACK: Inappropriate fallback,"]
-#[doc = " @GNUTLS_A_USER_CANCELED: User canceled."]
-#[doc = " @GNUTLS_A_NO_RENEGOTIATION: No renegotiation is allowed."]
-#[doc = " @GNUTLS_A_MISSING_EXTENSION: An extension was expected but was not seen"]
-#[doc = " @GNUTLS_A_UNSUPPORTED_EXTENSION: An unsupported extension was"]
-#[doc = "   sent."]
-#[doc = " @GNUTLS_A_CERTIFICATE_UNOBTAINABLE: Could not retrieve the"]
-#[doc = "   specified certificate."]
-#[doc = " @GNUTLS_A_UNRECOGNIZED_NAME: The server name sent was not"]
-#[doc = "   recognized."]
-#[doc = " @GNUTLS_A_UNKNOWN_PSK_IDENTITY: The SRP/PSK username is missing"]
-#[doc = "   or not known."]
-#[doc = " @GNUTLS_A_CERTIFICATE_REQUIRED: Certificate is required."]
-#[doc = " @GNUTLS_A_NO_APPLICATION_PROTOCOL: The ALPN protocol requested is"]
-#[doc = "   not supported by the peer."]
-#[doc = ""]
-#[doc = " Enumeration of different TLS alerts."]
 pub type gnutls_alert_description_t = ::std::os::raw::c_uint;
 pub const gnutls_handshake_description_t_GNUTLS_HANDSHAKE_HELLO_REQUEST:
     gnutls_handshake_description_t = 0;
@@ -2303,29 +2456,6 @@ pub const gnutls_handshake_description_t_GNUTLS_HANDSHAKE_CLIENT_HELLO_V2:
     gnutls_handshake_description_t = 1024;
 pub const gnutls_handshake_description_t_GNUTLS_HANDSHAKE_HELLO_RETRY_REQUEST:
     gnutls_handshake_description_t = 1025;
-#[doc = " gnutls_handshake_description_t:"]
-#[doc = " @GNUTLS_HANDSHAKE_HELLO_REQUEST: Hello request."]
-#[doc = " @GNUTLS_HANDSHAKE_HELLO_VERIFY_REQUEST: DTLS Hello verify request."]
-#[doc = " @GNUTLS_HANDSHAKE_CLIENT_HELLO: Client hello."]
-#[doc = " @GNUTLS_HANDSHAKE_SERVER_HELLO: Server hello."]
-#[doc = " @GNUTLS_HANDSHAKE_END_OF_EARLY_DATA: End of early data."]
-#[doc = " @GNUTLS_HANDSHAKE_HELLO_RETRY_REQUEST: Hello retry request."]
-#[doc = " @GNUTLS_HANDSHAKE_NEW_SESSION_TICKET: New session ticket."]
-#[doc = " @GNUTLS_HANDSHAKE_CERTIFICATE_PKT: Certificate packet."]
-#[doc = " @GNUTLS_HANDSHAKE_SERVER_KEY_EXCHANGE: Server key exchange."]
-#[doc = " @GNUTLS_HANDSHAKE_CERTIFICATE_REQUEST: Certificate request."]
-#[doc = " @GNUTLS_HANDSHAKE_SERVER_HELLO_DONE: Server hello done."]
-#[doc = " @GNUTLS_HANDSHAKE_CERTIFICATE_VERIFY: Certificate verify."]
-#[doc = " @GNUTLS_HANDSHAKE_CLIENT_KEY_EXCHANGE: Client key exchange."]
-#[doc = " @GNUTLS_HANDSHAKE_FINISHED: Finished."]
-#[doc = " @GNUTLS_HANDSHAKE_CERTIFICATE_STATUS: Certificate status (OCSP)."]
-#[doc = " @GNUTLS_HANDSHAKE_KEY_UPDATE: TLS1.3 key update message."]
-#[doc = " @GNUTLS_HANDSHAKE_SUPPLEMENTAL: Supplemental."]
-#[doc = " @GNUTLS_HANDSHAKE_CHANGE_CIPHER_SPEC: Change Cipher Spec."]
-#[doc = " @GNUTLS_HANDSHAKE_CLIENT_HELLO_V2: SSLv2 Client Hello."]
-#[doc = " @GNUTLS_HANDSHAKE_ENCRYPTED_EXTENSIONS: Encrypted extensions message."]
-#[doc = ""]
-#[doc = " Enumeration of different TLS handshake packets."]
 pub type gnutls_handshake_description_t = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gnutls_handshake_description_get_name(
@@ -2360,64 +2490,17 @@ pub const gnutls_certificate_status_t_GNUTLS_CERT_INVALID_OCSP_STATUS: gnutls_ce
     1048576;
 pub const gnutls_certificate_status_t_GNUTLS_CERT_UNKNOWN_CRIT_EXTENSIONS:
     gnutls_certificate_status_t = 2097152;
-#[doc = " gnutls_certificate_status_t:"]
-#[doc = " @GNUTLS_CERT_INVALID: The certificate is not signed by one of the"]
-#[doc = "   known authorities or the signature is invalid (deprecated by the flags"]
-#[doc = "   %GNUTLS_CERT_SIGNATURE_FAILURE and %GNUTLS_CERT_SIGNER_NOT_FOUND)."]
-#[doc = " @GNUTLS_CERT_SIGNATURE_FAILURE: The signature verification failed."]
-#[doc = " @GNUTLS_CERT_REVOKED: Certificate is revoked by its authority.  In X.509 this will be"]
-#[doc = "   set only if CRLs are checked."]
-#[doc = " @GNUTLS_CERT_SIGNER_NOT_FOUND: The certificate's issuer is not known."]
-#[doc = "   This is the case if the issuer is not included in the trusted certificate list."]
-#[doc = " @GNUTLS_CERT_SIGNER_NOT_CA: The certificate's signer was not a CA. This"]
-#[doc = "   may happen if this was a version 1 certificate, which is common with"]
-#[doc = "   some CAs, or a version 3 certificate without the basic constrains extension."]
-#[doc = " @GNUTLS_CERT_SIGNER_CONSTRAINTS_FAILURE: The certificate's signer constraints were"]
-#[doc = "   violated."]
-#[doc = " @GNUTLS_CERT_INSECURE_ALGORITHM:  The certificate was signed using an insecure"]
-#[doc = "   algorithm such as MD2 or MD5. These algorithms have been broken and"]
-#[doc = "   should not be trusted."]
-#[doc = " @GNUTLS_CERT_NOT_ACTIVATED: The certificate is not yet activated."]
-#[doc = " @GNUTLS_CERT_EXPIRED: The certificate has expired."]
-#[doc = " @GNUTLS_CERT_REVOCATION_DATA_SUPERSEDED: The revocation data are old and have been superseded."]
-#[doc = " @GNUTLS_CERT_REVOCATION_DATA_ISSUED_IN_FUTURE: The revocation data have a future issue date."]
-#[doc = " @GNUTLS_CERT_UNEXPECTED_OWNER: The owner is not the expected one."]
-#[doc = " @GNUTLS_CERT_MISMATCH: The certificate presented isn't the expected one (TOFU)"]
-#[doc = " @GNUTLS_CERT_PURPOSE_MISMATCH: The certificate or an intermediate does not match the intended purpose (extended key usage)."]
-#[doc = " @GNUTLS_CERT_MISSING_OCSP_STATUS: The certificate requires the server to send the certifiate status, but no status was received."]
-#[doc = " @GNUTLS_CERT_INVALID_OCSP_STATUS: The received OCSP status response is invalid."]
-#[doc = " @GNUTLS_CERT_UNKNOWN_CRIT_EXTENSIONS: The certificate has extensions marked as critical which are not supported."]
-#[doc = ""]
-#[doc = " Enumeration of certificate status codes.  Note that the status"]
-#[doc = " bits may have different meanings in OpenPGP keys and X.509"]
-#[doc = " certificate verification."]
 pub type gnutls_certificate_status_t = ::std::os::raw::c_uint;
 pub const gnutls_certificate_request_t_GNUTLS_CERT_IGNORE: gnutls_certificate_request_t = 0;
 pub const gnutls_certificate_request_t_GNUTLS_CERT_REQUEST: gnutls_certificate_request_t = 1;
 pub const gnutls_certificate_request_t_GNUTLS_CERT_REQUIRE: gnutls_certificate_request_t = 2;
-#[doc = " gnutls_certificate_request_t:"]
-#[doc = " @GNUTLS_CERT_IGNORE: Ignore certificate."]
-#[doc = " @GNUTLS_CERT_REQUEST: Request certificate."]
-#[doc = " @GNUTLS_CERT_REQUIRE: Require certificate."]
-#[doc = ""]
-#[doc = " Enumeration of certificate request types."]
 pub type gnutls_certificate_request_t = ::std::os::raw::c_uint;
 pub const gnutls_openpgp_crt_status_t_GNUTLS_OPENPGP_CERT: gnutls_openpgp_crt_status_t = 0;
 pub const gnutls_openpgp_crt_status_t_GNUTLS_OPENPGP_CERT_FINGERPRINT: gnutls_openpgp_crt_status_t =
     1;
-#[doc = " gnutls_openpgp_crt_status_t:"]
-#[doc = " @GNUTLS_OPENPGP_CERT: Send entire certificate."]
-#[doc = " @GNUTLS_OPENPGP_CERT_FINGERPRINT: Send only certificate fingerprint."]
-#[doc = ""]
-#[doc = " Enumeration of ways to send OpenPGP certificate."]
 pub type gnutls_openpgp_crt_status_t = ::std::os::raw::c_uint;
 pub const gnutls_close_request_t_GNUTLS_SHUT_RDWR: gnutls_close_request_t = 0;
 pub const gnutls_close_request_t_GNUTLS_SHUT_WR: gnutls_close_request_t = 1;
-#[doc = " gnutls_close_request_t:"]
-#[doc = " @GNUTLS_SHUT_RDWR: Disallow further receives/sends."]
-#[doc = " @GNUTLS_SHUT_WR: Disallow further sends."]
-#[doc = ""]
-#[doc = " Enumeration of how TLS session should be terminated.  See gnutls_bye()."]
 pub type gnutls_close_request_t = ::std::os::raw::c_uint;
 pub const gnutls_protocol_t_GNUTLS_SSL3: gnutls_protocol_t = 1;
 pub const gnutls_protocol_t_GNUTLS_TLS1_0: gnutls_protocol_t = 2;
@@ -2432,42 +2515,15 @@ pub const gnutls_protocol_t_GNUTLS_DTLS_VERSION_MIN: gnutls_protocol_t = 200;
 pub const gnutls_protocol_t_GNUTLS_DTLS_VERSION_MAX: gnutls_protocol_t = 202;
 pub const gnutls_protocol_t_GNUTLS_TLS_VERSION_MAX: gnutls_protocol_t = 5;
 pub const gnutls_protocol_t_GNUTLS_VERSION_UNKNOWN: gnutls_protocol_t = 255;
-#[doc = " gnutls_protocol_t:"]
-#[doc = " @GNUTLS_SSL3: SSL version 3.0."]
-#[doc = " @GNUTLS_TLS1_0: TLS version 1.0."]
-#[doc = " @GNUTLS_TLS1: Same as %GNUTLS_TLS1_0."]
-#[doc = " @GNUTLS_TLS1_1: TLS version 1.1."]
-#[doc = " @GNUTLS_TLS1_2: TLS version 1.2."]
-#[doc = " @GNUTLS_TLS1_3: TLS version 1.3."]
-#[doc = " @GNUTLS_DTLS1_0: DTLS version 1.0."]
-#[doc = " @GNUTLS_DTLS1_2: DTLS version 1.2."]
-#[doc = " @GNUTLS_DTLS0_9: DTLS version 0.9 (Cisco AnyConnect / OpenSSL 0.9.8e)."]
-#[doc = " @GNUTLS_TLS_VERSION_MAX: Maps to the highest supported TLS version."]
-#[doc = " @GNUTLS_DTLS_VERSION_MAX: Maps to the highest supported DTLS version."]
-#[doc = " @GNUTLS_VERSION_UNKNOWN: Unknown SSL/TLS version."]
-#[doc = ""]
-#[doc = " Enumeration of different SSL/TLS protocol versions."]
 pub type gnutls_protocol_t = ::std::os::raw::c_uint;
 pub const gnutls_certificate_type_t_GNUTLS_CRT_UNKNOWN: gnutls_certificate_type_t = 0;
 pub const gnutls_certificate_type_t_GNUTLS_CRT_X509: gnutls_certificate_type_t = 1;
 pub const gnutls_certificate_type_t_GNUTLS_CRT_OPENPGP: gnutls_certificate_type_t = 2;
 pub const gnutls_certificate_type_t_GNUTLS_CRT_RAWPK: gnutls_certificate_type_t = 3;
 pub const gnutls_certificate_type_t_GNUTLS_CRT_MAX: gnutls_certificate_type_t = 3;
-#[doc = " gnutls_certificate_type_t:"]
-#[doc = " @GNUTLS_CRT_UNKNOWN: Unknown certificate type."]
-#[doc = " @GNUTLS_CRT_X509: X.509 Certificate."]
-#[doc = " @GNUTLS_CRT_OPENPGP: OpenPGP certificate."]
-#[doc = " @GNUTLS_CRT_RAWPK: Raw public-key (SubjectPublicKeyInfo)"]
-#[doc = ""]
-#[doc = " Enumeration of different certificate types."]
 pub type gnutls_certificate_type_t = ::std::os::raw::c_uint;
 pub const gnutls_x509_crt_fmt_t_GNUTLS_X509_FMT_DER: gnutls_x509_crt_fmt_t = 0;
 pub const gnutls_x509_crt_fmt_t_GNUTLS_X509_FMT_PEM: gnutls_x509_crt_fmt_t = 1;
-#[doc = " gnutls_x509_crt_fmt_t:"]
-#[doc = " @GNUTLS_X509_FMT_DER: X.509 certificate in DER format (binary)."]
-#[doc = " @GNUTLS_X509_FMT_PEM: X.509 certificate in PEM format (text)."]
-#[doc = ""]
-#[doc = " Enumeration of different certificate encoding formats."]
 pub type gnutls_x509_crt_fmt_t = ::std::os::raw::c_uint;
 pub const gnutls_certificate_print_formats_GNUTLS_CRT_PRINT_FULL: gnutls_certificate_print_formats =
     0;
@@ -2479,23 +2535,7 @@ pub const gnutls_certificate_print_formats_GNUTLS_CRT_PRINT_COMPACT:
     gnutls_certificate_print_formats = 3;
 pub const gnutls_certificate_print_formats_GNUTLS_CRT_PRINT_FULL_NUMBERS:
     gnutls_certificate_print_formats = 4;
-#[doc = " gnutls_certificate_print_formats_t:"]
-#[doc = " @GNUTLS_CRT_PRINT_FULL: Full information about certificate."]
-#[doc = " @GNUTLS_CRT_PRINT_FULL_NUMBERS: Full information about certificate and include easy to parse public key parameters."]
-#[doc = " @GNUTLS_CRT_PRINT_COMPACT: Information about certificate name in one line, plus identification of the public key."]
-#[doc = " @GNUTLS_CRT_PRINT_ONELINE: Information about certificate in one line."]
-#[doc = " @GNUTLS_CRT_PRINT_UNSIGNED_FULL: All info for an unsigned certificate."]
-#[doc = ""]
-#[doc = " Enumeration of different certificate printing variants."]
 pub type gnutls_certificate_print_formats = ::std::os::raw::c_uint;
-#[doc = " gnutls_certificate_print_formats_t:"]
-#[doc = " @GNUTLS_CRT_PRINT_FULL: Full information about certificate."]
-#[doc = " @GNUTLS_CRT_PRINT_FULL_NUMBERS: Full information about certificate and include easy to parse public key parameters."]
-#[doc = " @GNUTLS_CRT_PRINT_COMPACT: Information about certificate name in one line, plus identification of the public key."]
-#[doc = " @GNUTLS_CRT_PRINT_ONELINE: Information about certificate in one line."]
-#[doc = " @GNUTLS_CRT_PRINT_UNSIGNED_FULL: All info for an unsigned certificate."]
-#[doc = ""]
-#[doc = " Enumeration of different certificate printing variants."]
 pub use self::gnutls_certificate_print_formats as gnutls_certificate_print_formats_t;
 pub const gnutls_pk_algorithm_t_GNUTLS_PK_UNKNOWN: gnutls_pk_algorithm_t = 0;
 pub const gnutls_pk_algorithm_t_GNUTLS_PK_RSA: gnutls_pk_algorithm_t = 1;
@@ -2511,22 +2551,6 @@ pub const gnutls_pk_algorithm_t_GNUTLS_PK_GOST_12_512: gnutls_pk_algorithm_t = 1
 pub const gnutls_pk_algorithm_t_GNUTLS_PK_ECDH_X448: gnutls_pk_algorithm_t = 11;
 pub const gnutls_pk_algorithm_t_GNUTLS_PK_EDDSA_ED448: gnutls_pk_algorithm_t = 12;
 pub const gnutls_pk_algorithm_t_GNUTLS_PK_MAX: gnutls_pk_algorithm_t = 12;
-#[doc = " gnutls_pk_algorithm_t:"]
-#[doc = " @GNUTLS_PK_UNKNOWN: Unknown public-key algorithm."]
-#[doc = " @GNUTLS_PK_RSA: RSA public-key algorithm."]
-#[doc = " @GNUTLS_PK_RSA_PSS: RSA public-key algorithm, with PSS padding."]
-#[doc = " @GNUTLS_PK_DSA: DSA public-key algorithm."]
-#[doc = " @GNUTLS_PK_DH: Diffie-Hellman algorithm. Used to generate parameters."]
-#[doc = " @GNUTLS_PK_ECDSA: Elliptic curve algorithm. These parameters are compatible with the ECDSA and ECDH algorithm."]
-#[doc = " @GNUTLS_PK_ECDH_X25519: Elliptic curve algorithm, restricted to ECDH as per rfc7748."]
-#[doc = " @GNUTLS_PK_EDDSA_ED25519: Edwards curve Digital signature algorithm. Used with SHA512 on signatures."]
-#[doc = " @GNUTLS_PK_GOST_01: GOST R 34.10-2001 algorithm per rfc5832."]
-#[doc = " @GNUTLS_PK_GOST_12_256: GOST R 34.10-2012 algorithm, 256-bit key per rfc7091."]
-#[doc = " @GNUTLS_PK_GOST_12_512: GOST R 34.10-2012 algorithm, 512-bit key per rfc7091."]
-#[doc = " @GNUTLS_PK_ECDH_X448: Elliptic curve algorithm, restricted to ECDH as per rfc7748."]
-#[doc = " @GNUTLS_PK_EDDSA_ED448: Edwards curve Digital signature algorithm. Used with SHAKE256 on signatures."]
-#[doc = ""]
-#[doc = " Enumeration of different public-key algorithms."]
 pub type gnutls_pk_algorithm_t = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gnutls_pk_algorithm_get_name(
@@ -2582,66 +2606,6 @@ pub const gnutls_sign_algorithm_t_GNUTLS_SIGN_GOST_256: gnutls_sign_algorithm_t 
 pub const gnutls_sign_algorithm_t_GNUTLS_SIGN_GOST_512: gnutls_sign_algorithm_t = 45;
 pub const gnutls_sign_algorithm_t_GNUTLS_SIGN_EDDSA_ED448: gnutls_sign_algorithm_t = 46;
 pub const gnutls_sign_algorithm_t_GNUTLS_SIGN_MAX: gnutls_sign_algorithm_t = 46;
-#[doc = " gnutls_sign_algorithm_t:"]
-#[doc = " @GNUTLS_SIGN_UNKNOWN: Unknown signature algorithm."]
-#[doc = " @GNUTLS_SIGN_RSA_RAW: Digital signature algorithm RSA with DigestInfo formatted data"]
-#[doc = " @GNUTLS_SIGN_RSA_SHA1: Digital signature algorithm RSA with SHA-1"]
-#[doc = " @GNUTLS_SIGN_RSA_SHA: Same as %GNUTLS_SIGN_RSA_SHA1."]
-#[doc = " @GNUTLS_SIGN_DSA_SHA1: Digital signature algorithm DSA with SHA-1"]
-#[doc = " @GNUTLS_SIGN_DSA_SHA224: Digital signature algorithm DSA with SHA-224"]
-#[doc = " @GNUTLS_SIGN_DSA_SHA256: Digital signature algorithm DSA with SHA-256"]
-#[doc = " @GNUTLS_SIGN_DSA_SHA384: Digital signature algorithm DSA with SHA-384"]
-#[doc = " @GNUTLS_SIGN_DSA_SHA512: Digital signature algorithm DSA with SHA-512"]
-#[doc = " @GNUTLS_SIGN_DSA_SHA: Same as %GNUTLS_SIGN_DSA_SHA1."]
-#[doc = " @GNUTLS_SIGN_RSA_MD5: Digital signature algorithm RSA with MD5."]
-#[doc = " @GNUTLS_SIGN_RSA_MD2: Digital signature algorithm RSA with MD2."]
-#[doc = " @GNUTLS_SIGN_RSA_RMD160: Digital signature algorithm RSA with RMD-160."]
-#[doc = " @GNUTLS_SIGN_RSA_SHA256: Digital signature algorithm RSA with SHA-256."]
-#[doc = " @GNUTLS_SIGN_RSA_SHA384: Digital signature algorithm RSA with SHA-384."]
-#[doc = " @GNUTLS_SIGN_RSA_SHA512: Digital signature algorithm RSA with SHA-512."]
-#[doc = " @GNUTLS_SIGN_RSA_SHA224: Digital signature algorithm RSA with SHA-224."]
-#[doc = " @GNUTLS_SIGN_ECDSA_SHA1: ECDSA with SHA1."]
-#[doc = " @GNUTLS_SIGN_ECDSA_SHA224: Digital signature algorithm ECDSA with SHA-224."]
-#[doc = " @GNUTLS_SIGN_ECDSA_SHA256: Digital signature algorithm ECDSA with SHA-256."]
-#[doc = " @GNUTLS_SIGN_ECDSA_SHA384: Digital signature algorithm ECDSA with SHA-384."]
-#[doc = " @GNUTLS_SIGN_ECDSA_SHA512: Digital signature algorithm ECDSA with SHA-512."]
-#[doc = " @GNUTLS_SIGN_ECDSA_SECP256R1_SHA256: Digital signature algorithm ECDSA-SECP256R1 with SHA-256 (used in TLS 1.3 but not PKIX)."]
-#[doc = " @GNUTLS_SIGN_ECDSA_SECP384R1_SHA384: Digital signature algorithm ECDSA-SECP384R1 with SHA-384 (used in TLS 1.3 but not PKIX)."]
-#[doc = " @GNUTLS_SIGN_ECDSA_SECP521R1_SHA512: Digital signature algorithm ECDSA-SECP521R1 with SHA-512 (used in TLS 1.3 but not PKIX)."]
-#[doc = " @GNUTLS_SIGN_ECDSA_SHA3_224: Digital signature algorithm ECDSA with SHA3-224."]
-#[doc = " @GNUTLS_SIGN_ECDSA_SHA3_256: Digital signature algorithm ECDSA with SHA3-256."]
-#[doc = " @GNUTLS_SIGN_ECDSA_SHA3_384: Digital signature algorithm ECDSA with SHA3-384."]
-#[doc = " @GNUTLS_SIGN_ECDSA_SHA3_512: Digital signature algorithm ECDSA with SHA3-512."]
-#[doc = " @GNUTLS_SIGN_DSA_SHA3_224: Digital signature algorithm DSA with SHA3-224."]
-#[doc = " @GNUTLS_SIGN_DSA_SHA3_256: Digital signature algorithm DSA with SHA3-256."]
-#[doc = " @GNUTLS_SIGN_DSA_SHA3_384: Digital signature algorithm DSA with SHA3-384."]
-#[doc = " @GNUTLS_SIGN_DSA_SHA3_512: Digital signature algorithm DSA with SHA3-512."]
-#[doc = " @GNUTLS_SIGN_RSA_SHA3_224: Digital signature algorithm RSA with SHA3-224."]
-#[doc = " @GNUTLS_SIGN_RSA_SHA3_256: Digital signature algorithm RSA with SHA3-256."]
-#[doc = " @GNUTLS_SIGN_RSA_SHA3_384: Digital signature algorithm RSA with SHA3-384."]
-#[doc = " @GNUTLS_SIGN_RSA_SHA3_512: Digital signature algorithm RSA with SHA3-512."]
-#[doc = " @GNUTLS_SIGN_RSA_PSS_RSAE_SHA256: Digital signature algorithm RSA with SHA-256,"]
-#[doc = "      with PSS padding (RSA PKCS#1 1.5 certificate). This signature is identical"]
-#[doc = "      to #GNUTLS_SIGN_RSA_PSS_SHA256, but they are distinct as the TLS1.3 protocol"]
-#[doc = "      treats them differently."]
-#[doc = " @GNUTLS_SIGN_RSA_PSS_RSAE_SHA384: Digital signature algorithm RSA with SHA-384,"]
-#[doc = "      with PSS padding (RSA PKCS#1 1.5 certificate). This signature is identical"]
-#[doc = "      to #GNUTLS_SIGN_RSA_PSS_SHA384, but they are distinct as the TLS1.3 protocol"]
-#[doc = "      treats them differently."]
-#[doc = " @GNUTLS_SIGN_RSA_PSS_RSAE_SHA512: Digital signature algorithm RSA with SHA-512,"]
-#[doc = "      with PSS padding (RSA PKCS#1 1.5 certificate). This signature is identical"]
-#[doc = "      to #GNUTLS_SIGN_RSA_PSS_SHA512, but they are distinct as the TLS1.3 protocol"]
-#[doc = "      treats them differently."]
-#[doc = " @GNUTLS_SIGN_RSA_PSS_SHA256: Digital signature algorithm RSA with SHA-256, with PSS padding (RSA-PSS certificate)."]
-#[doc = " @GNUTLS_SIGN_RSA_PSS_SHA384: Digital signature algorithm RSA with SHA-384, with PSS padding (RSA-PSS certificate)."]
-#[doc = " @GNUTLS_SIGN_RSA_PSS_SHA512: Digital signature algorithm RSA with SHA-512, with PSS padding (RSA-PSS certificate)."]
-#[doc = " @GNUTLS_SIGN_EDDSA_ED25519: Digital signature algorithm EdDSA with Ed25519 curve."]
-#[doc = " @GNUTLS_SIGN_GOST_94: Digital signature algorithm GOST R 34.10-2001 with GOST R 34.11-94"]
-#[doc = " @GNUTLS_SIGN_GOST_256: Digital signature algorithm GOST R 34.10-2012 with GOST R 34.11-2012 256 bit"]
-#[doc = " @GNUTLS_SIGN_GOST_512: Digital signature algorithm GOST R 34.10-2012 with GOST R 34.11-2012 512 bit"]
-#[doc = " @GNUTLS_SIGN_EDDSA_ED448: Digital signature algorithm EdDSA with Ed448 curve."]
-#[doc = ""]
-#[doc = " Enumeration of different digital signature algorithms."]
 pub type gnutls_sign_algorithm_t = ::std::os::raw::c_uint;
 pub const gnutls_ecc_curve_t_GNUTLS_ECC_CURVE_INVALID: gnutls_ecc_curve_t = 0;
 pub const gnutls_ecc_curve_t_GNUTLS_ECC_CURVE_SECP224R1: gnutls_ecc_curve_t = 1;
@@ -2666,31 +2630,6 @@ pub const gnutls_ecc_curve_t_GNUTLS_ECC_CURVE_GOST256D: gnutls_ecc_curve_t = 19;
 pub const gnutls_ecc_curve_t_GNUTLS_ECC_CURVE_X448: gnutls_ecc_curve_t = 20;
 pub const gnutls_ecc_curve_t_GNUTLS_ECC_CURVE_ED448: gnutls_ecc_curve_t = 21;
 pub const gnutls_ecc_curve_t_GNUTLS_ECC_CURVE_MAX: gnutls_ecc_curve_t = 21;
-#[doc = " gnutls_ecc_curve_t:"]
-#[doc = " @GNUTLS_ECC_CURVE_INVALID: Cannot be known"]
-#[doc = " @GNUTLS_ECC_CURVE_SECP192R1: the SECP192R1 curve"]
-#[doc = " @GNUTLS_ECC_CURVE_SECP224R1: the SECP224R1 curve"]
-#[doc = " @GNUTLS_ECC_CURVE_SECP256R1: the SECP256R1 curve"]
-#[doc = " @GNUTLS_ECC_CURVE_SECP384R1: the SECP384R1 curve"]
-#[doc = " @GNUTLS_ECC_CURVE_SECP521R1: the SECP521R1 curve"]
-#[doc = " @GNUTLS_ECC_CURVE_X25519: the X25519 curve (ECDH only)"]
-#[doc = " @GNUTLS_ECC_CURVE_ED25519: the Ed25519 curve"]
-#[doc = " @GNUTLS_ECC_CURVE_GOST256CPA: GOST R 34.10 CryptoPro 256 A curve"]
-#[doc = " @GNUTLS_ECC_CURVE_GOST256CPB: GOST R 34.10 CryptoPro 256 B curve"]
-#[doc = " @GNUTLS_ECC_CURVE_GOST256CPC: GOST R 34.10 CryptoPro 256 C curve"]
-#[doc = " @GNUTLS_ECC_CURVE_GOST256CPXA: GOST R 34.10 CryptoPro 256 XchA curve"]
-#[doc = " @GNUTLS_ECC_CURVE_GOST256CPXB: GOST R 34.10 CryptoPro 256 XchB curve"]
-#[doc = " @GNUTLS_ECC_CURVE_GOST512A: GOST R 34.10 TC26 512 A curve"]
-#[doc = " @GNUTLS_ECC_CURVE_GOST512B: GOST R 34.10 TC26 512 B curve"]
-#[doc = " @GNUTLS_ECC_CURVE_GOST512C: GOST R 34.10 TC26 512 C curve"]
-#[doc = " @GNUTLS_ECC_CURVE_GOST256A: GOST R 34.10 TC26 256 A curve"]
-#[doc = " @GNUTLS_ECC_CURVE_GOST256B: GOST R 34.10 TC26 256 B curve"]
-#[doc = " @GNUTLS_ECC_CURVE_GOST256C: GOST R 34.10 TC26 256 C curve"]
-#[doc = " @GNUTLS_ECC_CURVE_GOST256D: GOST R 34.10 TC26 256 D curve"]
-#[doc = " @GNUTLS_ECC_CURVE_X448: the X448 curve (ECDH only)"]
-#[doc = " @GNUTLS_ECC_CURVE_ED448: the Ed448 curve"]
-#[doc = ""]
-#[doc = " Enumeration of ECC curves."]
 pub type gnutls_ecc_curve_t = ::std::os::raw::c_uint;
 pub const gnutls_group_t_GNUTLS_GROUP_INVALID: gnutls_group_t = 0;
 pub const gnutls_group_t_GNUTLS_GROUP_SECP192R1: gnutls_group_t = 5;
@@ -2713,31 +2652,6 @@ pub const gnutls_group_t_GNUTLS_GROUP_FFDHE4096: gnutls_group_t = 258;
 pub const gnutls_group_t_GNUTLS_GROUP_FFDHE8192: gnutls_group_t = 259;
 pub const gnutls_group_t_GNUTLS_GROUP_FFDHE6144: gnutls_group_t = 260;
 pub const gnutls_group_t_GNUTLS_GROUP_MAX: gnutls_group_t = 260;
-#[doc = " gnutls_group_t:"]
-#[doc = " @GNUTLS_GROUP_INVALID: Indicates unknown/invalid group"]
-#[doc = " @GNUTLS_GROUP_SECP192R1: the SECP192R1 curve group (legacy, only for TLS 1.2 compatibility)"]
-#[doc = " @GNUTLS_GROUP_SECP224R1: the SECP224R1 curve group (legacy, only for TLS 1.2 compatibility)"]
-#[doc = " @GNUTLS_GROUP_SECP256R1: the SECP256R1 curve group"]
-#[doc = " @GNUTLS_GROUP_SECP384R1: the SECP384R1 curve group"]
-#[doc = " @GNUTLS_GROUP_SECP521R1: the SECP521R1 curve group"]
-#[doc = " @GNUTLS_GROUP_X25519: the X25519 curve group"]
-#[doc = " @GNUTLS_GROUP_GC256A: the GOST R 34.10 TC26 256 A curve group"]
-#[doc = " @GNUTLS_GROUP_GC256B: the GOST R 34.10 TC26 256 B curve group"]
-#[doc = " @GNUTLS_GROUP_GC256C: the GOST R 34.10 TC26 256 C curve group"]
-#[doc = " @GNUTLS_GROUP_GC256D: the GOST R 34.10 TC26 256 D curve group"]
-#[doc = " @GNUTLS_GROUP_GC512A: the GOST R 34.10 TC26 512 A curve group"]
-#[doc = " @GNUTLS_GROUP_GC512B: the GOST R 34.10 TC26 512 B curve group"]
-#[doc = " @GNUTLS_GROUP_GC512C: the GOST R 34.10 TC26 512 C curve group"]
-#[doc = " @GNUTLS_GROUP_FFDHE2048: the FFDHE2048 group"]
-#[doc = " @GNUTLS_GROUP_FFDHE3072: the FFDHE3072 group"]
-#[doc = " @GNUTLS_GROUP_FFDHE4096: the FFDHE4096 group"]
-#[doc = " @GNUTLS_GROUP_FFDHE6144: the FFDHE6144 group"]
-#[doc = " @GNUTLS_GROUP_FFDHE8192: the FFDHE8192 group"]
-#[doc = " @GNUTLS_GROUP_X448: the X448 curve group"]
-#[doc = ""]
-#[doc = " Enumeration of supported groups. It is intended to be backwards"]
-#[doc = " compatible with the enumerations in %gnutls_ecc_curve_t for the groups"]
-#[doc = " which are valid elliptic curves."]
 pub type gnutls_group_t = ::std::os::raw::c_uint;
 pub const gnutls_sec_param_t_GNUTLS_SEC_PARAM_UNKNOWN: gnutls_sec_param_t = 0;
 pub const gnutls_sec_param_t_GNUTLS_SEC_PARAM_INSECURE: gnutls_sec_param_t = 5;
@@ -2751,30 +2665,10 @@ pub const gnutls_sec_param_t_GNUTLS_SEC_PARAM_HIGH: gnutls_sec_param_t = 40;
 pub const gnutls_sec_param_t_GNUTLS_SEC_PARAM_ULTRA: gnutls_sec_param_t = 45;
 pub const gnutls_sec_param_t_GNUTLS_SEC_PARAM_FUTURE: gnutls_sec_param_t = 50;
 pub const gnutls_sec_param_t_GNUTLS_SEC_PARAM_MAX: gnutls_sec_param_t = 50;
-#[doc = " gnutls_sec_param_t:"]
-#[doc = " @GNUTLS_SEC_PARAM_UNKNOWN: Cannot be known"]
-#[doc = " @GNUTLS_SEC_PARAM_INSECURE: Less than 42 bits of security"]
-#[doc = " @GNUTLS_SEC_PARAM_EXPORT: 42 bits of security"]
-#[doc = " @GNUTLS_SEC_PARAM_VERY_WEAK: 64 bits of security"]
-#[doc = " @GNUTLS_SEC_PARAM_WEAK: 72 bits of security"]
-#[doc = " @GNUTLS_SEC_PARAM_LOW: 80 bits of security"]
-#[doc = " @GNUTLS_SEC_PARAM_LEGACY: 96 bits of security"]
-#[doc = " @GNUTLS_SEC_PARAM_MEDIUM: 112 bits of security (used to be %GNUTLS_SEC_PARAM_NORMAL)"]
-#[doc = " @GNUTLS_SEC_PARAM_HIGH: 128 bits of security"]
-#[doc = " @GNUTLS_SEC_PARAM_ULTRA: 192 bits of security"]
-#[doc = " @GNUTLS_SEC_PARAM_FUTURE: 256 bits of security"]
-#[doc = ""]
-#[doc = " Enumeration of security parameters for passive attacks."]
 pub type gnutls_sec_param_t = ::std::os::raw::c_uint;
 pub const gnutls_channel_binding_t_GNUTLS_CB_TLS_UNIQUE: gnutls_channel_binding_t = 0;
 pub const gnutls_channel_binding_t_GNUTLS_CB_TLS_SERVER_END_POINT: gnutls_channel_binding_t = 1;
 pub const gnutls_channel_binding_t_GNUTLS_CB_TLS_EXPORTER: gnutls_channel_binding_t = 2;
-#[doc = " gnutls_channel_binding_t:"]
-#[doc = " @GNUTLS_CB_TLS_UNIQUE: \"tls-unique\" (RFC 5929) channel binding"]
-#[doc = " @GNUTLS_CB_TLS_SERVER_END_POINT: \"tls-server-end-point\" (RFC 5929) channel binding"]
-#[doc = " @GNUTLS_CB_TLS_EXPORTER: \"tls-exporter\" (draft-ietf-kitten-tls-channel-bindings-for-tls13-03)"]
-#[doc = ""]
-#[doc = " Enumeration of supported channel binding types."]
 pub type gnutls_channel_binding_t = ::std::os::raw::c_uint;
 pub const gnutls_gost_paramset_t_GNUTLS_GOST_PARAMSET_UNKNOWN: gnutls_gost_paramset_t = 0;
 pub const gnutls_gost_paramset_t_GNUTLS_GOST_PARAMSET_TC26_Z: gnutls_gost_paramset_t = 1;
@@ -2782,29 +2676,11 @@ pub const gnutls_gost_paramset_t_GNUTLS_GOST_PARAMSET_CP_A: gnutls_gost_paramset
 pub const gnutls_gost_paramset_t_GNUTLS_GOST_PARAMSET_CP_B: gnutls_gost_paramset_t = 3;
 pub const gnutls_gost_paramset_t_GNUTLS_GOST_PARAMSET_CP_C: gnutls_gost_paramset_t = 4;
 pub const gnutls_gost_paramset_t_GNUTLS_GOST_PARAMSET_CP_D: gnutls_gost_paramset_t = 5;
-#[doc = " gnutls_gost_paramset_t:"]
-#[doc = " @GNUTLS_GOST_PARAMSET_UNKNOWN: Unknown/default parameter set"]
-#[doc = " @GNUTLS_GOST_PARAMSET_TC26_Z: Specified by TC26, see rfc7836"]
-#[doc = " @GNUTLS_GOST_PARAMSET_CP_A: CryptoPro-A, see rfc4357"]
-#[doc = " @GNUTLS_GOST_PARAMSET_CP_B: CryptoPro-B, see rfc4357"]
-#[doc = " @GNUTLS_GOST_PARAMSET_CP_C: CryptoPro-C, see rfc4357"]
-#[doc = " @GNUTLS_GOST_PARAMSET_CP_D: CryptoPro-D, see rfc4357"]
-#[doc = ""]
-#[doc = " Enumeration of different GOST 28147 parameter sets."]
 pub type gnutls_gost_paramset_t = ::std::os::raw::c_uint;
 pub const gnutls_ctype_target_t_GNUTLS_CTYPE_CLIENT: gnutls_ctype_target_t = 0;
 pub const gnutls_ctype_target_t_GNUTLS_CTYPE_SERVER: gnutls_ctype_target_t = 1;
 pub const gnutls_ctype_target_t_GNUTLS_CTYPE_OURS: gnutls_ctype_target_t = 2;
 pub const gnutls_ctype_target_t_GNUTLS_CTYPE_PEERS: gnutls_ctype_target_t = 3;
-#[doc = " gnutls_ctype_target_t:"]
-#[doc = " @GNUTLS_CTYPE_CLIENT: for requesting client certificate type values."]
-#[doc = " @GNUTLS_CTYPE_SERVER: for requesting server certificate type values."]
-#[doc = " @GNUTLS_CTYPE_OURS: for requesting our certificate type values."]
-#[doc = " @GNUTLS_CTYPE_PEERS: for requesting the peers' certificate type values."]
-#[doc = ""]
-#[doc = " Enumeration of certificate type targets with respect to asymmetric"]
-#[doc = " certificate types as specified in RFC7250 and P2P connection set up"]
-#[doc = " as specified in draft-vanrein-tls-symmetry-02."]
 pub type gnutls_ctype_target_t = ::std::os::raw::c_uint;
 pub type gnutls_transport_ptr_t = *mut ::std::os::raw::c_void;
 #[repr(C)]
@@ -3661,10 +3537,6 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 pub const gnutls_server_name_type_t_GNUTLS_NAME_DNS: gnutls_server_name_type_t = 1;
-#[doc = " gnutls_server_name_type_t:"]
-#[doc = " @GNUTLS_NAME_DNS: Domain Name System name type."]
-#[doc = ""]
-#[doc = " Enumeration of different server name types."]
 pub type gnutls_server_name_type_t = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gnutls_server_name_set(
@@ -3726,32 +3598,12 @@ pub const gnutls_session_flags_t_GNUTLS_SFLAGS_EARLY_START: gnutls_session_flags
 pub const gnutls_session_flags_t_GNUTLS_SFLAGS_EARLY_DATA: gnutls_session_flags_t = 1024;
 pub const gnutls_session_flags_t_GNUTLS_SFLAGS_CLI_REQUESTED_OCSP: gnutls_session_flags_t = 2048;
 pub const gnutls_session_flags_t_GNUTLS_SFLAGS_SERV_REQUESTED_OCSP: gnutls_session_flags_t = 4096;
-#[doc = " gnutls_session_flags_t:"]
-#[doc = " @GNUTLS_SFLAGS_SAFE_RENEGOTIATION: Safe renegotiation (RFC5746) was used"]
-#[doc = " @GNUTLS_SFLAGS_EXT_MASTER_SECRET: The extended master secret (RFC7627) extension was used"]
-#[doc = " @GNUTLS_SFLAGS_ETM: The encrypt then MAC (RFC7366) extension was used"]
-#[doc = " @GNUTLS_SFLAGS_RFC7919: The RFC7919 Diffie-Hellman parameters were negotiated"]
-#[doc = " @GNUTLS_SFLAGS_HB_LOCAL_SEND: The heartbeat negotiation allows the local side to send heartbeat messages"]
-#[doc = " @GNUTLS_SFLAGS_HB_PEER_SEND: The heartbeat negotiation allows the peer to send heartbeat messages"]
-#[doc = " @GNUTLS_SFLAGS_FALSE_START: False start was used in this client session."]
-#[doc = " @GNUTLS_SFLAGS_SESSION_TICKET: A session ticket has been received by the server."]
-#[doc = " @GNUTLS_SFLAGS_POST_HANDSHAKE_AUTH: Indicates client capability for post-handshake auth; set only on server side."]
-#[doc = " @GNUTLS_SFLAGS_EARLY_START: The TLS1.3 server session returned early."]
-#[doc = " @GNUTLS_SFLAGS_EARLY_DATA: The TLS1.3 early data has been received by the server."]
-#[doc = " @GNUTLS_SFLAGS_CLI_REQUESTED_OCSP: Set when the client has requested OCSP staple during handshake."]
-#[doc = " @GNUTLS_SFLAGS_SERV_REQUESTED_OCSP: Set when the server has requested OCSP staple during handshake."]
-#[doc = ""]
-#[doc = " Enumeration of different session parameters."]
 pub type gnutls_session_flags_t = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gnutls_session_get_flags(session: gnutls_session_t) -> ::std::os::raw::c_uint;
 }
 pub const gnutls_supplemental_data_format_type_t_GNUTLS_SUPPLEMENTAL_UNKNOWN:
     gnutls_supplemental_data_format_type_t = 0;
-#[doc = " gnutls_supplemental_data_format_type_t:"]
-#[doc = " @GNUTLS_SUPPLEMENTAL_UNKNOWN: Unknown data format"]
-#[doc = ""]
-#[doc = " Enumeration of different supplemental data types (RFC 4680)."]
 pub type gnutls_supplemental_data_format_type_t = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gnutls_supplemental_get_name(
@@ -3781,13 +3633,6 @@ pub const gnutls_srtp_profile_t_GNUTLS_SRTP_AES128_CM_HMAC_SHA1_80: gnutls_srtp_
 pub const gnutls_srtp_profile_t_GNUTLS_SRTP_AES128_CM_HMAC_SHA1_32: gnutls_srtp_profile_t = 2;
 pub const gnutls_srtp_profile_t_GNUTLS_SRTP_NULL_HMAC_SHA1_80: gnutls_srtp_profile_t = 5;
 pub const gnutls_srtp_profile_t_GNUTLS_SRTP_NULL_HMAC_SHA1_32: gnutls_srtp_profile_t = 6;
-#[doc = " gnutls_srtp_profile_t:"]
-#[doc = " @GNUTLS_SRTP_AES128_CM_HMAC_SHA1_80: 128 bit AES with a 80 bit HMAC-SHA1"]
-#[doc = " @GNUTLS_SRTP_AES128_CM_HMAC_SHA1_32: 128 bit AES with a 32 bit HMAC-SHA1"]
-#[doc = " @GNUTLS_SRTP_NULL_HMAC_SHA1_80: NULL cipher with a 80 bit HMAC-SHA1"]
-#[doc = " @GNUTLS_SRTP_NULL_HMAC_SHA1_32: NULL cipher with a 32 bit HMAC-SHA1"]
-#[doc = ""]
-#[doc = " Enumeration of different SRTP protection profiles."]
 pub type gnutls_srtp_profile_t = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gnutls_srtp_set_profile(
@@ -3844,13 +3689,6 @@ extern "C" {
 }
 pub const gnutls_alpn_flags_t_GNUTLS_ALPN_MANDATORY: gnutls_alpn_flags_t = 1;
 pub const gnutls_alpn_flags_t_GNUTLS_ALPN_SERVER_PRECEDENCE: gnutls_alpn_flags_t = 2;
-#[doc = " gnutls_alpn_flags_t:"]
-#[doc = " @GNUTLS_ALPN_MANDATORY: Require ALPN negotiation. The connection will be"]
-#[doc = "   aborted if no matching ALPN protocol is found."]
-#[doc = " @GNUTLS_ALPN_SERVER_PRECEDENCE: The choices set by the server"]
-#[doc = "   will take precedence over the client's."]
-#[doc = ""]
-#[doc = " Enumeration of different ALPN flags. These are used by gnutls_alpn_set_protocols()."]
 pub type gnutls_alpn_flags_t = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gnutls_alpn_get_selected_protocol(
@@ -4044,26 +3882,6 @@ pub const gnutls_vdata_types_t_GNUTLS_DT_DNS_HOSTNAME: gnutls_vdata_types_t = 1;
 pub const gnutls_vdata_types_t_GNUTLS_DT_KEY_PURPOSE_OID: gnutls_vdata_types_t = 2;
 pub const gnutls_vdata_types_t_GNUTLS_DT_RFC822NAME: gnutls_vdata_types_t = 3;
 pub const gnutls_vdata_types_t_GNUTLS_DT_IP_ADDRESS: gnutls_vdata_types_t = 4;
-#[doc = " gnutls_vdata_types_t:"]
-#[doc = " @GNUTLS_DT_UNKNOWN: Unknown data type."]
-#[doc = " @GNUTLS_DT_DNS_HOSTNAME: The data contain a null-terminated DNS hostname; the hostname will be"]
-#[doc = "   matched using the RFC6125 rules. If the data contain a textual IP (v4 or v6) address it will"]
-#[doc = "   be marched against the IPAddress Alternative name, unless the verification flag %GNUTLS_VERIFY_DO_NOT_ALLOW_IP_MATCHES"]
-#[doc = "   is specified."]
-#[doc = " @GNUTLS_DT_IP_ADDRESS: The data contain a raw IP address (4 or 16 bytes). If will be matched"]
-#[doc = "   against the IPAddress Alternative name; option available since 3.6.0."]
-#[doc = " @GNUTLS_DT_RFC822NAME: The data contain a null-terminated email address; the email will be"]
-#[doc = "   matched against the RFC822Name Alternative name of the certificate, or the EMAIL DN component if the"]
-#[doc = "   former isn't available. Prior to matching the email address will be converted to ACE"]
-#[doc = "   (ASCII-compatible-encoding)."]
-#[doc = " @GNUTLS_DT_KEY_PURPOSE_OID: The data contain a null-terminated key purpose OID. It will be matched"]
-#[doc = "   against the certificate's Extended Key Usage extension."]
-#[doc = ""]
-#[doc = " Enumeration of different typed-data options. They are used as input to certificate"]
-#[doc = " verification functions to provide information about the name and purpose of the"]
-#[doc = " certificate. Only a single option of a type can be provided to the relevant functions"]
-#[doc = " (i.e., options %GNUTLS_DT_DNS_HOSTNAME, %GNUTLS_DT_IP_ADDRESS and"]
-#[doc = " %GNUTLS_DT_RFC822NAME cannot be combined)."]
 pub type gnutls_vdata_types_t = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -4448,15 +4266,6 @@ pub const gnutls_certificate_flags_GNUTLS_CERTIFICATE_API_V2: gnutls_certificate
 pub const gnutls_certificate_flags_GNUTLS_CERTIFICATE_SKIP_OCSP_RESPONSE_CHECK:
     gnutls_certificate_flags = 4;
 pub const gnutls_certificate_flags_GNUTLS_CERTIFICATE_VERIFY_CRLS: gnutls_certificate_flags = 8;
-#[doc = " gnutls_certificate_flags:"]
-#[doc = " @GNUTLS_CERTIFICATE_SKIP_KEY_CERT_MATCH: Skip the key and certificate matching check."]
-#[doc = " @GNUTLS_CERTIFICATE_API_V2: If set the gnutls_certificate_set_*key* functions will return an index of the added key pair instead of zero."]
-#[doc = " @GNUTLS_CERTIFICATE_SKIP_OCSP_RESPONSE_CHECK: If set, the gnutls_certificate_set_ocsp_status_request_file"]
-#[doc = "    function, will not check whether the response set matches any of the certificates."]
-#[doc = " @GNUTLS_CERTIFICATE_VERIFY_CRLS: This will enable CRL verification when added in the certificate structure."]
-#[doc = "    When used, it requires CAs to be added before CRLs."]
-#[doc = ""]
-#[doc = " Enumeration of different certificate credentials flags."]
 pub type gnutls_certificate_flags = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gnutls_certificate_set_flags(
@@ -4783,13 +4592,6 @@ extern "C" {
 extern "C" {
     pub fn gnutls_get_library_config() -> *const gnutls_library_config_st;
 }
-#[doc = " gnutls_time_func:"]
-#[doc = " @t: where to store time."]
-#[doc = ""]
-#[doc = " Function prototype for time()-like function.  Set with"]
-#[doc = " gnutls_global_set_time_function()."]
-#[doc = ""]
-#[doc = " Returns: Number of seconds since the epoch, or (time_t)-1 on errors."]
 pub type gnutls_time_func = ::std::option::Option<unsafe extern "C" fn(t: *mut time_t) -> time_t>;
 pub type mutex_init_func = ::std::option::Option<
     unsafe extern "C" fn(mutex: *mut *mut ::std::os::raw::c_void) -> ::std::os::raw::c_int,
@@ -4872,16 +4674,6 @@ extern "C" {
 extern "C" {
     pub fn gnutls_global_set_log_level(level: ::std::os::raw::c_int);
 }
-#[doc = " gnutls_keylog_func:"]
-#[doc = " @session: the current session"]
-#[doc = " @label: the keylog label"]
-#[doc = " @secret: the (const) data of the derived secret."]
-#[doc = ""]
-#[doc = " Function prototype for keylog hooks. It is set using"]
-#[doc = " gnutls_session_set_keylog_function()."]
-#[doc = ""]
-#[doc = " Returns: Non zero on error."]
-#[doc = " Since: 3.6.13"]
 pub type gnutls_keylog_func = ::std::option::Option<
     unsafe extern "C" fn(
         session: gnutls_session_t,
@@ -5011,37 +4803,34 @@ fn bindgen_test_layout_iovec() {
         )
     );
 }
-pub const uio_rw_UIO_READ: uio_rw = 0;
-pub const uio_rw_UIO_WRITE: uio_rw = 1;
-pub type uio_rw = ::std::os::raw::c_uint;
 extern "C" {
     pub fn readv(
-        arg1: ::std::os::raw::c_int,
-        arg2: *const iovec,
-        arg3: ::std::os::raw::c_int,
+        __fd: ::std::os::raw::c_int,
+        __iovec: *const iovec,
+        __count: ::std::os::raw::c_int,
     ) -> ssize_t;
 }
 extern "C" {
     pub fn writev(
-        arg1: ::std::os::raw::c_int,
-        arg2: *const iovec,
-        arg3: ::std::os::raw::c_int,
+        __fd: ::std::os::raw::c_int,
+        __iovec: *const iovec,
+        __count: ::std::os::raw::c_int,
     ) -> ssize_t;
 }
 extern "C" {
     pub fn preadv(
-        arg1: ::std::os::raw::c_int,
-        arg2: *const iovec,
-        arg3: ::std::os::raw::c_int,
-        arg4: off_t,
+        __fd: ::std::os::raw::c_int,
+        __iovec: *const iovec,
+        __count: ::std::os::raw::c_int,
+        __offset: __off_t,
     ) -> ssize_t;
 }
 extern "C" {
     pub fn pwritev(
-        arg1: ::std::os::raw::c_int,
-        arg2: *const iovec,
-        arg3: ::std::os::raw::c_int,
-        arg4: off_t,
+        __fd: ::std::os::raw::c_int,
+        __iovec: *const iovec,
+        __count: ::std::os::raw::c_int,
+        __offset: __off_t,
     ) -> ssize_t;
 }
 pub type giovec_t = iovec;
@@ -5169,15 +4958,7 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 pub const gnutls_random_art_GNUTLS_RANDOM_ART_OPENSSH: gnutls_random_art = 1;
-#[doc = " gnutls_random_art_t:"]
-#[doc = " @GNUTLS_RANDOM_ART_OPENSSH: OpenSSH-style random art."]
-#[doc = ""]
-#[doc = " Enumeration of different random art types."]
 pub type gnutls_random_art = ::std::os::raw::c_uint;
-#[doc = " gnutls_random_art_t:"]
-#[doc = " @GNUTLS_RANDOM_ART_OPENSSH: OpenSSH-style random art."]
-#[doc = ""]
-#[doc = " Enumeration of different random art types."]
 pub use self::gnutls_random_art as gnutls_random_art_t;
 extern "C" {
     pub fn gnutls_random_art(
@@ -5437,11 +5218,6 @@ pub struct gnutls_psk_client_credentials_st {
 pub type gnutls_psk_client_credentials_t = *mut gnutls_psk_client_credentials_st;
 pub const gnutls_psk_key_flags_GNUTLS_PSK_KEY_RAW: gnutls_psk_key_flags = 0;
 pub const gnutls_psk_key_flags_GNUTLS_PSK_KEY_HEX: gnutls_psk_key_flags = 1;
-#[doc = " gnutls_psk_key_flags:"]
-#[doc = " @GNUTLS_PSK_KEY_RAW: PSK-key in raw format."]
-#[doc = " @GNUTLS_PSK_KEY_HEX: PSK-key in hex format."]
-#[doc = ""]
-#[doc = " Enumeration of different PSK key flags."]
 pub type gnutls_psk_key_flags = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gnutls_psk_free_client_credentials(sc: gnutls_psk_client_credentials_t);
@@ -5610,18 +5386,6 @@ pub const gnutls_x509_subject_alt_name_t_GNUTLS_SAN_OTHERNAME_XMPP: gnutls_x509_
     1000;
 pub const gnutls_x509_subject_alt_name_t_GNUTLS_SAN_OTHERNAME_KRB5PRINCIPAL:
     gnutls_x509_subject_alt_name_t = 1001;
-#[doc = " gnutls_x509_subject_alt_name_t:"]
-#[doc = " @GNUTLS_SAN_DNSNAME: DNS-name SAN."]
-#[doc = " @GNUTLS_SAN_RFC822NAME: E-mail address SAN."]
-#[doc = " @GNUTLS_SAN_URI: URI SAN."]
-#[doc = " @GNUTLS_SAN_IPADDRESS: IP address SAN."]
-#[doc = " @GNUTLS_SAN_OTHERNAME: OtherName SAN."]
-#[doc = " @GNUTLS_SAN_DN: DN SAN."]
-#[doc = " @GNUTLS_SAN_REGISTERED_ID: RegisteredID."]
-#[doc = " @GNUTLS_SAN_OTHERNAME_XMPP: Virtual SAN, used by certain functions for convenience."]
-#[doc = " @GNUTLS_SAN_OTHERNAME_KRB5PRINCIPAL: Virtual SAN, used by certain functions for convenience."]
-#[doc = ""]
-#[doc = " Enumeration of different subject alternative names types."]
 pub type gnutls_x509_subject_alt_name_t = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -5645,13 +5409,6 @@ pub const gnutls_privkey_type_t_GNUTLS_PRIVKEY_X509: gnutls_privkey_type_t = 0;
 pub const gnutls_privkey_type_t_GNUTLS_PRIVKEY_OPENPGP: gnutls_privkey_type_t = 1;
 pub const gnutls_privkey_type_t_GNUTLS_PRIVKEY_PKCS11: gnutls_privkey_type_t = 2;
 pub const gnutls_privkey_type_t_GNUTLS_PRIVKEY_EXT: gnutls_privkey_type_t = 3;
-#[doc = " gnutls_privkey_type_t:"]
-#[doc = " @GNUTLS_PRIVKEY_X509: X.509 private key, #gnutls_x509_privkey_t."]
-#[doc = " @GNUTLS_PRIVKEY_OPENPGP: OpenPGP private key, #gnutls_openpgp_privkey_t."]
-#[doc = " @GNUTLS_PRIVKEY_PKCS11: PKCS11 private key, #gnutls_pkcs11_privkey_t."]
-#[doc = " @GNUTLS_PRIVKEY_EXT: External private key, operating using callbacks."]
-#[doc = ""]
-#[doc = " Enumeration of different private key types."]
 pub type gnutls_privkey_type_t = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -6121,47 +5878,7 @@ pub const gnutls_pin_flag_t_GNUTLS_PIN_FINAL_TRY: gnutls_pin_flag_t = 4;
 pub const gnutls_pin_flag_t_GNUTLS_PIN_COUNT_LOW: gnutls_pin_flag_t = 8;
 pub const gnutls_pin_flag_t_GNUTLS_PIN_CONTEXT_SPECIFIC: gnutls_pin_flag_t = 16;
 pub const gnutls_pin_flag_t_GNUTLS_PIN_WRONG: gnutls_pin_flag_t = 32;
-#[doc = " gnutls_pin_flag_t:"]
-#[doc = " @GNUTLS_PIN_USER: The PIN for the user."]
-#[doc = " @GNUTLS_PIN_SO: The PIN for the security officer (admin)."]
-#[doc = " @GNUTLS_PIN_CONTEXT_SPECIFIC: The PIN is for a specific action and key like signing."]
-#[doc = " @GNUTLS_PIN_FINAL_TRY: This is the final try before blocking."]
-#[doc = " @GNUTLS_PIN_COUNT_LOW: Few tries remain before token blocks."]
-#[doc = " @GNUTLS_PIN_WRONG: Last given PIN was not correct."]
-#[doc = ""]
-#[doc = " Enumeration of different flags that are input to the PIN function."]
 pub type gnutls_pin_flag_t = ::std::os::raw::c_uint;
-#[doc = " gnutls_pin_callback_t:"]
-#[doc = " @userdata: user-controlled data from gnutls_pkcs11_set_pin_function()."]
-#[doc = " @attempt: pin-attempt counter, initially 0."]
-#[doc = " @token_url: URL of token."]
-#[doc = " @token_label: label of token."]
-#[doc = " @flags: a #gnutls_pin_flag_t flag."]
-#[doc = " @pin: buffer to hold PIN, of size @pin_max."]
-#[doc = " @pin_max: size of @pin buffer."]
-#[doc = ""]
-#[doc = " Callback function type for PKCS#11 or TPM PIN entry.  It is set by"]
-#[doc = " functions like gnutls_pkcs11_set_pin_function()."]
-#[doc = ""]
-#[doc = " The callback should provides the PIN code to unlock the token with"]
-#[doc = " label @token_label, specified by the URL @token_url."]
-#[doc = ""]
-#[doc = " The PIN code, as a NUL-terminated ASCII string, should be copied"]
-#[doc = " into the @pin buffer (of maximum size @pin_max), and return 0 to"]
-#[doc = " indicate success.  Alternatively, the callback may return a"]
-#[doc = " negative gnutls error code to indicate failure and cancel PIN entry"]
-#[doc = " (in which case, the contents of the @pin parameter are ignored)."]
-#[doc = ""]
-#[doc = " When a PIN is required, the callback will be invoked repeatedly"]
-#[doc = " (and indefinitely) until either the returned PIN code is correct,"]
-#[doc = " the callback returns failure, or the token refuses login (e.g. when"]
-#[doc = " the token is locked due to too many incorrect PINs!).  For the"]
-#[doc = " first such invocation, the @attempt counter will have value zero;"]
-#[doc = " it will increase by one for each subsequent attempt."]
-#[doc = ""]
-#[doc = " Returns: %GNUTLS_E_SUCCESS (0) on success or a negative error code on error."]
-#[doc = ""]
-#[doc = " Since: 2.12.0"]
 pub type gnutls_pin_callback_t = ::std::option::Option<
     unsafe extern "C" fn(
         userdata: *mut ::std::os::raw::c_void,
@@ -6268,17 +5985,6 @@ pub const gnutls_ext_parse_type_t_GNUTLS_EXT_TLS: gnutls_ext_parse_type_t = 2;
 pub const gnutls_ext_parse_type_t_GNUTLS_EXT_MANDATORY: gnutls_ext_parse_type_t = 3;
 pub const gnutls_ext_parse_type_t_GNUTLS_EXT_NONE: gnutls_ext_parse_type_t = 4;
 pub const gnutls_ext_parse_type_t_GNUTLS_EXT_VERSION_NEG: gnutls_ext_parse_type_t = 5;
-#[doc = " gnutls_ext_parse_type_t:"]
-#[doc = " @GNUTLS_EXT_NONE: Never to be parsed"]
-#[doc = " @GNUTLS_EXT_ANY: Any extension type (should not be used as it is used only internally)."]
-#[doc = " @GNUTLS_EXT_VERSION_NEG: Extensions to be parsed first for TLS version negotiation."]
-#[doc = " @GNUTLS_EXT_MANDATORY: Parsed after @GNUTLS_EXT_VERSION_NEG and even when resuming."]
-#[doc = " @GNUTLS_EXT_APPLICATION: Parsed after @GNUTLS_EXT_MANDATORY"]
-#[doc = " @GNUTLS_EXT_TLS: TLS-internal extensions, parsed after @GNUTLS_EXT_APPLICATION."]
-#[doc = ""]
-#[doc = " Enumeration of different TLS extension parsing phases.  The @gnutls_ext_parse_type_t"]
-#[doc = " indicates the time/phase an extension is parsed during Client or Server hello parsing."]
-#[doc = ""]
 pub type gnutls_ext_parse_type_t = ::std::os::raw::c_uint;
 pub const gnutls_ext_flags_t_GNUTLS_EXT_FLAG_OVERRIDE_INTERNAL: gnutls_ext_flags_t = 1;
 pub const gnutls_ext_flags_t_GNUTLS_EXT_FLAG_CLIENT_HELLO: gnutls_ext_flags_t = 2;
@@ -6289,18 +5995,6 @@ pub const gnutls_ext_flags_t_GNUTLS_EXT_FLAG_HRR: gnutls_ext_flags_t = 32;
 pub const gnutls_ext_flags_t_GNUTLS_EXT_FLAG_IGNORE_CLIENT_REQUEST: gnutls_ext_flags_t = 64;
 pub const gnutls_ext_flags_t_GNUTLS_EXT_FLAG_TLS: gnutls_ext_flags_t = 128;
 pub const gnutls_ext_flags_t_GNUTLS_EXT_FLAG_DTLS: gnutls_ext_flags_t = 256;
-#[doc = " gnutls_ext_flags_t:"]
-#[doc = " @GNUTLS_EXT_FLAG_OVERRIDE_INTERNAL: If specified the extension registered will override the internal; this does not work with extensions existing prior to 3.6.0."]
-#[doc = " @GNUTLS_EXT_FLAG_CLIENT_HELLO: This extension can be present in a client hello"]
-#[doc = " @GNUTLS_EXT_FLAG_TLS12_SERVER_HELLO: This extension can be present in a TLS1.2 or earlier server hello"]
-#[doc = " @GNUTLS_EXT_FLAG_TLS13_SERVER_HELLO: This extension can be present in a TLS1.3 server hello"]
-#[doc = " @GNUTLS_EXT_FLAG_EE: This extension can be present in encrypted extensions message"]
-#[doc = " @GNUTLS_EXT_FLAG_HRR: This extension can be present in hello retry request message"]
-#[doc = " @GNUTLS_EXT_FLAG_IGNORE_CLIENT_REQUEST: When flag is present, this extension will be send even if the client didn't advertise it. An extension of this type is the Cookie TLS1.3 extension."]
-#[doc = " @GNUTLS_EXT_FLAG_DTLS: This extension can be present under DTLS; otherwise ignored."]
-#[doc = " @GNUTLS_EXT_FLAG_TLS: This extension can be present under TLS; otherwise ignored."]
-#[doc = ""]
-#[doc = " Enumeration of different TLS extension registration flags."]
 pub type gnutls_ext_flags_t = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gnutls_ext_register(
@@ -6425,31 +6119,7 @@ pub const gnutls_record_encryption_level_t_GNUTLS_ENCRYPTION_LEVEL_HANDSHAKE:
     gnutls_record_encryption_level_t = 2;
 pub const gnutls_record_encryption_level_t_GNUTLS_ENCRYPTION_LEVEL_APPLICATION:
     gnutls_record_encryption_level_t = 3;
-#[doc = " gnutls_record_encryption_level_t:"]
-#[doc = " @GNUTLS_ENCRYPTION_LEVEL_INITIAL: initial level that doesn't involve any"]
-#[doc = "    encryption"]
-#[doc = " @GNUTLS_ENCRYPTION_LEVEL_EARLY: early traffic secret is installed"]
-#[doc = " @GNUTLS_ENCRYPTION_LEVEL_HANDSHAKE: handshake traffic secret is installed"]
-#[doc = " @GNUTLS_ENCRYPTION_LEVEL_APPLICATION: application traffic secret is installed"]
-#[doc = ""]
-#[doc = " Enumeration of different levels of record encryption currently in place."]
-#[doc = " This is used by gnutls_handshake_set_read_function() and"]
-#[doc = " gnutls_handshake_write()."]
-#[doc = ""]
-#[doc = " Since: 3.7.0"]
 pub type gnutls_record_encryption_level_t = ::std::os::raw::c_uint;
-#[doc = " gnutls_handshake_read_func:"]
-#[doc = " @session: the current session"]
-#[doc = " @htype: the type of the handshake message (#gnutls_handshake_description_t)"]
-#[doc = " @level: #gnutls_record_encryption_level_t"]
-#[doc = " @data: the (const) data that was being sent"]
-#[doc = " @data_size: the size of data"]
-#[doc = ""]
-#[doc = " Function prototype for handshake intercepting hooks. It is set using"]
-#[doc = " gnutls_handshake_set_read_function()."]
-#[doc = ""]
-#[doc = " Returns: Non zero on error."]
-#[doc = " Since: 3.7.0"]
 pub type gnutls_handshake_read_func = ::std::option::Option<
     unsafe extern "C" fn(
         session: gnutls_session_t,
@@ -6473,18 +6143,6 @@ extern "C" {
         data_size: size_t,
     ) -> ::std::os::raw::c_int;
 }
-#[doc = " gnutls_handshake_secret_func:"]
-#[doc = " @session: the current session"]
-#[doc = " @level: the encryption level"]
-#[doc = " @secret_read: the secret used for reading, can be %NULL if not set"]
-#[doc = " @secret_write: the secret used for writing, can be %NULL if not set"]
-#[doc = " @secret_size: the size of the secrets"]
-#[doc = ""]
-#[doc = " Function prototype for secret hooks. It is set using"]
-#[doc = " gnutls_handshake_set_secret_function()."]
-#[doc = ""]
-#[doc = " Returns: Non zero on error."]
-#[doc = " Since: 3.7.0"]
 pub type gnutls_handshake_secret_func = ::std::option::Option<
     unsafe extern "C" fn(
         session: gnutls_session_t,
@@ -6500,17 +6158,6 @@ extern "C" {
         func: gnutls_handshake_secret_func,
     );
 }
-#[doc = " gnutls_alert_read_func:"]
-#[doc = " @session: the current session"]
-#[doc = " @level: #gnutls_record_encryption_level_t"]
-#[doc = " @alert_level: the level of the alert"]
-#[doc = " @alert_desc: the alert description"]
-#[doc = ""]
-#[doc = " Function prototype for alert intercepting hooks. It is set using"]
-#[doc = " gnutls_alert_set_read_function()."]
-#[doc = ""]
-#[doc = " Returns: Non zero on error."]
-#[doc = " Since: 3.7.0"]
 pub type gnutls_alert_read_func = ::std::option::Option<
     unsafe extern "C" fn(
         session: gnutls_session_t,
@@ -6530,20 +6177,6 @@ pub const gnutls_fips_mode_t_GNUTLS_FIPS140_STRICT: gnutls_fips_mode_t = 1;
 pub const gnutls_fips_mode_t_GNUTLS_FIPS140_SELFTESTS: gnutls_fips_mode_t = 2;
 pub const gnutls_fips_mode_t_GNUTLS_FIPS140_LAX: gnutls_fips_mode_t = 3;
 pub const gnutls_fips_mode_t_GNUTLS_FIPS140_LOG: gnutls_fips_mode_t = 4;
-#[doc = " gnutls_fips_mode_t:"]
-#[doc = " @GNUTLS_FIPS140_DISABLED: The FIPS140-2 mode is disabled."]
-#[doc = " @GNUTLS_FIPS140_STRICT: The default mode; all forbidden operations will cause an"]
-#[doc = "                         operation failure via error code."]
-#[doc = " @GNUTLS_FIPS140_LAX: The library still uses the FIPS140-2 relevant algorithms but all"]
-#[doc = "                      forbidden by FIPS140-2 operations are allowed; this is useful when the"]
-#[doc = "                      application is aware of the followed security policy, and needs"]
-#[doc = "                      to utilize disallowed operations for other reasons (e.g., compatibility)."]
-#[doc = " @GNUTLS_FIPS140_LOG: Similarly to %GNUTLS_FIPS140_LAX, it allows forbidden operations; any use of them results"]
-#[doc = "                      to a message to the audit callback functions."]
-#[doc = " @GNUTLS_FIPS140_SELFTESTS: A transient state during library initialization. That state"]
-#[doc = "\t\t\tcannot be set or seen by applications."]
-#[doc = ""]
-#[doc = " Enumeration of different operational modes under FIPS140-2."]
 pub type gnutls_fips_mode_t = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gnutls_fips140_set_mode(mode: gnutls_fips_mode_t, flags: ::std::os::raw::c_uint);
@@ -6570,25 +6203,6 @@ pub const gnutls_fips140_operation_state_t_GNUTLS_FIPS140_OP_NOT_APPROVED:
     gnutls_fips140_operation_state_t = 2;
 pub const gnutls_fips140_operation_state_t_GNUTLS_FIPS140_OP_ERROR:
     gnutls_fips140_operation_state_t = 3;
-#[doc = " gnutls_fips140_operation_state_t:"]
-#[doc = " @GNUTLS_FIPS140_OP_INITIAL: no previous operation has done"]
-#[doc = " @GNUTLS_FIPS140_OP_APPROVED: the previous operation was FIPS approved"]
-#[doc = " @GNUTLS_FIPS140_OP_NOT_APPROVED: the previous operation was not FIPS approved"]
-#[doc = " @GNUTLS_FIPS140_OP_ERROR: the previous operation caused an error regardless of FIPS"]
-#[doc = ""]
-#[doc = " The FIPS operation state set by the preceding operation."]
-#[doc = ""]
-#[doc = " There are state transition rules among the enum values:"]
-#[doc = " - When the context is attached to a thread, it will be set to reset"]
-#[doc = "   to the %GNUTLS_FIPS140_OP_INITIAL state"]
-#[doc = " - From the %GNUTLS_FIPS140_OP_INITIAL state, the context can"]
-#[doc = "   transition to either %GNUTLS_FIPS140_OP_APPROVED,"]
-#[doc = "   %GNUTLS_FIPS140_OP_NOT_APPROVED, or %GNUTLS_FIPS140_OP_ERROR"]
-#[doc = " - From the %GNUTLS_FIPS140_OP_APPROVED state, the context can"]
-#[doc = "   transition to %GNUTLS_FIPS140_OP_NOT_APPROVED"]
-#[doc = " - All other transitions are prohibited."]
-#[doc = ""]
-#[doc = " Since: 3.7.3"]
 pub type gnutls_fips140_operation_state_t = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gnutls_fips140_get_operation_state(
@@ -6690,227 +6304,1101 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 pub type key_data_t = gnutls_datum_t;
+pub type int_least8_t = __int_least8_t;
+pub type int_least16_t = __int_least16_t;
+pub type int_least32_t = __int_least32_t;
+pub type int_least64_t = __int_least64_t;
+pub type uint_least8_t = __uint_least8_t;
+pub type uint_least16_t = __uint_least16_t;
+pub type uint_least32_t = __uint_least32_t;
+pub type uint_least64_t = __uint_least64_t;
+pub type int_fast8_t = ::std::os::raw::c_schar;
+pub type int_fast16_t = ::std::os::raw::c_long;
+pub type int_fast32_t = ::std::os::raw::c_long;
+pub type int_fast64_t = ::std::os::raw::c_long;
+pub type uint_fast8_t = ::std::os::raw::c_uchar;
+pub type uint_fast16_t = ::std::os::raw::c_ulong;
+pub type uint_fast32_t = ::std::os::raw::c_ulong;
+pub type uint_fast64_t = ::std::os::raw::c_ulong;
+pub type intmax_t = __intmax_t;
+pub type uintmax_t = __uintmax_t;
 pub type va_list = __builtin_va_list;
 pub type __gnuc_va_list = __builtin_va_list;
-#[doc = " The basic plist abstract data type."]
-pub type plist_t = *mut ::std::os::raw::c_void;
-#[doc = " The plist dictionary iterator."]
-pub type plist_dict_iter = *mut ::std::os::raw::c_void;
-#[doc = " The plist array iterator."]
-pub type plist_array_iter = *mut ::std::os::raw::c_void;
-#[doc = "< Boolean, scalar type"]
-pub const plist_type_PLIST_BOOLEAN: plist_type = 0;
-#[doc = "< Unsigned integer, scalar type"]
-pub const plist_type_PLIST_UINT: plist_type = 1;
-#[doc = "< Real, scalar type"]
-pub const plist_type_PLIST_REAL: plist_type = 2;
-#[doc = "< ASCII string, scalar type"]
-pub const plist_type_PLIST_STRING: plist_type = 3;
-#[doc = "< Ordered array, structured type"]
-pub const plist_type_PLIST_ARRAY: plist_type = 4;
-#[doc = "< Unordered dictionary (key/value pair), structured type"]
-pub const plist_type_PLIST_DICT: plist_type = 5;
-#[doc = "< Date, scalar type"]
-pub const plist_type_PLIST_DATE: plist_type = 6;
-#[doc = "< Binary data, scalar type"]
-pub const plist_type_PLIST_DATA: plist_type = 7;
-#[doc = "< Key in dictionaries (ASCII String), scalar type"]
-pub const plist_type_PLIST_KEY: plist_type = 8;
-#[doc = "< Special type used for 'keyed encoding'"]
-pub const plist_type_PLIST_UID: plist_type = 9;
-#[doc = "< No type"]
-pub const plist_type_PLIST_NONE: plist_type = 10;
-#[doc = " The enumeration of plist node types."]
-pub type plist_type = ::std::os::raw::c_uint;
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub struct __mbstate_t {
+    pub __count: ::std::os::raw::c_int,
+    pub __value: __mbstate_t__bindgen_ty_1,
+}
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub union __mbstate_t__bindgen_ty_1 {
+    pub __wch: ::std::os::raw::c_uint,
+    pub __wchb: [::std::os::raw::c_char; 4usize],
+}
+#[test]
+fn bindgen_test_layout___mbstate_t__bindgen_ty_1() {
+    assert_eq!(
+        ::std::mem::size_of::<__mbstate_t__bindgen_ty_1>(),
+        4usize,
+        concat!("Size of: ", stringify!(__mbstate_t__bindgen_ty_1))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__mbstate_t__bindgen_ty_1>(),
+        4usize,
+        concat!("Alignment of ", stringify!(__mbstate_t__bindgen_ty_1))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__mbstate_t__bindgen_ty_1>())).__wch as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__mbstate_t__bindgen_ty_1),
+            "::",
+            stringify!(__wch)
+        )
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<__mbstate_t__bindgen_ty_1>())).__wchb as *const _ as usize
+        },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__mbstate_t__bindgen_ty_1),
+            "::",
+            stringify!(__wchb)
+        )
+    );
+}
+#[test]
+fn bindgen_test_layout___mbstate_t() {
+    assert_eq!(
+        ::std::mem::size_of::<__mbstate_t>(),
+        8usize,
+        concat!("Size of: ", stringify!(__mbstate_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__mbstate_t>(),
+        4usize,
+        concat!("Alignment of ", stringify!(__mbstate_t))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__mbstate_t>())).__count as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__mbstate_t),
+            "::",
+            stringify!(__count)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__mbstate_t>())).__value as *const _ as usize },
+        4usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__mbstate_t),
+            "::",
+            stringify!(__value)
+        )
+    );
+}
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub struct _G_fpos_t {
+    pub __pos: __off_t,
+    pub __state: __mbstate_t,
+}
+#[test]
+fn bindgen_test_layout__G_fpos_t() {
+    assert_eq!(
+        ::std::mem::size_of::<_G_fpos_t>(),
+        16usize,
+        concat!("Size of: ", stringify!(_G_fpos_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<_G_fpos_t>(),
+        8usize,
+        concat!("Alignment of ", stringify!(_G_fpos_t))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_G_fpos_t>())).__pos as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_G_fpos_t),
+            "::",
+            stringify!(__pos)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_G_fpos_t>())).__state as *const _ as usize },
+        8usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_G_fpos_t),
+            "::",
+            stringify!(__state)
+        )
+    );
+}
+pub type __fpos_t = _G_fpos_t;
+#[repr(C)]
+#[derive(Copy, Clone)]
+pub struct _G_fpos64_t {
+    pub __pos: __off64_t,
+    pub __state: __mbstate_t,
+}
+#[test]
+fn bindgen_test_layout__G_fpos64_t() {
+    assert_eq!(
+        ::std::mem::size_of::<_G_fpos64_t>(),
+        16usize,
+        concat!("Size of: ", stringify!(_G_fpos64_t))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<_G_fpos64_t>(),
+        8usize,
+        concat!("Alignment of ", stringify!(_G_fpos64_t))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_G_fpos64_t>())).__pos as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_G_fpos64_t),
+            "::",
+            stringify!(__pos)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_G_fpos64_t>())).__state as *const _ as usize },
+        8usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_G_fpos64_t),
+            "::",
+            stringify!(__state)
+        )
+    );
+}
+pub type __fpos64_t = _G_fpos64_t;
+pub type __FILE = _IO_FILE;
+pub type FILE = _IO_FILE;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct _IO_marker {
+    _unused: [u8; 0],
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct _IO_codecvt {
+    _unused: [u8; 0],
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct _IO_wide_data {
+    _unused: [u8; 0],
+}
+pub type _IO_lock_t = ::std::os::raw::c_void;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct _IO_FILE {
+    pub _flags: ::std::os::raw::c_int,
+    pub _IO_read_ptr: *mut ::std::os::raw::c_char,
+    pub _IO_read_end: *mut ::std::os::raw::c_char,
+    pub _IO_read_base: *mut ::std::os::raw::c_char,
+    pub _IO_write_base: *mut ::std::os::raw::c_char,
+    pub _IO_write_ptr: *mut ::std::os::raw::c_char,
+    pub _IO_write_end: *mut ::std::os::raw::c_char,
+    pub _IO_buf_base: *mut ::std::os::raw::c_char,
+    pub _IO_buf_end: *mut ::std::os::raw::c_char,
+    pub _IO_save_base: *mut ::std::os::raw::c_char,
+    pub _IO_backup_base: *mut ::std::os::raw::c_char,
+    pub _IO_save_end: *mut ::std::os::raw::c_char,
+    pub _markers: *mut _IO_marker,
+    pub _chain: *mut _IO_FILE,
+    pub _fileno: ::std::os::raw::c_int,
+    pub _flags2: ::std::os::raw::c_int,
+    pub _old_offset: __off_t,
+    pub _cur_column: ::std::os::raw::c_ushort,
+    pub _vtable_offset: ::std::os::raw::c_schar,
+    pub _shortbuf: [::std::os::raw::c_char; 1usize],
+    pub _lock: *mut _IO_lock_t,
+    pub _offset: __off64_t,
+    pub _codecvt: *mut _IO_codecvt,
+    pub _wide_data: *mut _IO_wide_data,
+    pub _freeres_list: *mut _IO_FILE,
+    pub _freeres_buf: *mut ::std::os::raw::c_void,
+    pub __pad5: size_t,
+    pub _mode: ::std::os::raw::c_int,
+    pub _unused2: [::std::os::raw::c_char; 20usize],
+}
+#[test]
+fn bindgen_test_layout__IO_FILE() {
+    assert_eq!(
+        ::std::mem::size_of::<_IO_FILE>(),
+        216usize,
+        concat!("Size of: ", stringify!(_IO_FILE))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<_IO_FILE>(),
+        8usize,
+        concat!("Alignment of ", stringify!(_IO_FILE))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._flags as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_flags)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._IO_read_ptr as *const _ as usize },
+        8usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_read_ptr)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._IO_read_end as *const _ as usize },
+        16usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_read_end)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._IO_read_base as *const _ as usize },
+        24usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_read_base)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._IO_write_base as *const _ as usize },
+        32usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_write_base)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._IO_write_ptr as *const _ as usize },
+        40usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_write_ptr)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._IO_write_end as *const _ as usize },
+        48usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_write_end)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._IO_buf_base as *const _ as usize },
+        56usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_buf_base)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._IO_buf_end as *const _ as usize },
+        64usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_buf_end)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._IO_save_base as *const _ as usize },
+        72usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_save_base)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._IO_backup_base as *const _ as usize },
+        80usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_backup_base)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._IO_save_end as *const _ as usize },
+        88usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_save_end)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._markers as *const _ as usize },
+        96usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_markers)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._chain as *const _ as usize },
+        104usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_chain)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._fileno as *const _ as usize },
+        112usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_fileno)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._flags2 as *const _ as usize },
+        116usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_flags2)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._old_offset as *const _ as usize },
+        120usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_old_offset)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._cur_column as *const _ as usize },
+        128usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_cur_column)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._vtable_offset as *const _ as usize },
+        130usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_vtable_offset)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._shortbuf as *const _ as usize },
+        131usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_shortbuf)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._lock as *const _ as usize },
+        136usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_lock)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._offset as *const _ as usize },
+        144usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_offset)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._codecvt as *const _ as usize },
+        152usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_codecvt)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._wide_data as *const _ as usize },
+        160usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_wide_data)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._freeres_list as *const _ as usize },
+        168usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_freeres_list)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._freeres_buf as *const _ as usize },
+        176usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_freeres_buf)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>())).__pad5 as *const _ as usize },
+        184usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(__pad5)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._mode as *const _ as usize },
+        192usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_mode)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_IO_FILE>()))._unused2 as *const _ as usize },
+        196usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_unused2)
+        )
+    );
+}
+pub type fpos_t = __fpos_t;
 extern "C" {
-    #[doc = " Create a new root plist_t type #PLIST_DICT"]
-    #[doc = ""]
-    #[doc = " @return the created plist"]
-    #[doc = " @sa #plist_type"]
+    pub static mut stdin: *mut FILE;
+}
+extern "C" {
+    pub static mut stdout: *mut FILE;
+}
+extern "C" {
+    pub static mut stderr: *mut FILE;
+}
+extern "C" {
+    pub fn remove(__filename: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn rename(
+        __old: *const ::std::os::raw::c_char,
+        __new: *const ::std::os::raw::c_char,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn renameat(
+        __oldfd: ::std::os::raw::c_int,
+        __old: *const ::std::os::raw::c_char,
+        __newfd: ::std::os::raw::c_int,
+        __new: *const ::std::os::raw::c_char,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn fclose(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn tmpfile() -> *mut FILE;
+}
+extern "C" {
+    pub fn tmpnam(arg1: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn tmpnam_r(__s: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn tempnam(
+        __dir: *const ::std::os::raw::c_char,
+        __pfx: *const ::std::os::raw::c_char,
+    ) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn fflush(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn fflush_unlocked(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn fopen(
+        __filename: *const ::std::os::raw::c_char,
+        __modes: *const ::std::os::raw::c_char,
+    ) -> *mut FILE;
+}
+extern "C" {
+    pub fn freopen(
+        __filename: *const ::std::os::raw::c_char,
+        __modes: *const ::std::os::raw::c_char,
+        __stream: *mut FILE,
+    ) -> *mut FILE;
+}
+extern "C" {
+    pub fn fdopen(__fd: ::std::os::raw::c_int, __modes: *const ::std::os::raw::c_char)
+        -> *mut FILE;
+}
+extern "C" {
+    pub fn fmemopen(
+        __s: *mut ::std::os::raw::c_void,
+        __len: size_t,
+        __modes: *const ::std::os::raw::c_char,
+    ) -> *mut FILE;
+}
+extern "C" {
+    pub fn open_memstream(
+        __bufloc: *mut *mut ::std::os::raw::c_char,
+        __sizeloc: *mut size_t,
+    ) -> *mut FILE;
+}
+extern "C" {
+    pub fn setbuf(__stream: *mut FILE, __buf: *mut ::std::os::raw::c_char);
+}
+extern "C" {
+    pub fn setvbuf(
+        __stream: *mut FILE,
+        __buf: *mut ::std::os::raw::c_char,
+        __modes: ::std::os::raw::c_int,
+        __n: size_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn setbuffer(__stream: *mut FILE, __buf: *mut ::std::os::raw::c_char, __size: size_t);
+}
+extern "C" {
+    pub fn setlinebuf(__stream: *mut FILE);
+}
+extern "C" {
+    pub fn fprintf(
+        __stream: *mut FILE,
+        __format: *const ::std::os::raw::c_char,
+        ...
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn printf(__format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn sprintf(
+        __s: *mut ::std::os::raw::c_char,
+        __format: *const ::std::os::raw::c_char,
+        ...
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn vfprintf(
+        __s: *mut FILE,
+        __format: *const ::std::os::raw::c_char,
+        __arg: *mut __va_list_tag,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn vprintf(
+        __format: *const ::std::os::raw::c_char,
+        __arg: *mut __va_list_tag,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn vsprintf(
+        __s: *mut ::std::os::raw::c_char,
+        __format: *const ::std::os::raw::c_char,
+        __arg: *mut __va_list_tag,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn snprintf(
+        __s: *mut ::std::os::raw::c_char,
+        __maxlen: ::std::os::raw::c_ulong,
+        __format: *const ::std::os::raw::c_char,
+        ...
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn vsnprintf(
+        __s: *mut ::std::os::raw::c_char,
+        __maxlen: ::std::os::raw::c_ulong,
+        __format: *const ::std::os::raw::c_char,
+        __arg: *mut __va_list_tag,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn vdprintf(
+        __fd: ::std::os::raw::c_int,
+        __fmt: *const ::std::os::raw::c_char,
+        __arg: *mut __va_list_tag,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn dprintf(
+        __fd: ::std::os::raw::c_int,
+        __fmt: *const ::std::os::raw::c_char,
+        ...
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn fscanf(
+        __stream: *mut FILE,
+        __format: *const ::std::os::raw::c_char,
+        ...
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn scanf(__format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn sscanf(
+        __s: *const ::std::os::raw::c_char,
+        __format: *const ::std::os::raw::c_char,
+        ...
+    ) -> ::std::os::raw::c_int;
+}
+pub type _Float32 = f32;
+pub type _Float64 = f64;
+pub type _Float32x = f64;
+pub type _Float64x = u128;
+extern "C" {
+    #[link_name = "\u{1}__isoc99_fscanf"]
+    pub fn fscanf1(
+        __stream: *mut FILE,
+        __format: *const ::std::os::raw::c_char,
+        ...
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    #[link_name = "\u{1}__isoc99_scanf"]
+    pub fn scanf1(__format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    #[link_name = "\u{1}__isoc99_sscanf"]
+    pub fn sscanf1(
+        __s: *const ::std::os::raw::c_char,
+        __format: *const ::std::os::raw::c_char,
+        ...
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn vfscanf(
+        __s: *mut FILE,
+        __format: *const ::std::os::raw::c_char,
+        __arg: *mut __va_list_tag,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn vscanf(
+        __format: *const ::std::os::raw::c_char,
+        __arg: *mut __va_list_tag,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn vsscanf(
+        __s: *const ::std::os::raw::c_char,
+        __format: *const ::std::os::raw::c_char,
+        __arg: *mut __va_list_tag,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    #[link_name = "\u{1}__isoc99_vfscanf"]
+    pub fn vfscanf1(
+        __s: *mut FILE,
+        __format: *const ::std::os::raw::c_char,
+        __arg: *mut __va_list_tag,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    #[link_name = "\u{1}__isoc99_vscanf"]
+    pub fn vscanf1(
+        __format: *const ::std::os::raw::c_char,
+        __arg: *mut __va_list_tag,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    #[link_name = "\u{1}__isoc99_vsscanf"]
+    pub fn vsscanf1(
+        __s: *const ::std::os::raw::c_char,
+        __format: *const ::std::os::raw::c_char,
+        __arg: *mut __va_list_tag,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn fgetc(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn getc(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn getchar() -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn getc_unlocked(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn getchar_unlocked() -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn fgetc_unlocked(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn fputc(__c: ::std::os::raw::c_int, __stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn putc(__c: ::std::os::raw::c_int, __stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn putchar(__c: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn fputc_unlocked(__c: ::std::os::raw::c_int, __stream: *mut FILE)
+        -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn putc_unlocked(__c: ::std::os::raw::c_int, __stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn putchar_unlocked(__c: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn getw(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn putw(__w: ::std::os::raw::c_int, __stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn fgets(
+        __s: *mut ::std::os::raw::c_char,
+        __n: ::std::os::raw::c_int,
+        __stream: *mut FILE,
+    ) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn __getdelim(
+        __lineptr: *mut *mut ::std::os::raw::c_char,
+        __n: *mut size_t,
+        __delimiter: ::std::os::raw::c_int,
+        __stream: *mut FILE,
+    ) -> __ssize_t;
+}
+extern "C" {
+    pub fn getdelim(
+        __lineptr: *mut *mut ::std::os::raw::c_char,
+        __n: *mut size_t,
+        __delimiter: ::std::os::raw::c_int,
+        __stream: *mut FILE,
+    ) -> __ssize_t;
+}
+extern "C" {
+    pub fn getline(
+        __lineptr: *mut *mut ::std::os::raw::c_char,
+        __n: *mut size_t,
+        __stream: *mut FILE,
+    ) -> __ssize_t;
+}
+extern "C" {
+    pub fn fputs(__s: *const ::std::os::raw::c_char, __stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn puts(__s: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn ungetc(__c: ::std::os::raw::c_int, __stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn fread(
+        __ptr: *mut ::std::os::raw::c_void,
+        __size: ::std::os::raw::c_ulong,
+        __n: ::std::os::raw::c_ulong,
+        __stream: *mut FILE,
+    ) -> ::std::os::raw::c_ulong;
+}
+extern "C" {
+    pub fn fwrite(
+        __ptr: *const ::std::os::raw::c_void,
+        __size: ::std::os::raw::c_ulong,
+        __n: ::std::os::raw::c_ulong,
+        __s: *mut FILE,
+    ) -> ::std::os::raw::c_ulong;
+}
+extern "C" {
+    pub fn fread_unlocked(
+        __ptr: *mut ::std::os::raw::c_void,
+        __size: size_t,
+        __n: size_t,
+        __stream: *mut FILE,
+    ) -> size_t;
+}
+extern "C" {
+    pub fn fwrite_unlocked(
+        __ptr: *const ::std::os::raw::c_void,
+        __size: size_t,
+        __n: size_t,
+        __stream: *mut FILE,
+    ) -> size_t;
+}
+extern "C" {
+    pub fn fseek(
+        __stream: *mut FILE,
+        __off: ::std::os::raw::c_long,
+        __whence: ::std::os::raw::c_int,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn ftell(__stream: *mut FILE) -> ::std::os::raw::c_long;
+}
+extern "C" {
+    pub fn rewind(__stream: *mut FILE);
+}
+extern "C" {
+    pub fn fseeko(
+        __stream: *mut FILE,
+        __off: __off_t,
+        __whence: ::std::os::raw::c_int,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn ftello(__stream: *mut FILE) -> __off_t;
+}
+extern "C" {
+    pub fn fgetpos(__stream: *mut FILE, __pos: *mut fpos_t) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn fsetpos(__stream: *mut FILE, __pos: *const fpos_t) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn clearerr(__stream: *mut FILE);
+}
+extern "C" {
+    pub fn feof(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn ferror(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn clearerr_unlocked(__stream: *mut FILE);
+}
+extern "C" {
+    pub fn feof_unlocked(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn ferror_unlocked(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn perror(__s: *const ::std::os::raw::c_char);
+}
+extern "C" {
+    pub fn fileno(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn fileno_unlocked(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn pclose(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn popen(
+        __command: *const ::std::os::raw::c_char,
+        __modes: *const ::std::os::raw::c_char,
+    ) -> *mut FILE;
+}
+extern "C" {
+    pub fn ctermid(__s: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn flockfile(__stream: *mut FILE);
+}
+extern "C" {
+    pub fn ftrylockfile(__stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn funlockfile(__stream: *mut FILE);
+}
+extern "C" {
+    pub fn __uflow(arg1: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __overflow(arg1: *mut FILE, arg2: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
+}
+pub type plist_t = *mut ::std::os::raw::c_void;
+pub type plist_dict_iter = *mut ::std::os::raw::c_void;
+pub type plist_array_iter = *mut ::std::os::raw::c_void;
+pub const plist_type_PLIST_NONE: plist_type = -1;
+pub const plist_type_PLIST_BOOLEAN: plist_type = 0;
+pub const plist_type_PLIST_INT: plist_type = 1;
+pub const plist_type_PLIST_REAL: plist_type = 2;
+pub const plist_type_PLIST_STRING: plist_type = 3;
+pub const plist_type_PLIST_ARRAY: plist_type = 4;
+pub const plist_type_PLIST_DICT: plist_type = 5;
+pub const plist_type_PLIST_DATE: plist_type = 6;
+pub const plist_type_PLIST_DATA: plist_type = 7;
+pub const plist_type_PLIST_KEY: plist_type = 8;
+pub const plist_type_PLIST_UID: plist_type = 9;
+pub const plist_type_PLIST_NULL: plist_type = 10;
+pub type plist_type = ::std::os::raw::c_int;
+pub const plist_err_t_PLIST_ERR_SUCCESS: plist_err_t = 0;
+pub const plist_err_t_PLIST_ERR_INVALID_ARG: plist_err_t = -1;
+pub const plist_err_t_PLIST_ERR_FORMAT: plist_err_t = -2;
+pub const plist_err_t_PLIST_ERR_PARSE: plist_err_t = -3;
+pub const plist_err_t_PLIST_ERR_NO_MEM: plist_err_t = -4;
+pub const plist_err_t_PLIST_ERR_IO: plist_err_t = -5;
+pub const plist_err_t_PLIST_ERR_UNKNOWN: plist_err_t = -255;
+pub type plist_err_t = ::std::os::raw::c_int;
+pub const plist_format_t_PLIST_FORMAT_NONE: plist_format_t = 0;
+pub const plist_format_t_PLIST_FORMAT_XML: plist_format_t = 1;
+pub const plist_format_t_PLIST_FORMAT_BINARY: plist_format_t = 2;
+pub const plist_format_t_PLIST_FORMAT_JSON: plist_format_t = 3;
+pub const plist_format_t_PLIST_FORMAT_OSTEP: plist_format_t = 4;
+pub const plist_format_t_PLIST_FORMAT_PRINT: plist_format_t = 10;
+pub const plist_format_t_PLIST_FORMAT_LIMD: plist_format_t = 11;
+pub const plist_format_t_PLIST_FORMAT_PLUTIL: plist_format_t = 12;
+pub type plist_format_t = ::std::os::raw::c_uint;
+pub const plist_write_options_t_PLIST_OPT_NONE: plist_write_options_t = 0;
+pub const plist_write_options_t_PLIST_OPT_COMPACT: plist_write_options_t = 1;
+pub const plist_write_options_t_PLIST_OPT_PARTIAL_DATA: plist_write_options_t = 2;
+pub const plist_write_options_t_PLIST_OPT_NO_NEWLINE: plist_write_options_t = 4;
+pub const plist_write_options_t_PLIST_OPT_INDENT: plist_write_options_t = 8;
+pub type plist_write_options_t = ::std::os::raw::c_uint;
+extern "C" {
     pub fn plist_new_dict() -> plist_t;
 }
 extern "C" {
-    #[doc = " Create a new root plist_t type #PLIST_ARRAY"]
-    #[doc = ""]
-    #[doc = " @return the created plist"]
-    #[doc = " @sa #plist_type"]
     pub fn plist_new_array() -> plist_t;
 }
 extern "C" {
-    #[doc = " Create a new plist_t type #PLIST_STRING"]
-    #[doc = ""]
-    #[doc = " @param val the sting value, encoded in UTF8."]
-    #[doc = " @return the created item"]
-    #[doc = " @sa #plist_type"]
     pub fn plist_new_string(val: *const ::std::os::raw::c_char) -> plist_t;
 }
 extern "C" {
-    #[doc = " Create a new plist_t type #PLIST_BOOLEAN"]
-    #[doc = ""]
-    #[doc = " @param val the boolean value, 0 is false, other values are true."]
-    #[doc = " @return the created item"]
-    #[doc = " @sa #plist_type"]
     pub fn plist_new_bool(val: u8) -> plist_t;
 }
 extern "C" {
-    #[doc = " Create a new plist_t type #PLIST_UINT"]
-    #[doc = ""]
-    #[doc = " @param val the unsigned integer value"]
-    #[doc = " @return the created item"]
-    #[doc = " @sa #plist_type"]
     pub fn plist_new_uint(val: u64) -> plist_t;
 }
 extern "C" {
-    #[doc = " Create a new plist_t type #PLIST_REAL"]
-    #[doc = ""]
-    #[doc = " @param val the real value"]
-    #[doc = " @return the created item"]
-    #[doc = " @sa #plist_type"]
+    pub fn plist_new_int(val: i64) -> plist_t;
+}
+extern "C" {
     pub fn plist_new_real(val: f64) -> plist_t;
 }
 extern "C" {
-    #[doc = " Create a new plist_t type #PLIST_DATA"]
-    #[doc = ""]
-    #[doc = " @param val the binary buffer"]
-    #[doc = " @param length the length of the buffer"]
-    #[doc = " @return the created item"]
-    #[doc = " @sa #plist_type"]
     pub fn plist_new_data(val: *const ::std::os::raw::c_char, length: u64) -> plist_t;
 }
 extern "C" {
-    #[doc = " Create a new plist_t type #PLIST_DATE"]
-    #[doc = ""]
-    #[doc = " @param sec the number of seconds since 01/01/2001"]
-    #[doc = " @param usec the number of microseconds"]
-    #[doc = " @return the created item"]
-    #[doc = " @sa #plist_type"]
     pub fn plist_new_date(sec: i32, usec: i32) -> plist_t;
 }
 extern "C" {
-    #[doc = " Create a new plist_t type #PLIST_UID"]
-    #[doc = ""]
-    #[doc = " @param val the unsigned integer value"]
-    #[doc = " @return the created item"]
-    #[doc = " @sa #plist_type"]
     pub fn plist_new_uid(val: u64) -> plist_t;
 }
 extern "C" {
-    #[doc = " Destruct a plist_t node and all its children recursively"]
-    #[doc = ""]
-    #[doc = " @param plist the plist to free"]
+    pub fn plist_new_null() -> plist_t;
+}
+extern "C" {
     pub fn plist_free(plist: plist_t);
 }
 extern "C" {
-    #[doc = " Return a copy of passed node and it's children"]
-    #[doc = ""]
-    #[doc = " @param node the plist to copy"]
-    #[doc = " @return copied plist"]
     pub fn plist_copy(node: plist_t) -> plist_t;
 }
 extern "C" {
-    #[doc = " Get size of a #PLIST_ARRAY node."]
-    #[doc = ""]
-    #[doc = " @param node the node of type #PLIST_ARRAY"]
-    #[doc = " @return size of the #PLIST_ARRAY node"]
     pub fn plist_array_get_size(node: plist_t) -> u32;
 }
 extern "C" {
-    #[doc = " Get the nth item in a #PLIST_ARRAY node."]
-    #[doc = ""]
-    #[doc = " @param node the node of type #PLIST_ARRAY"]
-    #[doc = " @param n the index of the item to get. Range is [0, array_size["]
-    #[doc = " @return the nth item or NULL if node is not of type #PLIST_ARRAY"]
     pub fn plist_array_get_item(node: plist_t, n: u32) -> plist_t;
 }
 extern "C" {
-    #[doc = " Get the index of an item. item must be a member of a #PLIST_ARRAY node."]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @return the node index or UINT_MAX if node index can't be determined"]
     pub fn plist_array_get_item_index(node: plist_t) -> u32;
 }
 extern "C" {
-    #[doc = " Set the nth item in a #PLIST_ARRAY node."]
-    #[doc = " The previous item at index n will be freed using #plist_free"]
-    #[doc = ""]
-    #[doc = " @param node the node of type #PLIST_ARRAY"]
-    #[doc = " @param item the new item at index n. The array is responsible for freeing item when it is no longer needed."]
-    #[doc = " @param n the index of the item to get. Range is [0, array_size[. Assert if n is not in range."]
     pub fn plist_array_set_item(node: plist_t, item: plist_t, n: u32);
 }
 extern "C" {
-    #[doc = " Append a new item at the end of a #PLIST_ARRAY node."]
-    #[doc = ""]
-    #[doc = " @param node the node of type #PLIST_ARRAY"]
-    #[doc = " @param item the new item. The array is responsible for freeing item when it is no longer needed."]
     pub fn plist_array_append_item(node: plist_t, item: plist_t);
 }
 extern "C" {
-    #[doc = " Insert a new item at position n in a #PLIST_ARRAY node."]
-    #[doc = ""]
-    #[doc = " @param node the node of type #PLIST_ARRAY"]
-    #[doc = " @param item the new item to insert. The array is responsible for freeing item when it is no longer needed."]
-    #[doc = " @param n The position at which the node will be stored. Range is [0, array_size[. Assert if n is not in range."]
     pub fn plist_array_insert_item(node: plist_t, item: plist_t, n: u32);
 }
 extern "C" {
-    #[doc = " Remove an existing position in a #PLIST_ARRAY node."]
-    #[doc = " Removed position will be freed using #plist_free."]
-    #[doc = ""]
-    #[doc = " @param node the node of type #PLIST_ARRAY"]
-    #[doc = " @param n The position to remove. Range is [0, array_size[. Assert if n is not in range."]
     pub fn plist_array_remove_item(node: plist_t, n: u32);
 }
 extern "C" {
-    #[doc = " Remove a node that is a child node of a #PLIST_ARRAY node."]
-    #[doc = " node will be freed using #plist_free."]
-    #[doc = ""]
-    #[doc = " @param node The node to be removed from its #PLIST_ARRAY parent."]
     pub fn plist_array_item_remove(node: plist_t);
 }
 extern "C" {
-    #[doc = " Create an iterator of a #PLIST_ARRAY node."]
-    #[doc = " The allocated iterator should be freed with the standard free function."]
-    #[doc = ""]
-    #[doc = " @param node The node of type #PLIST_ARRAY"]
-    #[doc = " @param iter Location to store the iterator for the array."]
     pub fn plist_array_new_iter(node: plist_t, iter: *mut plist_array_iter);
 }
 extern "C" {
-    #[doc = " Increment iterator of a #PLIST_ARRAY node."]
-    #[doc = ""]
-    #[doc = " @param node The node of type #PLIST_ARRAY."]
-    #[doc = " @param iter Iterator of the array"]
-    #[doc = " @param item Location to store the item. The caller must *not* free the"]
-    #[doc = "          returned item. Will be set to NULL when no more items are left"]
-    #[doc = "          to iterate."]
     pub fn plist_array_next_item(node: plist_t, iter: plist_array_iter, item: *mut plist_t);
 }
 extern "C" {
-    #[doc = " Get size of a #PLIST_DICT node."]
-    #[doc = ""]
-    #[doc = " @param node the node of type #PLIST_DICT"]
-    #[doc = " @return size of the #PLIST_DICT node"]
     pub fn plist_dict_get_size(node: plist_t) -> u32;
 }
 extern "C" {
-    #[doc = " Create an iterator of a #PLIST_DICT node."]
-    #[doc = " The allocated iterator should be freed with the standard free function."]
-    #[doc = ""]
-    #[doc = " @param node The node of type #PLIST_DICT."]
-    #[doc = " @param iter Location to store the iterator for the dictionary."]
     pub fn plist_dict_new_iter(node: plist_t, iter: *mut plist_dict_iter);
 }
 extern "C" {
-    #[doc = " Increment iterator of a #PLIST_DICT node."]
-    #[doc = ""]
-    #[doc = " @param node The node of type #PLIST_DICT"]
-    #[doc = " @param iter Iterator of the dictionary"]
-    #[doc = " @param key Location to store the key, or NULL. The caller is responsible"]
-    #[doc = "\t\tfor freeing the the returned string."]
-    #[doc = " @param val Location to store the value, or NULL. The caller must *not*"]
-    #[doc = "\t\tfree the returned value. Will be set to NULL when no more"]
-    #[doc = "\t\tkey/value pairs are left to iterate."]
     pub fn plist_dict_next_item(
         node: plist_t,
         iter: plist_dict_iter,
@@ -6919,140 +7407,108 @@ extern "C" {
     );
 }
 extern "C" {
-    #[doc = " Get key associated key to an item. Item must be member of a dictionary."]
-    #[doc = ""]
-    #[doc = " @param node the item"]
-    #[doc = " @param key a location to store the key. The caller is responsible for freeing the returned string."]
     pub fn plist_dict_get_item_key(node: plist_t, key: *mut *mut ::std::os::raw::c_char);
 }
 extern "C" {
-    #[doc = " Get the nth item in a #PLIST_DICT node."]
-    #[doc = ""]
-    #[doc = " @param node the node of type #PLIST_DICT"]
-    #[doc = " @param key the identifier of the item to get."]
-    #[doc = " @return the item or NULL if node is not of type #PLIST_DICT. The caller should not free"]
-    #[doc = "\t\tthe returned node."]
     pub fn plist_dict_get_item(node: plist_t, key: *const ::std::os::raw::c_char) -> plist_t;
 }
 extern "C" {
-    #[doc = " Get key node associated to an item. Item must be member of a dictionary."]
-    #[doc = ""]
-    #[doc = " @param node the item"]
-    #[doc = " @return the key node of the given item, or NULL."]
     pub fn plist_dict_item_get_key(node: plist_t) -> plist_t;
 }
 extern "C" {
-    #[doc = " Set item identified by key in a #PLIST_DICT node."]
-    #[doc = " The previous item identified by key will be freed using #plist_free."]
-    #[doc = " If there is no item for the given key a new item will be inserted."]
-    #[doc = ""]
-    #[doc = " @param node the node of type #PLIST_DICT"]
-    #[doc = " @param item the new item associated to key"]
-    #[doc = " @param key the identifier of the item to set."]
     pub fn plist_dict_set_item(node: plist_t, key: *const ::std::os::raw::c_char, item: plist_t);
 }
 extern "C" {
-    #[doc = " Insert a new item into a #PLIST_DICT node."]
-    #[doc = ""]
-    #[doc = " @deprecated Deprecated. Use plist_dict_set_item instead."]
-    #[doc = ""]
-    #[doc = " @param node the node of type #PLIST_DICT"]
-    #[doc = " @param item the new item to insert"]
-    #[doc = " @param key The identifier of the item to insert."]
-    pub fn plist_dict_insert_item(node: plist_t, key: *const ::std::os::raw::c_char, item: plist_t);
-}
-extern "C" {
-    #[doc = " Remove an existing position in a #PLIST_DICT node."]
-    #[doc = " Removed position will be freed using #plist_free"]
-    #[doc = ""]
-    #[doc = " @param node the node of type #PLIST_DICT"]
-    #[doc = " @param key The identifier of the item to remove. Assert if identifier is not present."]
     pub fn plist_dict_remove_item(node: plist_t, key: *const ::std::os::raw::c_char);
 }
 extern "C" {
-    #[doc = " Merge a dictionary into another. This will add all key/value pairs"]
-    #[doc = " from the source dictionary to the target dictionary, overwriting"]
-    #[doc = " any existing key/value pairs that are already present in target."]
-    #[doc = ""]
-    #[doc = " @param target pointer to an existing node of type #PLIST_DICT"]
-    #[doc = " @param source node of type #PLIST_DICT that should be merged into target"]
     pub fn plist_dict_merge(target: *mut plist_t, source: plist_t);
 }
 extern "C" {
-    #[doc = " Get the parent of a node"]
-    #[doc = ""]
-    #[doc = " @param node the parent (NULL if node is root)"]
+    pub fn plist_dict_get_bool(dict: plist_t, key: *const ::std::os::raw::c_char) -> u8;
+}
+extern "C" {
+    pub fn plist_dict_get_int(dict: plist_t, key: *const ::std::os::raw::c_char) -> i64;
+}
+extern "C" {
+    pub fn plist_dict_get_uint(dict: plist_t, key: *const ::std::os::raw::c_char) -> u64;
+}
+extern "C" {
+    pub fn plist_dict_copy_item(
+        target_dict: plist_t,
+        source_dict: plist_t,
+        key: *const ::std::os::raw::c_char,
+        alt_source_key: *const ::std::os::raw::c_char,
+    ) -> plist_err_t;
+}
+extern "C" {
+    pub fn plist_dict_copy_bool(
+        target_dict: plist_t,
+        source_dict: plist_t,
+        key: *const ::std::os::raw::c_char,
+        alt_source_key: *const ::std::os::raw::c_char,
+    ) -> plist_err_t;
+}
+extern "C" {
+    pub fn plist_dict_copy_int(
+        target_dict: plist_t,
+        source_dict: plist_t,
+        key: *const ::std::os::raw::c_char,
+        alt_source_key: *const ::std::os::raw::c_char,
+    ) -> plist_err_t;
+}
+extern "C" {
+    pub fn plist_dict_copy_uint(
+        target_dict: plist_t,
+        source_dict: plist_t,
+        key: *const ::std::os::raw::c_char,
+        alt_source_key: *const ::std::os::raw::c_char,
+    ) -> plist_err_t;
+}
+extern "C" {
+    pub fn plist_dict_copy_data(
+        target_dict: plist_t,
+        source_dict: plist_t,
+        key: *const ::std::os::raw::c_char,
+        alt_source_key: *const ::std::os::raw::c_char,
+    ) -> plist_err_t;
+}
+extern "C" {
+    pub fn plist_dict_copy_string(
+        target_dict: plist_t,
+        source_dict: plist_t,
+        key: *const ::std::os::raw::c_char,
+        alt_source_key: *const ::std::os::raw::c_char,
+    ) -> plist_err_t;
+}
+extern "C" {
     pub fn plist_get_parent(node: plist_t) -> plist_t;
 }
 extern "C" {
-    #[doc = " Get the #plist_type of a node."]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @return the type of the node"]
     pub fn plist_get_node_type(node: plist_t) -> plist_type;
 }
 extern "C" {
-    #[doc = " Get the value of a #PLIST_KEY node."]
-    #[doc = " This function does nothing if node is not of type #PLIST_KEY"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val a pointer to a C-string. This function allocates the memory,"]
-    #[doc = "            caller is responsible for freeing it."]
     pub fn plist_get_key_val(node: plist_t, val: *mut *mut ::std::os::raw::c_char);
 }
 extern "C" {
-    #[doc = " Get the value of a #PLIST_STRING node."]
-    #[doc = " This function does nothing if node is not of type #PLIST_STRING"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val a pointer to a C-string. This function allocates the memory,"]
-    #[doc = "            caller is responsible for freeing it. Data is UTF-8 encoded."]
     pub fn plist_get_string_val(node: plist_t, val: *mut *mut ::std::os::raw::c_char);
 }
 extern "C" {
-    #[doc = " Get a pointer to the buffer of a #PLIST_STRING node."]
-    #[doc = ""]
-    #[doc = " @note DO NOT MODIFY the buffer. Mind that the buffer is only available"]
-    #[doc = "   until the plist node gets freed. Make a copy if needed."]
-    #[doc = ""]
-    #[doc = " @param node The node"]
-    #[doc = " @param length If non-NULL, will be set to the length of the string"]
-    #[doc = ""]
-    #[doc = " @return Pointer to the NULL-terminated buffer."]
     pub fn plist_get_string_ptr(node: plist_t, length: *mut u64) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
-    #[doc = " Get the value of a #PLIST_BOOLEAN node."]
-    #[doc = " This function does nothing if node is not of type #PLIST_BOOLEAN"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val a pointer to a uint8_t variable."]
     pub fn plist_get_bool_val(node: plist_t, val: *mut u8);
 }
 extern "C" {
-    #[doc = " Get the value of a #PLIST_UINT node."]
-    #[doc = " This function does nothing if node is not of type #PLIST_UINT"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val a pointer to a uint64_t variable."]
     pub fn plist_get_uint_val(node: plist_t, val: *mut u64);
 }
 extern "C" {
-    #[doc = " Get the value of a #PLIST_REAL node."]
-    #[doc = " This function does nothing if node is not of type #PLIST_REAL"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val a pointer to a double variable."]
+    pub fn plist_get_int_val(node: plist_t, val: *mut i64);
+}
+extern "C" {
     pub fn plist_get_real_val(node: plist_t, val: *mut f64);
 }
 extern "C" {
-    #[doc = " Get the value of a #PLIST_DATA node."]
-    #[doc = " This function does nothing if node is not of type #PLIST_DATA"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val a pointer to an unallocated char buffer. This function allocates the memory,"]
-    #[doc = "            caller is responsible for freeing it."]
-    #[doc = " @param length the length of the buffer"]
     pub fn plist_get_data_val(
         node: plist_t,
         val: *mut *mut ::std::os::raw::c_char,
@@ -7060,277 +7516,176 @@ extern "C" {
     );
 }
 extern "C" {
-    #[doc = " Get a pointer to the data buffer of a #PLIST_DATA node."]
-    #[doc = ""]
-    #[doc = " @note DO NOT MODIFY the buffer. Mind that the buffer is only available"]
-    #[doc = "   until the plist node gets freed. Make a copy if needed."]
-    #[doc = ""]
-    #[doc = " @param node The node"]
-    #[doc = " @param length Pointer to a uint64_t that will be set to the length of the buffer"]
-    #[doc = ""]
-    #[doc = " @return Pointer to the buffer"]
     pub fn plist_get_data_ptr(node: plist_t, length: *mut u64) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
-    #[doc = " Get the value of a #PLIST_DATE node."]
-    #[doc = " This function does nothing if node is not of type #PLIST_DATE"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param sec a pointer to an int32_t variable. Represents the number of seconds since 01/01/2001."]
-    #[doc = " @param usec a pointer to an int32_t variable. Represents the number of microseconds"]
     pub fn plist_get_date_val(node: plist_t, sec: *mut i32, usec: *mut i32);
 }
 extern "C" {
-    #[doc = " Get the value of a #PLIST_UID node."]
-    #[doc = " This function does nothing if node is not of type #PLIST_UID"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val a pointer to a uint64_t variable."]
     pub fn plist_get_uid_val(node: plist_t, val: *mut u64);
 }
 extern "C" {
-    #[doc = " Set the value of a node."]
-    #[doc = " Forces type of node to #PLIST_KEY"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val the key value"]
     pub fn plist_set_key_val(node: plist_t, val: *const ::std::os::raw::c_char);
 }
 extern "C" {
-    #[doc = " Set the value of a node."]
-    #[doc = " Forces type of node to #PLIST_STRING"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val the string value. The string is copied when set and will be"]
-    #[doc = "\t\tfreed by the node."]
     pub fn plist_set_string_val(node: plist_t, val: *const ::std::os::raw::c_char);
 }
 extern "C" {
-    #[doc = " Set the value of a node."]
-    #[doc = " Forces type of node to #PLIST_BOOLEAN"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val the boolean value"]
     pub fn plist_set_bool_val(node: plist_t, val: u8);
 }
 extern "C" {
-    #[doc = " Set the value of a node."]
-    #[doc = " Forces type of node to #PLIST_UINT"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val the unsigned integer value"]
     pub fn plist_set_uint_val(node: plist_t, val: u64);
 }
 extern "C" {
-    #[doc = " Set the value of a node."]
-    #[doc = " Forces type of node to #PLIST_REAL"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val the real value"]
+    pub fn plist_set_int_val(node: plist_t, val: i64);
+}
+extern "C" {
     pub fn plist_set_real_val(node: plist_t, val: f64);
 }
 extern "C" {
-    #[doc = " Set the value of a node."]
-    #[doc = " Forces type of node to #PLIST_DATA"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val the binary buffer. The buffer is copied when set and will"]
-    #[doc = "\t\tbe freed by the node."]
-    #[doc = " @param length the length of the buffer"]
     pub fn plist_set_data_val(node: plist_t, val: *const ::std::os::raw::c_char, length: u64);
 }
 extern "C" {
-    #[doc = " Set the value of a node."]
-    #[doc = " Forces type of node to #PLIST_DATE"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param sec the number of seconds since 01/01/2001"]
-    #[doc = " @param usec the number of microseconds"]
     pub fn plist_set_date_val(node: plist_t, sec: i32, usec: i32);
 }
 extern "C" {
-    #[doc = " Set the value of a node."]
-    #[doc = " Forces type of node to #PLIST_UID"]
-    #[doc = ""]
-    #[doc = " @param node the node"]
-    #[doc = " @param val the unsigned integer value"]
     pub fn plist_set_uid_val(node: plist_t, val: u64);
 }
 extern "C" {
-    #[doc = " Export the #plist_t structure to XML format."]
-    #[doc = ""]
-    #[doc = " @param plist the root node to export"]
-    #[doc = " @param plist_xml a pointer to a C-string. This function allocates the memory,"]
-    #[doc = "            caller is responsible for freeing it. Data is UTF-8 encoded."]
-    #[doc = " @param length a pointer to an uint32_t variable. Represents the length of the allocated buffer."]
     pub fn plist_to_xml(
         plist: plist_t,
         plist_xml: *mut *mut ::std::os::raw::c_char,
         length: *mut u32,
-    );
+    ) -> plist_err_t;
 }
 extern "C" {
-    #[doc = " Frees the memory allocated by plist_to_xml()."]
-    #[doc = ""]
-    #[doc = " @param plist_xml The buffer allocated by plist_to_xml()."]
-    pub fn plist_to_xml_free(plist_xml: *mut ::std::os::raw::c_char);
-}
-extern "C" {
-    #[doc = " Export the #plist_t structure to binary format."]
-    #[doc = ""]
-    #[doc = " @param plist the root node to export"]
-    #[doc = " @param plist_bin a pointer to a char* buffer. This function allocates the memory,"]
-    #[doc = "            caller is responsible for freeing it."]
-    #[doc = " @param length a pointer to an uint32_t variable. Represents the length of the allocated buffer."]
     pub fn plist_to_bin(
         plist: plist_t,
         plist_bin: *mut *mut ::std::os::raw::c_char,
         length: *mut u32,
-    );
+    ) -> plist_err_t;
 }
 extern "C" {
-    #[doc = " Frees the memory allocated by plist_to_bin()."]
-    #[doc = ""]
-    #[doc = " @param plist_bin The buffer allocated by plist_to_bin()."]
-    pub fn plist_to_bin_free(plist_bin: *mut ::std::os::raw::c_char);
+    pub fn plist_to_json(
+        plist: plist_t,
+        plist_json: *mut *mut ::std::os::raw::c_char,
+        length: *mut u32,
+        prettify: ::std::os::raw::c_int,
+    ) -> plist_err_t;
 }
 extern "C" {
-    #[doc = " Import the #plist_t structure from XML format."]
-    #[doc = ""]
-    #[doc = " @param plist_xml a pointer to the xml buffer."]
-    #[doc = " @param length length of the buffer to read."]
-    #[doc = " @param plist a pointer to the imported plist."]
+    pub fn plist_to_openstep(
+        plist: plist_t,
+        plist_openstep: *mut *mut ::std::os::raw::c_char,
+        length: *mut u32,
+        prettify: ::std::os::raw::c_int,
+    ) -> plist_err_t;
+}
+extern "C" {
     pub fn plist_from_xml(
         plist_xml: *const ::std::os::raw::c_char,
         length: u32,
         plist: *mut plist_t,
-    );
+    ) -> plist_err_t;
 }
 extern "C" {
-    #[doc = " Import the #plist_t structure from binary format."]
-    #[doc = ""]
-    #[doc = " @param plist_bin a pointer to the xml buffer."]
-    #[doc = " @param length length of the buffer to read."]
-    #[doc = " @param plist a pointer to the imported plist."]
     pub fn plist_from_bin(
         plist_bin: *const ::std::os::raw::c_char,
         length: u32,
         plist: *mut plist_t,
-    );
+    ) -> plist_err_t;
 }
 extern "C" {
-    #[doc = " Import the #plist_t structure from memory data."]
-    #[doc = " This method will look at the first bytes of plist_data"]
-    #[doc = " to determine if plist_data contains a binary or XML plist."]
-    #[doc = ""]
-    #[doc = " @param plist_data a pointer to the memory buffer containing plist data."]
-    #[doc = " @param length length of the buffer to read."]
-    #[doc = " @param plist a pointer to the imported plist."]
+    pub fn plist_from_json(
+        json: *const ::std::os::raw::c_char,
+        length: u32,
+        plist: *mut plist_t,
+    ) -> plist_err_t;
+}
+extern "C" {
+    pub fn plist_from_openstep(
+        openstep: *const ::std::os::raw::c_char,
+        length: u32,
+        plist: *mut plist_t,
+    ) -> plist_err_t;
+}
+extern "C" {
     pub fn plist_from_memory(
         plist_data: *const ::std::os::raw::c_char,
         length: u32,
         plist: *mut plist_t,
-    );
+        format: *mut plist_format_t,
+    ) -> plist_err_t;
 }
 extern "C" {
-    #[doc = " Test if in-memory plist data is binary or XML"]
-    #[doc = " This method will look at the first bytes of plist_data"]
-    #[doc = " to determine if plist_data contains a binary or XML plist."]
-    #[doc = " This method is not validating the whole memory buffer to check if the"]
-    #[doc = " content is truly a plist, it's only using some heuristic on the first few"]
-    #[doc = " bytes of plist_data."]
-    #[doc = ""]
-    #[doc = " @param plist_data a pointer to the memory buffer containing plist data."]
-    #[doc = " @param length length of the buffer to read."]
-    #[doc = " @return 1 if the buffer is a binary plist, 0 otherwise."]
+    pub fn plist_read_from_file(
+        filename: *const ::std::os::raw::c_char,
+        plist: *mut plist_t,
+        format: *mut plist_format_t,
+    ) -> plist_err_t;
+}
+extern "C" {
+    pub fn plist_write_to_string(
+        plist: plist_t,
+        output: *mut *mut ::std::os::raw::c_char,
+        length: *mut u32,
+        format: plist_format_t,
+        options: plist_write_options_t,
+    ) -> plist_err_t;
+}
+extern "C" {
+    pub fn plist_write_to_stream(
+        plist: plist_t,
+        stream: *mut FILE,
+        format: plist_format_t,
+        options: plist_write_options_t,
+    ) -> plist_err_t;
+}
+extern "C" {
+    pub fn plist_write_to_file(
+        plist: plist_t,
+        filename: *const ::std::os::raw::c_char,
+        format: plist_format_t,
+        options: plist_write_options_t,
+    ) -> plist_err_t;
+}
+extern "C" {
+    pub fn plist_print(plist: plist_t);
+}
+extern "C" {
     pub fn plist_is_binary(
         plist_data: *const ::std::os::raw::c_char,
         length: u32,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Get a node from its path. Each path element depends on the associated father node type."]
-    #[doc = " For Dictionaries, var args are casted to const char*, for arrays, var args are caster to uint32_t"]
-    #[doc = " Search is breath first order."]
-    #[doc = ""]
-    #[doc = " @param plist the node to access result from."]
-    #[doc = " @param length length of the path to access"]
-    #[doc = " @return the value to access."]
     pub fn plist_access_path(plist: plist_t, length: u32, ...) -> plist_t;
 }
 extern "C" {
-    #[doc = " Variadic version of #plist_access_path."]
-    #[doc = ""]
-    #[doc = " @param plist the node to access result from."]
-    #[doc = " @param length length of the path to access"]
-    #[doc = " @param v list of array's index and dic'st key"]
-    #[doc = " @return the value to access."]
-    pub fn plist_access_pathv(plist: plist_t, length: u32, v: va_list) -> plist_t;
+    pub fn plist_access_pathv(plist: plist_t, length: u32, v: *mut __va_list_tag) -> plist_t;
 }
 extern "C" {
-    #[doc = " Compare two node values"]
-    #[doc = ""]
-    #[doc = " @param node_l left node to compare"]
-    #[doc = " @param node_r rigth node to compare"]
-    #[doc = " @return TRUE is type and value match, FALSE otherwise."]
     pub fn plist_compare_node_value(node_l: plist_t, node_r: plist_t) -> ::std::os::raw::c_char;
 }
 extern "C" {
-    #[doc = " Helper function to check the value of a PLIST_BOOL node."]
-    #[doc = ""]
-    #[doc = " @param boolnode node of type PLIST_BOOL"]
-    #[doc = " @return 1 if the boolean node has a value of TRUE, 0 if FALSE,"]
-    #[doc = "   or -1 if the node is not of type PLIST_BOOL"]
     pub fn plist_bool_val_is_true(boolnode: plist_t) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to compare the value of a PLIST_UINT node against"]
-    #[doc = " a given value."]
-    #[doc = ""]
-    #[doc = " @param uintnode node of type PLIST_UINT"]
-    #[doc = " @param cmpval value to compare against"]
-    #[doc = " @return 0 if the node's value and cmpval are equal,"]
-    #[doc = "         1 if the node's value is greater than cmpval,"]
-    #[doc = "         or -1 if the node's value is less than cmpval."]
+    pub fn plist_int_val_is_negative(intnode: plist_t) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn plist_int_val_compare(uintnode: plist_t, cmpval: i64) -> ::std::os::raw::c_int;
+}
+extern "C" {
     pub fn plist_uint_val_compare(uintnode: plist_t, cmpval: u64) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to compare the value of a PLIST_UID node against"]
-    #[doc = " a given value."]
-    #[doc = ""]
-    #[doc = " @param uidnode node of type PLIST_UID"]
-    #[doc = " @param cmpval value to compare against"]
-    #[doc = " @return 0 if the node's value and cmpval are equal,"]
-    #[doc = "         1 if the node's value is greater than cmpval,"]
-    #[doc = "         or -1 if the node's value is less than cmpval."]
     pub fn plist_uid_val_compare(uidnode: plist_t, cmpval: u64) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to compare the value of a PLIST_REAL node against"]
-    #[doc = " a given value."]
-    #[doc = ""]
-    #[doc = " @note WARNING: Comparing floating point values can give inaccurate"]
-    #[doc = "     results because of the nature of floating point values on computer"]
-    #[doc = "     systems. While this function is designed to be as accurate as"]
-    #[doc = "     possible, please don't rely on it too much."]
-    #[doc = ""]
-    #[doc = " @param realnode node of type PLIST_REAL"]
-    #[doc = " @param cmpval value to compare against"]
-    #[doc = " @return 0 if the node's value and cmpval are (almost) equal,"]
-    #[doc = "         1 if the node's value is greater than cmpval,"]
-    #[doc = "         or -1 if the node's value is less than cmpval."]
     pub fn plist_real_val_compare(realnode: plist_t, cmpval: f64) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to compare the value of a PLIST_DATE node against"]
-    #[doc = " a given set of seconds and fraction of a second since epoch."]
-    #[doc = ""]
-    #[doc = " @param datenode node of type PLIST_DATE"]
-    #[doc = " @param cmpsec number of seconds since epoch to compare against"]
-    #[doc = " @param cmpusec fraction of a second in microseconds to compare against"]
-    #[doc = " @return 0 if the node's date is equal to the supplied values,"]
-    #[doc = "         1 if the node's date is greater than the supplied values,"]
-    #[doc = "         or -1 if the node's date is less than the supplied values."]
     pub fn plist_date_val_compare(
         datenode: plist_t,
         cmpsec: i32,
@@ -7338,31 +7693,12 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to compare the value of a PLIST_STRING node against"]
-    #[doc = " a given value."]
-    #[doc = " This function basically behaves like strcmp."]
-    #[doc = ""]
-    #[doc = " @param strnode node of type PLIST_STRING"]
-    #[doc = " @param cmpval value to compare against"]
-    #[doc = " @return 0 if the node's value and cmpval are equal,"]
-    #[doc = "     > 0 if the node's value is lexicographically greater than cmpval,"]
-    #[doc = "     or < 0 if the node's value is lexicographically less than cmpval."]
     pub fn plist_string_val_compare(
         strnode: plist_t,
         cmpval: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to compare the value of a PLIST_STRING node against"]
-    #[doc = " a given value, while not comparing more than n characters."]
-    #[doc = " This function basically behaves like strncmp."]
-    #[doc = ""]
-    #[doc = " @param strnode node of type PLIST_STRING"]
-    #[doc = " @param cmpval value to compare against"]
-    #[doc = " @param n maximum number of characters to compare"]
-    #[doc = " @return 0 if the node's value and cmpval are equal,"]
-    #[doc = "     > 0 if the node's value is lexicographically greater than cmpval,"]
-    #[doc = "     or < 0 if the node's value is lexicographically less than cmpval."]
     pub fn plist_string_val_compare_with_size(
         strnode: plist_t,
         cmpval: *const ::std::os::raw::c_char,
@@ -7370,44 +7706,18 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to match a given substring in the value of a"]
-    #[doc = " PLIST_STRING node."]
-    #[doc = ""]
-    #[doc = " @param strnode node of type PLIST_STRING"]
-    #[doc = " @param substr value to match"]
-    #[doc = " @return 1 if the node's value contains the given substring,"]
-    #[doc = "     or 0 if not."]
     pub fn plist_string_val_contains(
         strnode: plist_t,
         substr: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to compare the value of a PLIST_KEY node against"]
-    #[doc = " a given value."]
-    #[doc = " This function basically behaves like strcmp."]
-    #[doc = ""]
-    #[doc = " @param keynode node of type PLIST_KEY"]
-    #[doc = " @param cmpval value to compare against"]
-    #[doc = " @return 0 if the node's value and cmpval are equal,"]
-    #[doc = "     > 0 if the node's value is lexicographically greater than cmpval,"]
-    #[doc = "     or < 0 if the node's value is lexicographically less than cmpval."]
     pub fn plist_key_val_compare(
         keynode: plist_t,
         cmpval: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to compare the value of a PLIST_KEY node against"]
-    #[doc = " a given value, while not comparing more than n characters."]
-    #[doc = " This function basically behaves like strncmp."]
-    #[doc = ""]
-    #[doc = " @param keynode node of type PLIST_KEY"]
-    #[doc = " @param cmpval value to compare against"]
-    #[doc = " @param n maximum number of characters to compare"]
-    #[doc = " @return 0 if the node's value and cmpval are equal,"]
-    #[doc = "     > 0 if the node's value is lexicographically greater than cmpval,"]
-    #[doc = "     or < 0 if the node's value is lexicographically less than cmpval."]
     pub fn plist_key_val_compare_with_size(
         keynode: plist_t,
         cmpval: *const ::std::os::raw::c_char,
@@ -7415,31 +7725,12 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to match a given substring in the value of a"]
-    #[doc = " PLIST_KEY node."]
-    #[doc = ""]
-    #[doc = " @param keynode node of type PLIST_KEY"]
-    #[doc = " @param substr value to match"]
-    #[doc = " @return 1 if the node's value contains the given substring,"]
-    #[doc = "     or 0 if not."]
     pub fn plist_key_val_contains(
         keynode: plist_t,
         substr: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to compare the data of a PLIST_DATA node against"]
-    #[doc = " a given blob and size."]
-    #[doc = " This function basically behaves like memcmp after making sure the"]
-    #[doc = " size of the node's data value is equal to the size of cmpval (n),"]
-    #[doc = " making this a \"full match\" comparison."]
-    #[doc = ""]
-    #[doc = " @param datanode node of type PLIST_DATA"]
-    #[doc = " @param cmpval data blob to compare against"]
-    #[doc = " @param n size of data blob passed in cmpval"]
-    #[doc = " @return 0 if the node's data blob and cmpval are equal,"]
-    #[doc = "     > 0 if the node's value is lexicographically greater than cmpval,"]
-    #[doc = "     or < 0 if the node's value is lexicographically less than cmpval."]
     pub fn plist_data_val_compare(
         datanode: plist_t,
         cmpval: *const u8,
@@ -7447,18 +7738,6 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to compare the data of a PLIST_DATA node against"]
-    #[doc = " a given blob and size, while no more than n bytes are compared."]
-    #[doc = " This function basically behaves like memcmp after making sure the"]
-    #[doc = " size of the node's data value is at least n, making this a"]
-    #[doc = " \"starts with\" comparison."]
-    #[doc = ""]
-    #[doc = " @param datanode node of type PLIST_DATA"]
-    #[doc = " @param cmpval data blob to compare against"]
-    #[doc = " @param n size of data blob passed in cmpval"]
-    #[doc = " @return 0 if the node's value and cmpval are equal,"]
-    #[doc = "     > 0 if the node's value is lexicographically greater than cmpval,"]
-    #[doc = "     or < 0 if the node's value is lexicographically less than cmpval."]
     pub fn plist_data_val_compare_with_size(
         datanode: plist_t,
         cmpval: *const u8,
@@ -7466,19 +7745,23 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    #[doc = " Helper function to match a given data blob within the value of a"]
-    #[doc = " PLIST_DATA node."]
-    #[doc = ""]
-    #[doc = " @param datanode node of type PLIST_KEY"]
-    #[doc = " @param cmpval data blob to match"]
-    #[doc = " @param n size of data blob passed in cmpval"]
-    #[doc = " @return 1 if the node's value contains the given data blob"]
-    #[doc = "     or 0 if not."]
     pub fn plist_data_val_contains(
         datanode: plist_t,
         cmpval: *const u8,
         n: size_t,
     ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn plist_sort(plist: plist_t);
+}
+extern "C" {
+    pub fn plist_mem_free(ptr: *mut ::std::os::raw::c_void);
+}
+extern "C" {
+    pub fn plist_set_debug(debug: ::std::os::raw::c_int);
+}
+extern "C" {
+    pub fn libplist_version() -> *const ::std::os::raw::c_char;
 }
 pub const userpref_error_t_USERPREF_E_SUCCESS: userpref_error_t = 0;
 pub const userpref_error_t_USERPREF_E_INVALID_ARG: userpref_error_t = -1;
@@ -7569,529 +7852,6 @@ extern "C" {
 extern "C" {
     pub fn userpref_has_pair_record(udid: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
 }
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct ostat {
-    pub st_dev: __uint16_t,
-    pub st_ino: ino_t,
-    pub st_mode: mode_t,
-    pub st_nlink: nlink_t,
-    pub st_uid: __uint16_t,
-    pub st_gid: __uint16_t,
-    pub st_rdev: __uint16_t,
-    pub st_size: __int32_t,
-    pub st_atimespec: timespec,
-    pub st_mtimespec: timespec,
-    pub st_ctimespec: timespec,
-    pub st_blksize: __int32_t,
-    pub st_blocks: __int32_t,
-    pub st_flags: __uint32_t,
-    pub st_gen: __uint32_t,
-}
-#[test]
-fn bindgen_test_layout_ostat() {
-    assert_eq!(
-        ::std::mem::size_of::<ostat>(),
-        96usize,
-        concat!("Size of: ", stringify!(ostat))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<ostat>(),
-        8usize,
-        concat!("Alignment of ", stringify!(ostat))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_dev as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_dev)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_ino as *const _ as usize },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_ino)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_mode as *const _ as usize },
-        16usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_mode)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_nlink as *const _ as usize },
-        18usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_nlink)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_uid as *const _ as usize },
-        20usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_uid)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_gid as *const _ as usize },
-        22usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_gid)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_rdev as *const _ as usize },
-        24usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_rdev)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_size as *const _ as usize },
-        28usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_size)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_atimespec as *const _ as usize },
-        32usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_atimespec)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_mtimespec as *const _ as usize },
-        48usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_mtimespec)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_ctimespec as *const _ as usize },
-        64usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_ctimespec)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_blksize as *const _ as usize },
-        80usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_blksize)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_blocks as *const _ as usize },
-        84usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_blocks)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_flags as *const _ as usize },
-        88usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_flags)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<ostat>())).st_gen as *const _ as usize },
-        92usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(ostat),
-            "::",
-            stringify!(st_gen)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct stat {
-    pub st_dev: dev_t,
-    pub st_mode: mode_t,
-    pub st_nlink: nlink_t,
-    pub st_ino: __darwin_ino64_t,
-    pub st_uid: uid_t,
-    pub st_gid: gid_t,
-    pub st_rdev: dev_t,
-    pub st_atimespec: timespec,
-    pub st_mtimespec: timespec,
-    pub st_ctimespec: timespec,
-    pub st_birthtimespec: timespec,
-    pub st_size: off_t,
-    pub st_blocks: blkcnt_t,
-    pub st_blksize: blksize_t,
-    pub st_flags: __uint32_t,
-    pub st_gen: __uint32_t,
-    pub st_lspare: __int32_t,
-    pub st_qspare: [__int64_t; 2usize],
-}
-#[test]
-fn bindgen_test_layout_stat() {
-    assert_eq!(
-        ::std::mem::size_of::<stat>(),
-        144usize,
-        concat!("Size of: ", stringify!(stat))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<stat>(),
-        8usize,
-        concat!("Alignment of ", stringify!(stat))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_dev as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_dev)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_mode as *const _ as usize },
-        4usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_mode)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_nlink as *const _ as usize },
-        6usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_nlink)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_ino as *const _ as usize },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_ino)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_uid as *const _ as usize },
-        16usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_uid)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_gid as *const _ as usize },
-        20usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_gid)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_rdev as *const _ as usize },
-        24usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_rdev)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_atimespec as *const _ as usize },
-        32usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_atimespec)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_mtimespec as *const _ as usize },
-        48usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_mtimespec)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_ctimespec as *const _ as usize },
-        64usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_ctimespec)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_birthtimespec as *const _ as usize },
-        80usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_birthtimespec)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_size as *const _ as usize },
-        96usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_size)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_blocks as *const _ as usize },
-        104usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_blocks)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_blksize as *const _ as usize },
-        112usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_blksize)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_flags as *const _ as usize },
-        116usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_flags)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_gen as *const _ as usize },
-        120usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_gen)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_lspare as *const _ as usize },
-        124usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_lspare)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<stat>())).st_qspare as *const _ as usize },
-        128usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(stat),
-            "::",
-            stringify!(st_qspare)
-        )
-    );
-}
-extern "C" {
-    pub fn chmod(arg1: *const ::std::os::raw::c_char, arg2: mode_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fchmod(arg1: ::std::os::raw::c_int, arg2: mode_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fstat(arg1: ::std::os::raw::c_int, arg2: *mut stat) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn lstat(arg1: *const ::std::os::raw::c_char, arg2: *mut stat) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn mkdir(arg1: *const ::std::os::raw::c_char, arg2: mode_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn mkfifo(arg1: *const ::std::os::raw::c_char, arg2: mode_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn stat(arg1: *const ::std::os::raw::c_char, arg2: *mut stat) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn mknod(
-        arg1: *const ::std::os::raw::c_char,
-        arg2: mode_t,
-        arg3: dev_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn umask(arg1: mode_t) -> mode_t;
-}
-extern "C" {
-    pub fn fchmodat(
-        arg1: ::std::os::raw::c_int,
-        arg2: *const ::std::os::raw::c_char,
-        arg3: mode_t,
-        arg4: ::std::os::raw::c_int,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fstatat(
-        arg1: ::std::os::raw::c_int,
-        arg2: *const ::std::os::raw::c_char,
-        arg3: *mut stat,
-        arg4: ::std::os::raw::c_int,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn mkdirat(
-        arg1: ::std::os::raw::c_int,
-        arg2: *const ::std::os::raw::c_char,
-        arg3: mode_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn futimens(__fd: ::std::os::raw::c_int, __times: *const timespec)
-        -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn utimensat(
-        __fd: ::std::os::raw::c_int,
-        __path: *const ::std::os::raw::c_char,
-        __times: *const timespec,
-        __flag: ::std::os::raw::c_int,
-    ) -> ::std::os::raw::c_int;
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct _filesec {
-    _unused: [u8; 0],
-}
-pub type filesec_t = *mut _filesec;
-extern "C" {
-    pub fn chflags(arg1: *const ::std::os::raw::c_char, arg2: __uint32_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn chmodx_np(arg1: *const ::std::os::raw::c_char, arg2: filesec_t)
-        -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fchflags(arg1: ::std::os::raw::c_int, arg2: __uint32_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fchmodx_np(arg1: ::std::os::raw::c_int, arg2: filesec_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fstatx_np(
-        arg1: ::std::os::raw::c_int,
-        arg2: *mut stat,
-        arg3: filesec_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn lchflags(arg1: *const ::std::os::raw::c_char, arg2: __uint32_t)
-        -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn lchmod(arg1: *const ::std::os::raw::c_char, arg2: mode_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn lstatx_np(
-        arg1: *const ::std::os::raw::c_char,
-        arg2: *mut stat,
-        arg3: filesec_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn mkdirx_np(arg1: *const ::std::os::raw::c_char, arg2: filesec_t)
-        -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn mkfifox_np(
-        arg1: *const ::std::os::raw::c_char,
-        arg2: filesec_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn statx_np(
-        arg1: *const ::std::os::raw::c_char,
-        arg2: *mut stat,
-        arg3: filesec_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn umaskx_np(arg1: filesec_t) -> ::std::os::raw::c_int;
-}
 pub const idevice_error_t_IDEVICE_E_SUCCESS: idevice_error_t = 0;
 pub const idevice_error_t_IDEVICE_E_INVALID_ARG: idevice_error_t = -1;
 pub const idevice_error_t_IDEVICE_E_UNKNOWN_ERROR: idevice_error_t = -2;
@@ -8100,21 +7860,15 @@ pub const idevice_error_t_IDEVICE_E_NOT_ENOUGH_DATA: idevice_error_t = -4;
 pub const idevice_error_t_IDEVICE_E_CONNREFUSED: idevice_error_t = -5;
 pub const idevice_error_t_IDEVICE_E_SSL_ERROR: idevice_error_t = -6;
 pub const idevice_error_t_IDEVICE_E_TIMEOUT: idevice_error_t = -7;
-#[doc = " Error Codes"]
 pub type idevice_error_t = ::std::os::raw::c_int;
 pub type idevice_t = *mut idevice_private;
 pub type idevice_connection_t = *mut idevice_connection_private;
-#[doc = "< include USBMUX devices during lookup"]
 pub const idevice_options_IDEVICE_LOOKUP_USBMUX: idevice_options = 2;
-#[doc = "< include network devices during lookup"]
 pub const idevice_options_IDEVICE_LOOKUP_NETWORK: idevice_options = 4;
-#[doc = "< prefer network connection if device is available via USBMUX *and* network"]
 pub const idevice_options_IDEVICE_LOOKUP_PREFER_NETWORK: idevice_options = 8;
-#[doc = " Options for idevice_new_with_options()"]
 pub type idevice_options = ::std::os::raw::c_uint;
 pub const idevice_connection_type_CONNECTION_USBMUXD: idevice_connection_type = 1;
 pub const idevice_connection_type_CONNECTION_NETWORK: idevice_connection_type = 2;
-#[doc = " Type of connection a device is available on"]
 pub type idevice_connection_type = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -8170,17 +7924,12 @@ pub type idevice_info_t = *mut idevice_info;
 pub const idevice_event_type_IDEVICE_DEVICE_ADD: idevice_event_type = 1;
 pub const idevice_event_type_IDEVICE_DEVICE_REMOVE: idevice_event_type = 2;
 pub const idevice_event_type_IDEVICE_DEVICE_PAIRED: idevice_event_type = 3;
-#[doc = " The event type for device add or removal"]
 pub type idevice_event_type = ::std::os::raw::c_uint;
-#[doc = " Provides information about the occurred event."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct idevice_event_t {
-    #[doc = "< The event type."]
     pub event: idevice_event_type,
-    #[doc = "< The device unique id."]
     pub udid: *const ::std::os::raw::c_char,
-    #[doc = "< The connection type."]
     pub conn_type: idevice_connection_type,
 }
 #[test]
@@ -8226,124 +7975,62 @@ fn bindgen_test_layout_idevice_event_t() {
         )
     );
 }
-#[doc = " Callback to notifiy if a device was added or removed."]
 pub type idevice_event_cb_t = ::std::option::Option<
     unsafe extern "C" fn(event: *const idevice_event_t, user_data: *mut ::std::os::raw::c_void),
 >;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct idevice_subscription_context {
+    _unused: [u8; 0],
+}
+pub type idevice_subscription_context_t = *mut idevice_subscription_context;
 extern "C" {
-    #[doc = " Set the level of debugging."]
-    #[doc = ""]
-    #[doc = " @param level Set to 0 for no debug output or 1 to enable debug output."]
     pub fn idevice_set_debug_level(level: ::std::os::raw::c_int);
 }
 extern "C" {
-    #[doc = " Register a callback function that will be called when device add/remove"]
-    #[doc = " events occur."]
-    #[doc = ""]
-    #[doc = " @param callback Callback function to call."]
-    #[doc = " @param user_data Application-specific data passed as parameter"]
-    #[doc = "   to the registered callback function."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS on success or an error value when an error occurred."]
+    pub fn idevice_events_subscribe(
+        context: *mut idevice_subscription_context_t,
+        callback: idevice_event_cb_t,
+        user_data: *mut ::std::os::raw::c_void,
+    ) -> idevice_error_t;
+}
+extern "C" {
+    pub fn idevice_events_unsubscribe(context: idevice_subscription_context_t) -> idevice_error_t;
+}
+extern "C" {
     pub fn idevice_event_subscribe(
         callback: idevice_event_cb_t,
         user_data: *mut ::std::os::raw::c_void,
     ) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Release the event callback function that has been registered with"]
-    #[doc = "  idevice_event_subscribe()."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS on success or an error value when an error occurred."]
     pub fn idevice_event_unsubscribe() -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Get a list of UDIDs of currently available devices (USBMUX devices only)."]
-    #[doc = ""]
-    #[doc = " @param devices List of UDIDs of devices that are currently available."]
-    #[doc = "   This list is terminated by a NULL pointer."]
-    #[doc = " @param count Number of devices found."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS on success or an error value when an error occurred."]
-    #[doc = ""]
-    #[doc = " @note This function only returns the UDIDs of USBMUX devices. To also include"]
-    #[doc = "   network devices in the list, use idevice_get_device_list_extended()."]
-    #[doc = " @see idevice_get_device_list_extended"]
     pub fn idevice_get_device_list(
         devices: *mut *mut *mut ::std::os::raw::c_char,
         count: *mut ::std::os::raw::c_int,
     ) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Free a list of device UDIDs."]
-    #[doc = ""]
-    #[doc = " @param devices List of UDIDs to free."]
-    #[doc = ""]
-    #[doc = " @return Always returnes IDEVICE_E_SUCCESS."]
     pub fn idevice_device_list_free(devices: *mut *mut ::std::os::raw::c_char) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Get a list of currently available devices"]
-    #[doc = ""]
-    #[doc = " @param devices List of idevice_info_t records with device information."]
-    #[doc = "   This list is terminated by a NULL pointer."]
-    #[doc = " @param count Number of devices included in the list."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS on success or an error value when an error occurred."]
     pub fn idevice_get_device_list_extended(
         devices: *mut *mut idevice_info_t,
         count: *mut ::std::os::raw::c_int,
     ) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Free an extended device list retrieved through idevice_get_device_list_extended()."]
-    #[doc = ""]
-    #[doc = " @param devices Device list to free."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS on success or an error value when an error occurred."]
     pub fn idevice_device_list_extended_free(devices: *mut idevice_info_t) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Creates an idevice_t structure for the device specified by UDID,"]
-    #[doc = "  if the device is available (USBMUX devices only)."]
-    #[doc = ""]
-    #[doc = " @note The resulting idevice_t structure has to be freed with"]
-    #[doc = " idevice_free() if it is no longer used."]
-    #[doc = " If you need to connect to a device available via network, use"]
-    #[doc = " idevice_new_with_options() and include IDEVICE_LOOKUP_NETWORK in options."]
-    #[doc = ""]
-    #[doc = " @see idevice_new_with_options"]
-    #[doc = ""]
-    #[doc = " @param device Upon calling this function, a pointer to a location of type"]
-    #[doc = "  idevice_t. On successful return, this location will be populated."]
-    #[doc = " @param udid The UDID to match."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS if ok, otherwise an error code."]
     pub fn idevice_new(
         device: *mut idevice_t,
         udid: *const ::std::os::raw::c_char,
     ) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Creates an idevice_t structure for the device specified by UDID,"]
-    #[doc = "  if the device is available, with the given lookup options."]
-    #[doc = ""]
-    #[doc = " @note The resulting idevice_t structure has to be freed with"]
-    #[doc = " idevice_free() if it is no longer used."]
-    #[doc = ""]
-    #[doc = " @param device Upon calling this function, a pointer to a location of type"]
-    #[doc = "   idevice_t. On successful return, this location will be populated."]
-    #[doc = " @param udid The UDID to match."]
-    #[doc = " @param options Specifies what connection types should be considered"]
-    #[doc = "   when looking up devices. Accepts bitwise or'ed values of idevice_options."]
-    #[doc = "   If 0 (no option) is specified it will default to IDEVICE_LOOKUP_USBMUX."]
-    #[doc = "   To lookup both USB and network-connected devices, pass"]
-    #[doc = "   IDEVICE_LOOKUP_USBMUX | IDEVICE_LOOKUP_NETWORK. If a device is available"]
-    #[doc = "   both via USBMUX *and* network, it will select the USB connection."]
-    #[doc = "   This behavior can be changed by adding IDEVICE_LOOKUP_PREFER_NETWORK"]
-    #[doc = "   to the options in which case it will select the network connection."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS if ok, otherwise an error code."]
     pub fn idevice_new_with_options(
         device: *mut idevice_t,
         udid: *const ::std::os::raw::c_char,
@@ -8351,20 +8038,9 @@ extern "C" {
     ) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Cleans up an idevice structure, then frees the structure itself."]
-    #[doc = ""]
-    #[doc = " @param device idevice_t to free."]
     pub fn idevice_free(device: idevice_t) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Set up a connection to the given device."]
-    #[doc = ""]
-    #[doc = " @param device The device to connect to."]
-    #[doc = " @param port The destination port to connect to."]
-    #[doc = " @param connection Pointer to an idevice_connection_t that will be filled"]
-    #[doc = "   with the necessary data of the connection."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS if ok, otherwise an error code."]
     pub fn idevice_connect(
         device: idevice_t,
         port: u16,
@@ -8372,23 +8048,9 @@ extern "C" {
     ) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Disconnect from the device and clean up the connection structure."]
-    #[doc = ""]
-    #[doc = " @param connection The connection to close."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS if ok, otherwise an error code."]
     pub fn idevice_disconnect(connection: idevice_connection_t) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Send data to a device via the given connection."]
-    #[doc = ""]
-    #[doc = " @param connection The connection to send data over."]
-    #[doc = " @param data Buffer with data to send."]
-    #[doc = " @param len Size of the buffer to send."]
-    #[doc = " @param sent_bytes Pointer to an uint32_t that will be filled"]
-    #[doc = "   with the number of bytes actually sent."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS if ok, otherwise an error code."]
     pub fn idevice_connection_send(
         connection: idevice_connection_t,
         data: *const ::std::os::raw::c_char,
@@ -8397,19 +8059,6 @@ extern "C" {
     ) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Receive data from a device via the given connection."]
-    #[doc = " This function will return after the given timeout even if no data has been"]
-    #[doc = " received."]
-    #[doc = ""]
-    #[doc = " @param connection The connection to receive data from."]
-    #[doc = " @param data Buffer that will be filled with the received data."]
-    #[doc = "   This buffer has to be large enough to hold len bytes."]
-    #[doc = " @param len Buffer size or number of bytes to receive."]
-    #[doc = " @param recv_bytes Number of bytes actually received."]
-    #[doc = " @param timeout Timeout in milliseconds after which this function should"]
-    #[doc = "   return even if no data has been received."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS if ok, otherwise an error code."]
     pub fn idevice_connection_receive_timeout(
         connection: idevice_connection_t,
         data: *mut ::std::os::raw::c_char,
@@ -8419,17 +8068,6 @@ extern "C" {
     ) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Receive data from a device via the given connection."]
-    #[doc = " This function is like idevice_connection_receive_timeout, but with a"]
-    #[doc = " predefined reasonable timeout."]
-    #[doc = ""]
-    #[doc = " @param connection The connection to receive data from."]
-    #[doc = " @param data Buffer that will be filled with the received data."]
-    #[doc = "   This buffer has to be large enough to hold len bytes."]
-    #[doc = " @param len Buffer size or number of bytes to receive."]
-    #[doc = " @param recv_bytes Number of bytes actually received."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS if ok, otherwise an error code."]
     pub fn idevice_connection_receive(
         connection: idevice_connection_t,
         data: *mut ::std::os::raw::c_char,
@@ -8438,62 +8076,34 @@ extern "C" {
     ) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Enables SSL for the given connection."]
-    #[doc = ""]
-    #[doc = " @param connection The connection to enable SSL for."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS on success, IDEVICE_E_INVALID_ARG when connection"]
-    #[doc = "     is NULL or connection->ssl_data is non-NULL, or IDEVICE_E_SSL_ERROR when"]
-    #[doc = "     SSL initialization, setup, or handshake fails."]
     pub fn idevice_connection_enable_ssl(connection: idevice_connection_t) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Disable SSL for the given connection."]
-    #[doc = ""]
-    #[doc = " @param connection The connection to disable SSL for."]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS on success, IDEVICE_E_INVALID_ARG when connection"]
-    #[doc = "     is NULL. This function also returns IDEVICE_E_SUCCESS when SSL is not"]
-    #[doc = "     enabled and does no further error checking on cleanup."]
     pub fn idevice_connection_disable_ssl(connection: idevice_connection_t) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Disable bypass SSL for the given connection without sending out terminate messages."]
-    #[doc = ""]
-    #[doc = " @param connection The connection to disable SSL for."]
-    #[doc = " @param sslBypass  if true ssl connection will not be terminated but just cleaned up, allowing"]
-    #[doc = "                   plain text data going on underlying connection"]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS on success, IDEVICE_E_INVALID_ARG when connection"]
-    #[doc = "     is NULL. This function also returns IDEVICE_E_SUCCESS when SSL is not"]
-    #[doc = "     enabled and does no further error checking on cleanup."]
     pub fn idevice_connection_disable_bypass_ssl(
         connection: idevice_connection_t,
         sslBypass: u8,
     ) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Get the underlying file descriptor for a connection"]
-    #[doc = ""]
-    #[doc = " @param connection The connection to get fd of"]
-    #[doc = " @param fd Pointer to an int where the fd is stored"]
-    #[doc = ""]
-    #[doc = " @return IDEVICE_E_SUCCESS if ok, otherwise an error code."]
     pub fn idevice_connection_get_fd(
         connection: idevice_connection_t,
         fd: *mut ::std::os::raw::c_int,
     ) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Gets the handle or (usbmux device id) of the device."]
     pub fn idevice_get_handle(device: idevice_t, handle: *mut u32) -> idevice_error_t;
 }
 extern "C" {
-    #[doc = " Gets the unique id for the device."]
     pub fn idevice_get_udid(
         device: idevice_t,
         udid: *mut *mut ::std::os::raw::c_char,
     ) -> idevice_error_t;
+}
+extern "C" {
+    pub fn libimobiledevice_version() -> *const ::std::os::raw::c_char;
 }
 pub const lockdownd_error_t_LOCKDOWN_E_SUCCESS: lockdownd_error_t = 0;
 pub const lockdownd_error_t_LOCKDOWN_E_INVALID_ARG: lockdownd_error_t = -1;
@@ -8537,21 +8147,15 @@ pub const lockdownd_error_t_LOCKDOWN_E_FMIP_PROTECTED: lockdownd_error_t = -37;
 pub const lockdownd_error_t_LOCKDOWN_E_MC_PROTECTED: lockdownd_error_t = -38;
 pub const lockdownd_error_t_LOCKDOWN_E_MC_CHALLENGE_REQUIRED: lockdownd_error_t = -39;
 pub const lockdownd_error_t_LOCKDOWN_E_UNKNOWN_ERROR: lockdownd_error_t = -256;
-#[doc = " Error Codes"]
 pub type lockdownd_error_t = ::std::os::raw::c_int;
 pub type lockdownd_client_t = *mut lockdownd_client_private;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct lockdownd_pair_record {
-    #[doc = "< The device certificate"]
     pub device_certificate: *mut ::std::os::raw::c_char,
-    #[doc = "< The host certificate"]
     pub host_certificate: *mut ::std::os::raw::c_char,
-    #[doc = "< The root certificate"]
     pub root_certificate: *mut ::std::os::raw::c_char,
-    #[doc = "< A unique HostID for the host computer"]
     pub host_id: *mut ::std::os::raw::c_char,
-    #[doc = "< A unique system id"]
     pub system_buid: *mut ::std::os::raw::c_char,
 }
 #[test]
@@ -8626,7 +8230,6 @@ fn bindgen_test_layout_lockdownd_pair_record() {
         )
     );
 }
-#[doc = " A pair record holding device, host and root certificates along the host_id"]
 pub type lockdownd_pair_record_t = *mut lockdownd_pair_record;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -8686,18 +8289,13 @@ fn bindgen_test_layout_lockdownd_service_descriptor() {
     );
 }
 pub type lockdownd_service_descriptor_t = *mut lockdownd_service_descriptor;
-#[doc = "< PIN requested: data_ptr is a char* buffer, and data_size points to the size of this buffer that must not be exceeded and has to be updated to the actual number of characters filled into the buffer."]
 pub const lockdownd_cu_pairing_cb_type_t_LOCKDOWN_CU_PAIRING_PIN_REQUESTED:
     lockdownd_cu_pairing_cb_type_t = 0;
-#[doc = "< device information available: data_ptr is a plist_t, and data_size is ignored. The plist_t has to be copied if required, since it is freed when the callback function returns."]
 pub const lockdownd_cu_pairing_cb_type_t_LOCKDOWN_CU_PAIRING_DEVICE_INFO:
     lockdownd_cu_pairing_cb_type_t = 1;
-#[doc = "< pairing error message available: data_ptr is a NULL-terminated char* buffer containing the error message, and data_size is ignored. Buffer needs to be copied if it shall persist outside the callback."]
 pub const lockdownd_cu_pairing_cb_type_t_LOCKDOWN_CU_PAIRING_ERROR: lockdownd_cu_pairing_cb_type_t =
     2;
 pub type lockdownd_cu_pairing_cb_type_t = ::std::os::raw::c_uint;
-#[doc = " Callback used to supply the pairing PIN during a CU pairing session,"]
-#[doc = "  and to report device information and pairing error messages."]
 pub type lockdownd_cu_pairing_cb_t = ::std::option::Option<
     unsafe extern "C" fn(
         cb_type: lockdownd_cu_pairing_cb_type_t,
@@ -8707,19 +8305,6 @@ pub type lockdownd_cu_pairing_cb_t = ::std::option::Option<
     ),
 >;
 extern "C" {
-    #[doc = " Creates a new lockdownd client for the device."]
-    #[doc = ""]
-    #[doc = " @note This function does not pair with the device or start a session. This"]
-    #[doc = "  has to be done manually by the caller after the client is created."]
-    #[doc = "  The device disconnects automatically if the lockdown connection idles"]
-    #[doc = "  for more than 10 seconds. Make sure to call lockdownd_client_free() as soon"]
-    #[doc = "  as the connection is no longer needed."]
-    #[doc = ""]
-    #[doc = " @param device The device to create a lockdownd client for"]
-    #[doc = " @param client The pointer to the location of the new lockdownd_client"]
-    #[doc = " @param label The label to use for communication. Usually the program name."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL"]
     pub fn lockdownd_client_new(
         device: idevice_t,
         client: *mut lockdownd_client_t,
@@ -8727,21 +8312,6 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Creates a new lockdownd client for the device and starts initial handshake."]
-    #[doc = " The handshake consists out of query_type, validate_pair, pair and"]
-    #[doc = " start_session calls. It uses the internal pairing record management."]
-    #[doc = ""]
-    #[doc = " @note The device disconnects automatically if the lockdown connection idles"]
-    #[doc = "  for more than 10 seconds. Make sure to call lockdownd_client_free() as soon"]
-    #[doc = "  as the connection is no longer needed."]
-    #[doc = ""]
-    #[doc = " @param device The device to create a lockdownd client for"]
-    #[doc = " @param client The pointer to the location of the new lockdownd_client"]
-    #[doc = " @param label The label to use for communication. Usually the program name."]
-    #[doc = "  Pass NULL to disable sending the label in requests to lockdownd."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL,"]
-    #[doc = "  LOCKDOWN_E_INVALID_CONF if configuration data is wrong"]
     pub fn lockdownd_client_new_with_handshake(
         device: idevice_t,
         client: *mut lockdownd_client_t,
@@ -8749,36 +8319,15 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Closes the lockdownd client session if one is running and frees up the"]
-    #[doc = " lockdownd_client struct."]
-    #[doc = ""]
-    #[doc = " @param client The lockdown client"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL"]
     pub fn lockdownd_client_free(client: lockdownd_client_t) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Query the type of the service daemon. Depending on whether the device is"]
-    #[doc = " queried in normal mode or restore mode, different types will be returned."]
-    #[doc = ""]
-    #[doc = " @param client The lockdownd client"]
-    #[doc = " @param type The type returned by the service daemon. Pass NULL to ignore."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL"]
     pub fn lockdownd_query_type(
         client: lockdownd_client_t,
         type_: *mut *mut ::std::os::raw::c_char,
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Retrieves a preferences plist using an optional domain and/or key name."]
-    #[doc = ""]
-    #[doc = " @param client An initialized lockdownd client."]
-    #[doc = " @param domain The domain to query on or NULL for global domain"]
-    #[doc = " @param key The key name to request or NULL to query for all keys"]
-    #[doc = " @param value A plist node representing the result value node"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL"]
     pub fn lockdownd_get_value(
         client: lockdownd_client_t,
         domain: *const ::std::os::raw::c_char,
@@ -8787,15 +8336,6 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Sets a preferences value using a plist and optional by domain and/or key name."]
-    #[doc = ""]
-    #[doc = " @param client an initialized lockdownd client."]
-    #[doc = " @param domain the domain to query on or NULL for global domain"]
-    #[doc = " @param key the key name to set the value or NULL to set a value dict plist"]
-    #[doc = " @param value a plist node of any node type representing the value to set"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client or"]
-    #[doc = "  value is NULL"]
     pub fn lockdownd_set_value(
         client: lockdownd_client_t,
         domain: *const ::std::os::raw::c_char,
@@ -8804,15 +8344,6 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Removes a preference node by domain and/or key name."]
-    #[doc = ""]
-    #[doc = " @note: Use with caution as this could remove vital information on the device"]
-    #[doc = ""]
-    #[doc = " @param client An initialized lockdownd client."]
-    #[doc = " @param domain The domain to query on or NULL for global domain"]
-    #[doc = " @param key The key name to remove or NULL remove all keys for the current domain"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL"]
     pub fn lockdownd_remove_value(
         client: lockdownd_client_t,
         domain: *const ::std::os::raw::c_char,
@@ -8820,16 +8351,6 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Requests to start a service and retrieve it's port on success."]
-    #[doc = ""]
-    #[doc = " @param client The lockdownd client"]
-    #[doc = " @param identifier The identifier of the service to start"]
-    #[doc = " @param service The service descriptor on success or NULL on failure"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG if a parameter"]
-    #[doc = "  is NULL, LOCKDOWN_E_INVALID_SERVICE if the requested service is not known"]
-    #[doc = "  by the device, LOCKDOWN_E_START_SERVICE_FAILED if the service could not be"]
-    #[doc = "  started by the device"]
     pub fn lockdownd_start_service(
         client: lockdownd_client_t,
         identifier: *const ::std::os::raw::c_char,
@@ -8837,18 +8358,6 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Requests to start a service and retrieve it's port on success."]
-    #[doc = " Sends the escrow bag from the device's pair record."]
-    #[doc = ""]
-    #[doc = " @param client The lockdownd client"]
-    #[doc = " @param identifier The identifier of the service to start"]
-    #[doc = " @param service The service descriptor on success or NULL on failure"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG if a parameter"]
-    #[doc = "  is NULL, LOCKDOWN_E_INVALID_SERVICE if the requested service is not known"]
-    #[doc = "  by the device, LOCKDOWN_E_START_SERVICE_FAILED if the service could not because"]
-    #[doc = "  started by the device, LOCKDOWN_E_INVALID_CONF if the host id or escrow bag are"]
-    #[doc = "  missing from the device record."]
     pub fn lockdownd_start_service_with_escrow_bag(
         client: lockdownd_client_t,
         identifier: *const ::std::os::raw::c_char,
@@ -8856,17 +8365,6 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Opens a session with lockdownd and switches to SSL mode if device wants it."]
-    #[doc = ""]
-    #[doc = " @param client The lockdownd client"]
-    #[doc = " @param host_id The HostID of the computer"]
-    #[doc = " @param session_id The new session_id of the created session"]
-    #[doc = " @param ssl_enabled Whether SSL communication is used in the session"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when a client"]
-    #[doc = "  or host_id is NULL, LOCKDOWN_E_PLIST_ERROR if the response plist had errors,"]
-    #[doc = "  LOCKDOWN_E_INVALID_HOST_ID if the device does not know the supplied HostID,"]
-    #[doc = "  LOCKDOWN_E_SSL_ERROR if enabling SSL communication failed"]
     pub fn lockdownd_start_session(
         client: lockdownd_client_t,
         host_id: *const ::std::os::raw::c_char,
@@ -8875,76 +8373,24 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Closes the lockdownd session by sending the StopSession request."]
-    #[doc = ""]
-    #[doc = " @see lockdownd_start_session"]
-    #[doc = ""]
-    #[doc = " @param client The lockdown client"]
-    #[doc = " @param session_id The id of a running session"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL"]
     pub fn lockdownd_stop_session(
         client: lockdownd_client_t,
         session_id: *const ::std::os::raw::c_char,
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Sends a plist to lockdownd."]
-    #[doc = ""]
-    #[doc = " @note This function is low-level and should only be used if you need to send"]
-    #[doc = "        a new type of message."]
-    #[doc = ""]
-    #[doc = " @param client The lockdownd client"]
-    #[doc = " @param plist The plist to send"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client or"]
-    #[doc = "  plist is NULL"]
     pub fn lockdownd_send(client: lockdownd_client_t, plist: plist_t) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Receives a plist from lockdownd."]
-    #[doc = ""]
-    #[doc = " @param client The lockdownd client"]
-    #[doc = " @param plist The plist to store the received data"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client or"]
-    #[doc = "  plist is NULL"]
     pub fn lockdownd_receive(client: lockdownd_client_t, plist: *mut plist_t) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Pairs the device using the supplied pair record."]
-    #[doc = ""]
-    #[doc = " @param client The lockdown client"]
-    #[doc = " @param pair_record The pair record to use for pairing. If NULL is passed, then"]
-    #[doc = "    the pair records from the current machine are used. New records will be"]
-    #[doc = "    generated automatically when pairing is done for the first time."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL,"]
-    #[doc = "  LOCKDOWN_E_PLIST_ERROR if the pair_record certificates are wrong,"]
-    #[doc = "  LOCKDOWN_E_PAIRING_FAILED if the pairing failed,"]
-    #[doc = "  LOCKDOWN_E_PASSWORD_PROTECTED if the device is password protected,"]
-    #[doc = "  LOCKDOWN_E_INVALID_HOST_ID if the device does not know the caller's host id"]
     pub fn lockdownd_pair(
         client: lockdownd_client_t,
         pair_record: lockdownd_pair_record_t,
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Pairs the device using the supplied pair record and passing the given options."]
-    #[doc = ""]
-    #[doc = " @param client The lockdown client"]
-    #[doc = " @param pair_record The pair record to use for pairing. If NULL is passed, then"]
-    #[doc = "    the pair records from the current machine are used. New records will be"]
-    #[doc = "    generated automatically when pairing is done for the first time."]
-    #[doc = " @param options The pairing options to pass. Can be NULL for no options."]
-    #[doc = " @param response If non-NULL a pointer to lockdownd's response dictionary is returned."]
-    #[doc = "    The caller is responsible to free the response dictionary with plist_free()."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL,"]
-    #[doc = "  LOCKDOWN_E_PLIST_ERROR if the pair_record certificates are wrong,"]
-    #[doc = "  LOCKDOWN_E_PAIRING_FAILED if the pairing failed,"]
-    #[doc = "  LOCKDOWN_E_PASSWORD_PROTECTED if the device is password protected,"]
-    #[doc = "  LOCKDOWN_E_INVALID_HOST_ID if the device does not know the caller's host id"]
     pub fn lockdownd_pair_with_options(
         client: lockdownd_client_t,
         pair_record: lockdownd_pair_record_t,
@@ -8953,118 +8399,33 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Validates if the device is paired with the given HostID. If successful the"]
-    #[doc = " specified host will become trusted host of the device indicated by the"]
-    #[doc = " lockdownd preference named TrustedHostAttached. Otherwise the host must be"]
-    #[doc = " paired using lockdownd_pair() first."]
-    #[doc = ""]
-    #[doc = " @param client The lockdown client"]
-    #[doc = " @param pair_record The pair record to validate pairing with. If NULL is"]
-    #[doc = "    passed, then the pair record is read from the internal pairing record"]
-    #[doc = "    management."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL,"]
-    #[doc = "  LOCKDOWN_E_PLIST_ERROR if the pair_record certificates are wrong,"]
-    #[doc = "  LOCKDOWN_E_PAIRING_FAILED if the pairing failed,"]
-    #[doc = "  LOCKDOWN_E_PASSWORD_PROTECTED if the device is password protected,"]
-    #[doc = "  LOCKDOWN_E_INVALID_HOST_ID if the device does not know the caller's host id"]
     pub fn lockdownd_validate_pair(
         client: lockdownd_client_t,
         pair_record: lockdownd_pair_record_t,
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Unpairs the device with the given HostID and removes the pairing records"]
-    #[doc = " from the device and host if the internal pairing record management is used."]
-    #[doc = ""]
-    #[doc = " @param client The lockdown client"]
-    #[doc = " @param pair_record The pair record to use for unpair. If NULL is passed, then"]
-    #[doc = "    the pair records from the current machine are used."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL,"]
-    #[doc = "  LOCKDOWN_E_PLIST_ERROR if the pair_record certificates are wrong,"]
-    #[doc = "  LOCKDOWN_E_PAIRING_FAILED if the pairing failed,"]
-    #[doc = "  LOCKDOWN_E_PASSWORD_PROTECTED if the device is password protected,"]
-    #[doc = "  LOCKDOWN_E_INVALID_HOST_ID if the device does not know the caller's host id"]
     pub fn lockdownd_unpair(
         client: lockdownd_client_t,
         pair_record: lockdownd_pair_record_t,
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Activates the device. Only works within an open session."]
-    #[doc = " The ActivationRecord plist dictionary must be obtained using the"]
-    #[doc = " activation protocol requesting from Apple's https webservice."]
-    #[doc = ""]
-    #[doc = " @param client The lockdown client"]
-    #[doc = " @param activation_record The activation record plist dictionary"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client or"]
-    #[doc = "  activation_record is NULL, LOCKDOWN_E_NO_RUNNING_SESSION if no session is"]
-    #[doc = "  open, LOCKDOWN_E_PLIST_ERROR if the received plist is broken,"]
-    #[doc = "  LOCKDOWN_E_ACTIVATION_FAILED if the activation failed,"]
-    #[doc = "  LOCKDOWN_E_INVALID_ACTIVATION_RECORD if the device reports that the"]
-    #[doc = "  activation_record is invalid"]
     pub fn lockdownd_activate(
         client: lockdownd_client_t,
         activation_record: plist_t,
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Deactivates the device, returning it to the locked “Activate with iTunes”"]
-    #[doc = " screen."]
-    #[doc = ""]
-    #[doc = " @param client The lockdown client"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL,"]
-    #[doc = "  LOCKDOWN_E_NO_RUNNING_SESSION if no session is open,"]
-    #[doc = "  LOCKDOWN_E_PLIST_ERROR if the received plist is broken"]
     pub fn lockdownd_deactivate(client: lockdownd_client_t) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Tells the device to immediately enter recovery mode."]
-    #[doc = ""]
-    #[doc = " @param client The lockdown client"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client is NULL"]
     pub fn lockdownd_enter_recovery(client: lockdownd_client_t) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Sends the Goodbye request to lockdownd signaling the end of communication."]
-    #[doc = ""]
-    #[doc = " @param client The lockdown client"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client"]
-    #[doc = "  is NULL, LOCKDOWN_E_PLIST_ERROR if the device did not acknowledge the"]
-    #[doc = "  request"]
     pub fn lockdownd_goodbye(client: lockdownd_client_t) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Creates a CU pairing session for the current lockdown client."]
-    #[doc = " This is required to allow lockdownd_cu_send_request_and_get_reply(),"]
-    #[doc = " lockdownd_get_value_cu() and lockdonwd_pair_cu() requests, and eventually"]
-    #[doc = " allows to perform an actual wireless pairing."]
-    #[doc = ""]
-    #[doc = " Through the callback function, the PIN displayed on the device has to be"]
-    #[doc = " supplied during the process. Currently, only AppleTV devices have this"]
-    #[doc = " capability."]
-    #[doc = ""]
-    #[doc = " @param client  The lockdown client to perform the CU pairing for"]
-    #[doc = " @param pairing_callback  Callback function that is used to supply the PIN"]
-    #[doc = "   for the pairing process, but also to receive device information or"]
-    #[doc = "   pairing error messages."]
-    #[doc = " @param cb_user_data  User data that will be passed as additional argument"]
-    #[doc = "   to the callback function."]
-    #[doc = " @param host_info  (Optional) A dictionary containing host information to"]
-    #[doc = "   send to the device when finalizing the CU pairing. The supplied"]
-    #[doc = "   values will override the default values gathered for the current host."]
-    #[doc = " @param acl  (Optional) A dictionary containing ACL information. Currently"]
-    #[doc = "   only com.apple.ScreenCapture:true and com.apple.developer:true are known"]
-    #[doc = "   valid ACL values, which are used as default when NULL is passed."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG if one of the"]
-    #[doc = "   parameters is invalid, LOCKDOWN_E_PAIRING_FAILED if the pairing failed,"]
-    #[doc = "   or a LOCKDOWN_E_* error code otherwise."]
     pub fn lockdownd_cu_pairing_create(
         client: lockdownd_client_t,
         pairing_callback: lockdownd_cu_pairing_cb_t,
@@ -9074,22 +8435,6 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Sends a request via lockdown client with established CU pairing session"]
-    #[doc = " and attempts to retrieve a reply. This function is used internally"]
-    #[doc = " by lockdownd_get_value_cu() and lockdownd_pair_cu(), but exposed here to"]
-    #[doc = " allow custom requests being sent and their replies being received."]
-    #[doc = ""]
-    #[doc = " @param client  A lockdown client with an established CU pairing."]
-    #[doc = " @param request  The request to perform."]
-    #[doc = " @param request_payload  The payload for the request."]
-    #[doc = " @param reply  (Optional) If not NULL, the plist_t will be set to the reply"]
-    #[doc = "   dictionary that has been received. Consumer is responsible to free it"]
-    #[doc = "   using plist_free() when no longer required."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG if one of the"]
-    #[doc = "   parameters is invalid, LOCKDOWN_E_NO_RUNNING_SESSION if the current"]
-    #[doc = "   lockdown client does not have an established CU pairing session,"]
-    #[doc = "   or a LOCKDOWN_E_* error code otherwise."]
     pub fn lockdownd_cu_send_request_and_get_reply(
         client: lockdownd_client_t,
         request: *const ::std::os::raw::c_char,
@@ -9098,22 +8443,6 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Retrieves a value using an optional domain and/or key name from a lockdown"]
-    #[doc = " client with established CU pairing session."]
-    #[doc = ""]
-    #[doc = " This is used to retrieve values that are only accessible after a CU pairing"]
-    #[doc = " has been established, and would otherwise only be accessible with a valid"]
-    #[doc = " device pairing."]
-    #[doc = ""]
-    #[doc = " @param client  A lockdown client with an established CU pairing."]
-    #[doc = " @param domain  The domain to query on or NULL for global domain"]
-    #[doc = " @param key  The key name to request or NULL to query for all keys"]
-    #[doc = " @param value  A plist node representing the result value node"]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG if one of the"]
-    #[doc = "   parameters is invalid, LOCKDOWN_E_NO_RUNNING_SESSION if the current"]
-    #[doc = "   lockdown client does not have an established CU pairing session,"]
-    #[doc = "   or a LOCKDOWN_E_* error code otherwise."]
     pub fn lockdownd_get_value_cu(
         client: lockdownd_client_t,
         domain: *const ::std::os::raw::c_char,
@@ -9122,66 +8451,27 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Perform a device pairing with a lockdown client that has an established"]
-    #[doc = " CU pairing session."]
-    #[doc = ""]
-    #[doc = " @param client A lockdown client with an established CU pairing."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success, LOCKDOWN_E_INVALID_ARG when client"]
-    #[doc = "   is NULL, LOCKDOWN_E_NO_RUNNING_SESSION if the current lockdown client"]
-    #[doc = "   does not have an established CU pairing session, or a LOCKDOWN_E_* error"]
-    #[doc = "   code otherwise."]
     pub fn lockdownd_pair_cu(client: lockdownd_client_t) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Sets the label to send for requests to lockdownd."]
-    #[doc = ""]
-    #[doc = " @param client The lockdown client"]
-    #[doc = " @param label The label to set or NULL to disable sending a label"]
-    #[doc = ""]
     pub fn lockdownd_client_set_label(
         client: lockdownd_client_t,
         label: *const ::std::os::raw::c_char,
     );
 }
 extern "C" {
-    #[doc = " Returns the unique id of the device from lockdownd."]
-    #[doc = ""]
-    #[doc = " @param client An initialized lockdownd client."]
-    #[doc = " @param udid Holds the unique id of the device. The caller is responsible"]
-    #[doc = "  for freeing the memory."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success"]
     pub fn lockdownd_get_device_udid(
         client: lockdownd_client_t,
         udid: *mut *mut ::std::os::raw::c_char,
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Retrieves the name of the device from lockdownd set by the user."]
-    #[doc = ""]
-    #[doc = " @param client An initialized lockdownd client."]
-    #[doc = " @param device_name Holds the name of the device. The caller is"]
-    #[doc = "  responsible for freeing the memory."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success"]
     pub fn lockdownd_get_device_name(
         client: lockdownd_client_t,
         device_name: *mut *mut ::std::os::raw::c_char,
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Calculates and returns the data classes the device supports from lockdownd."]
-    #[doc = ""]
-    #[doc = " @param client An initialized lockdownd client."]
-    #[doc = " @param classes A pointer to store an array of class names. The caller is responsible"]
-    #[doc = "  for freeing the memory which can be done using mobilesync_data_classes_free()."]
-    #[doc = " @param count The number of items in the classes array."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success,"]
-    #[doc = "  LOCKDOWN_E_INVALID_ARG when client is NULL,"]
-    #[doc = "  LOCKDOWN_E_NO_RUNNING_SESSION if no session is open,"]
-    #[doc = "  LOCKDOWN_E_PLIST_ERROR if the received plist is broken"]
     pub fn lockdownd_get_sync_data_classes(
         client: lockdownd_client_t,
         classes: *mut *mut *mut ::std::os::raw::c_char,
@@ -9189,31 +8479,16 @@ extern "C" {
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Frees memory of an allocated array of data classes as returned by lockdownd_get_sync_data_classes()"]
-    #[doc = ""]
-    #[doc = " @param classes An array of class names to free."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success"]
     pub fn lockdownd_data_classes_free(
         classes: *mut *mut ::std::os::raw::c_char,
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Frees memory of a service descriptor as returned by lockdownd_start_service()"]
-    #[doc = ""]
-    #[doc = " @param service A service descriptor instance to free."]
-    #[doc = ""]
-    #[doc = " @return LOCKDOWN_E_SUCCESS on success"]
     pub fn lockdownd_service_descriptor_free(
         service: lockdownd_service_descriptor_t,
     ) -> lockdownd_error_t;
 }
 extern "C" {
-    #[doc = " Gets a readable error string for a given lockdown error code."]
-    #[doc = ""]
-    #[doc = " @params err A lockdownd error code"]
-    #[doc = ""]
-    #[doc = " @returns A readable error string"]
     pub fn lockdownd_strerror(err: lockdownd_error_t) -> *const ::std::os::raw::c_char;
 }
 pub const afc_error_t_AFC_E_SUCCESS: afc_error_t = 0;
@@ -9603,6 +8878,14 @@ extern "C" {
     #[doc = " @return AFC_E_SUCCESS on success or an AFC_E_* error value."]
     pub fn afc_dictionary_free(dictionary: *mut *mut ::std::os::raw::c_char) -> afc_error_t;
 }
+extern "C" {
+    #[doc = " Gets a readable error string for a given AFC error code."]
+    #[doc = ""]
+    #[doc = " @param err An AFC error code"]
+    #[doc = ""]
+    #[doc = " @returns A readable error string"]
+    pub fn afc_strerror(err: afc_error_t) -> *const ::std::os::raw::c_char;
+}
 pub const companion_proxy_error_t_COMPANION_PROXY_E_SUCCESS: companion_proxy_error_t = 0;
 pub const companion_proxy_error_t_COMPANION_PROXY_E_INVALID_ARG: companion_proxy_error_t = -1;
 pub const companion_proxy_error_t_COMPANION_PROXY_E_PLIST_ERROR: companion_proxy_error_t = -2;
@@ -9623,6 +8906,7 @@ pub struct companion_proxy_client_private {
     _unused: [u8; 0],
 }
 pub type companion_proxy_client_t = *mut companion_proxy_client_private;
+#[doc = " Callback for companion device events"]
 pub type companion_proxy_device_event_cb_t = ::std::option::Option<
     unsafe extern "C" fn(event: plist_t, userdata: *mut ::std::os::raw::c_void),
 >;
@@ -9702,7 +8986,7 @@ extern "C" {
     #[doc = " Retrieves a list of paired devices."]
     #[doc = ""]
     #[doc = " @param client The companion_proxy client"]
-    #[doc = " @param devices Point that will receive a PLIST_ARRAY with paired device UDIDs"]
+    #[doc = " @param paired_devices Point that will receive a PLIST_ARRAY with paired device UDIDs"]
     #[doc = ""]
     #[doc = " @note The device closes the connection after sending the reply."]
     #[doc = ""]
@@ -9750,6 +9034,8 @@ extern "C" {
     #[doc = " @param client The companion_proxy client"]
     #[doc = " @param companion_udid UDID of the (paired) companion device"]
     #[doc = " @param key The key to retrieve the value for"]
+    #[doc = " @param value A pointer to a plist_t that will receive the value for the given key."]
+    #[doc = "   The consumer is responsible for freeing the value with plist_free() when no longer needed."]
     #[doc = ""]
     #[doc = " @note The device closes the connection after sending the reply."]
     #[doc = ""]
@@ -9898,7 +9184,8 @@ extern "C" {
     #[doc = " @return DEBUGSERVER_E_SUCCESS on success,"]
     #[doc = "      DEBUGSERVER_E_INVALID_ARG when one or more parameters are"]
     #[doc = "      invalid, DEBUGSERVER_E_MUX_ERROR when a communication error"]
-    #[doc = "      occurs, or DEBUGSERVER_E_UNKNOWN_ERROR when an unspecified"]
+    #[doc = "      occurs, DEBUGSERVER_E_TIMEOUT when the timeout is reached,"]
+    #[doc = "      or DEBUGSERVER_E_UNKNOWN_ERROR when an unspecified"]
     #[doc = "      error occurs."]
     pub fn debugserver_client_receive_with_timeout(
         client: debugserver_client_t,
@@ -9972,6 +9259,28 @@ extern "C" {
     pub fn debugserver_client_set_ack_mode(
         client: debugserver_client_t,
         enabled: ::std::os::raw::c_int,
+    ) -> debugserver_error_t;
+}
+extern "C" {
+    #[doc = " Sets behavior when awaiting a response from the server."]
+    #[doc = ""]
+    #[doc = " @see debugserver_client_send_command, debugserver_client_receive_response,"]
+    #[doc = "   debugserver_client_receive"]
+    #[doc = ""]
+    #[doc = " @param client The debugserver client"]
+    #[doc = " @param cancel_receive A function pointer that will be called approximately"]
+    #[doc = "     every receive_loop_timeout milliseconds; the function should return a"]
+    #[doc = "     boolean flag specifying whether to stop waiting for a response. If NULL,"]
+    #[doc = "     behaves as if it always returns true."]
+    #[doc = " @param receive_loop_timeout Time in milliseconds between calls to"]
+    #[doc = "     cancel_receive."]
+    #[doc = ""]
+    #[doc = " @return DEBUGSERVER_E_SUCCESS on success, or an DEBUGSERVER_E_* error"]
+    #[doc = "     code otherwise."]
+    pub fn debugserver_client_set_receive_params(
+        client: debugserver_client_t,
+        cancel_receive: ::std::option::Option<unsafe extern "C" fn() -> ::std::os::raw::c_int>,
+        receive_loop_timeout: ::std::os::raw::c_int,
     ) -> debugserver_error_t;
 }
 extern "C" {
@@ -10072,6 +9381,7 @@ pub const diagnostics_relay_action_t_DIAGNOSTICS_RELAY_ACTION_FLAG_DISPLAY_PASS:
     diagnostics_relay_action_t = 4;
 pub const diagnostics_relay_action_t_DIAGNOSTICS_RELAY_ACTION_FLAG_DISPLAY_FAIL:
     diagnostics_relay_action_t = 8;
+#[doc = " Action type for #diagnostics_relay_restart and #diagnostics_relay_shutdown"]
 pub type diagnostics_relay_action_t = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -10192,14 +9502,13 @@ extern "C" {
     ) -> diagnostics_relay_error_t;
 }
 extern "C" {
-    #[doc = " Shutdown of the device and optionally show a user notification."]
+    #[doc = " Request diagnostics information for a given type."]
     #[doc = ""]
     #[doc = " @param client The diagnostics_relay client"]
-    #[doc = " @param flags A binary flag combination of"]
-    #[doc = "        DIAGNOSTICS_RELAY_ACTION_FLAG_WAIT_FOR_DISCONNECT to wait until"]
-    #[doc = "        diagnostics_relay_client_free() disconnects before execution and"]
-    #[doc = "        DIAGNOSTICS_RELAY_ACTION_FLAG_DISPLAY_FAIL to show a \"FAIL\" dialog"]
-    #[doc = "        or DIAGNOSTICS_RELAY_ACTION_FLAG_DISPLAY_PASS to show an \"OK\" dialog"]
+    #[doc = " @param type The type or domain to query for diagnostics. Some known values"]
+    #[doc = "     are \"All\", \"WiFi\", \"GasGauge\", and \"NAND\"."]
+    #[doc = " @param diagnostics A pointer to plist_t that will receive the diagnostics information."]
+    #[doc = "     The consumer has to free the allocated memory with plist_free() when no longer needed."]
     #[doc = ""]
     #[doc = " @return DIAGNOSTICS_RELAY_E_SUCCESS on success,"]
     #[doc = "  DIAGNOSTICS_RELAY_E_INVALID_ARG when client is NULL,"]
@@ -10212,6 +9521,17 @@ extern "C" {
     ) -> diagnostics_relay_error_t;
 }
 extern "C" {
+    #[doc = " Query one or multiple MobileGestalt keys."]
+    #[doc = ""]
+    #[doc = " @param client The diagnostics_relay client"]
+    #[doc = " @param keys A PLIST_ARRAY with the keys to query."]
+    #[doc = " @param result A pointer to plist_t that will receive the result. The consumer"]
+    #[doc = "     has to free the allocated memory with plist_free() when no longer needed."]
+    #[doc = ""]
+    #[doc = " @return DIAGNOSTICS_RELAY_E_SUCCESS on success,"]
+    #[doc = "  DIAGNOSTICS_RELAY_E_INVALID_ARG when client is NULL,"]
+    #[doc = "  DIAGNOSTICS_RELAY_E_PLIST_ERROR if the device did not acknowledge the"]
+    #[doc = "  request"]
     pub fn diagnostics_relay_query_mobilegestalt(
         client: diagnostics_relay_client_t,
         keys: plist_t,
@@ -10219,6 +9539,18 @@ extern "C" {
     ) -> diagnostics_relay_error_t;
 }
 extern "C" {
+    #[doc = " Query an IORegistry entry of a given class."]
+    #[doc = ""]
+    #[doc = " @param client The diagnostics_relay client"]
+    #[doc = " @param entry_name The IORegistry entry name to query."]
+    #[doc = " @param entry_class The IORegistry class to query."]
+    #[doc = " @param result A pointer to plist_t that will receive the result. The consumer"]
+    #[doc = "     has to free the allocated memory with plist_free() when no longer needed."]
+    #[doc = ""]
+    #[doc = " @return DIAGNOSTICS_RELAY_E_SUCCESS on success,"]
+    #[doc = "  DIAGNOSTICS_RELAY_E_INVALID_ARG when client is NULL,"]
+    #[doc = "  DIAGNOSTICS_RELAY_E_PLIST_ERROR if the device did not acknowledge the"]
+    #[doc = "  request"]
     pub fn diagnostics_relay_query_ioregistry_entry(
         client: diagnostics_relay_client_t,
         entry_name: *const ::std::os::raw::c_char,
@@ -10227,6 +9559,17 @@ extern "C" {
     ) -> diagnostics_relay_error_t;
 }
 extern "C" {
+    #[doc = " Query an IORegistry plane."]
+    #[doc = ""]
+    #[doc = " @param client The diagnostics_relay client"]
+    #[doc = " @param plane The IORegistry plane name to query."]
+    #[doc = " @param result A pointer to plist_t that will receive the result. The consumer"]
+    #[doc = "     has to free the allocated memory with plist_free() when no longer needed."]
+    #[doc = ""]
+    #[doc = " @return DIAGNOSTICS_RELAY_E_SUCCESS on success,"]
+    #[doc = "  DIAGNOSTICS_RELAY_E_INVALID_ARG when client is NULL,"]
+    #[doc = "  DIAGNOSTICS_RELAY_E_PLIST_ERROR if the device did not acknowledge the"]
+    #[doc = "  request"]
     pub fn diagnostics_relay_query_ioregistry_plane(
         client: diagnostics_relay_client_t,
         plane: *const ::std::os::raw::c_char,
@@ -10314,7 +9657,6 @@ extern "C" {
     #[doc = "     data using idevice_connection_receive(). The connection will be closed"]
     #[doc = "     automatically by the device, but use file_relay_client_free() to clean"]
     #[doc = "     up properly."]
-    #[doc = " @param timeout Maximum time in milliseconds to wait for data."]
     #[doc = ""]
     #[doc = " @note WARNING: Don't call this function without reading the data afterwards."]
     #[doc = "     A directory mobile_file_relay.XXXX used for creating the archive will"]
@@ -10351,6 +9693,7 @@ extern "C" {
     #[doc = "     data using idevice_connection_receive(). The connection will be closed"]
     #[doc = "     automatically by the device, but use file_relay_client_free() to clean"]
     #[doc = "     up properly."]
+    #[doc = " @param timeout Maximum time in milliseconds to wait for data."]
     #[doc = ""]
     #[doc = " @note WARNING: Don't call this function without reading the data afterwards."]
     #[doc = "     A directory mobile_file_relay.XXXX used for creating the archive will"]
@@ -10456,7 +9799,7 @@ extern "C" {
     #[doc = " @param client The heartbeat client to use for receiving"]
     #[doc = " @param plist pointer to a plist_t that will point to the received plist"]
     #[doc = "      upon successful return"]
-    #[doc = " @param timeout Maximum time in milliseconds to wait for data."]
+    #[doc = " @param timeout_ms Maximum time in milliseconds to wait for data."]
     #[doc = ""]
     #[doc = " @return HEARTBEAT_E_SUCCESS on success,"]
     #[doc = "      HEARTBEAT_E_INVALID_ARG when client or *plist is NULL,"]
@@ -11084,8 +10427,8 @@ extern "C" {
     #[doc = " Gets progress in percentage from a status if available."]
     #[doc = ""]
     #[doc = " @param status The dictionary status response to use."]
-    #[doc = " @param name Pointer to store the progress in percent (0-100) or -1 if not"]
-    #[doc = "        progress was found in the status."]
+    #[doc = " @param percent Pointer to an int to store the progress in percent (0-100)"]
+    #[doc = "        or -1 if no progress was found in the status."]
     pub fn instproxy_status_get_percent_complete(
         status: plist_t,
         percent: *mut ::std::os::raw::c_int,
@@ -11128,7 +10471,7 @@ extern "C" {
     #[doc = " Queries the device for the path of an application."]
     #[doc = ""]
     #[doc = " @param client The connected installation proxy client."]
-    #[doc = " @param appid ApplicationIdentifier of app to retrieve the path for."]
+    #[doc = " @param bundle_id ApplicationIdentifier of app to retrieve the path for."]
     #[doc = " @param path Pointer to store the device path for the application"]
     #[doc = "        which is set to NULL if it could not be determined."]
     #[doc = ""]
@@ -11282,6 +10625,8 @@ pub const mobile_image_mounter_error_t_MOBILE_IMAGE_MOUNTER_E_COMMAND_FAILED:
     mobile_image_mounter_error_t = -4;
 pub const mobile_image_mounter_error_t_MOBILE_IMAGE_MOUNTER_E_DEVICE_LOCKED:
     mobile_image_mounter_error_t = -5;
+pub const mobile_image_mounter_error_t_MOBILE_IMAGE_MOUNTER_E_NOT_SUPPORTED:
+    mobile_image_mounter_error_t = -6;
 pub const mobile_image_mounter_error_t_MOBILE_IMAGE_MOUNTER_E_UNKNOWN_ERROR:
     mobile_image_mounter_error_t = -256;
 #[doc = " Error Codes"]
@@ -11386,10 +10731,39 @@ extern "C" {
         client: mobile_image_mounter_client_t,
         image_type: *const ::std::os::raw::c_char,
         image_size: size_t,
-        signature: *const ::std::os::raw::c_char,
-        signature_size: u16,
+        signature: *const ::std::os::raw::c_uchar,
+        signature_size: ::std::os::raw::c_uint,
         upload_cb: mobile_image_mounter_upload_cb_t,
         userdata: *mut ::std::os::raw::c_void,
+    ) -> mobile_image_mounter_error_t;
+}
+extern "C" {
+    #[doc = " Mounts an image on the device."]
+    #[doc = ""]
+    #[doc = " @param client The connected mobile_image_mounter client."]
+    #[doc = " @param image_path The absolute path of the image to mount. The image must"]
+    #[doc = "    be present before calling this function."]
+    #[doc = " @param signature Pointer to a buffer holding the images' signature"]
+    #[doc = " @param signature_size Length of the signature image_signature points to"]
+    #[doc = " @param image_type Type of image to mount"]
+    #[doc = " @param options A dictionary containing additional key/value pairs to add"]
+    #[doc = " @param result Pointer to a plist that will receive the result of the"]
+    #[doc = "    operation."]
+    #[doc = ""]
+    #[doc = " @note This function may return MOBILE_IMAGE_MOUNTER_E_SUCCESS even if the"]
+    #[doc = "    operation has failed. Check the resulting plist for further information."]
+    #[doc = ""]
+    #[doc = " @return MOBILE_IMAGE_MOUNTER_E_SUCCESS on success,"]
+    #[doc = "    MOBILE_IMAGE_MOUNTER_E_INVALID_ARG if on ore more parameters are"]
+    #[doc = "    invalid, or another error code otherwise."]
+    pub fn mobile_image_mounter_mount_image_with_options(
+        client: mobile_image_mounter_client_t,
+        image_path: *const ::std::os::raw::c_char,
+        signature: *const ::std::os::raw::c_uchar,
+        signature_size: ::std::os::raw::c_uint,
+        image_type: *const ::std::os::raw::c_char,
+        options: plist_t,
+        result: *mut plist_t,
     ) -> mobile_image_mounter_error_t;
 }
 extern "C" {
@@ -11406,8 +10780,6 @@ extern "C" {
     #[doc = ""]
     #[doc = " @note This function may return MOBILE_IMAGE_MOUNTER_E_SUCCESS even if the"]
     #[doc = "    operation has failed. Check the resulting plist for further information."]
-    #[doc = "    Note that there is no unmounting function. The mount persists until the"]
-    #[doc = "    device is rebooted."]
     #[doc = ""]
     #[doc = " @return MOBILE_IMAGE_MOUNTER_E_SUCCESS on success,"]
     #[doc = "    MOBILE_IMAGE_MOUNTER_E_INVALID_ARG if on ore more parameters are"]
@@ -11415,10 +10787,23 @@ extern "C" {
     pub fn mobile_image_mounter_mount_image(
         client: mobile_image_mounter_client_t,
         image_path: *const ::std::os::raw::c_char,
-        signature: *const ::std::os::raw::c_char,
-        signature_size: u16,
+        signature: *const ::std::os::raw::c_uchar,
+        signature_size: ::std::os::raw::c_uint,
         image_type: *const ::std::os::raw::c_char,
         result: *mut plist_t,
+    ) -> mobile_image_mounter_error_t;
+}
+extern "C" {
+    #[doc = " Unmount a mounted image at given path on the device."]
+    #[doc = ""]
+    #[doc = " @param client The connected mobile_image_mounter client."]
+    #[doc = " @param mount_path The mount path of the mounted image on the device."]
+    #[doc = ""]
+    #[doc = " @return MOBILE_IMAGE_MOUNTER_E_SUCCESS on success,"]
+    #[doc = "    or a MOBILE_IMAGE_MOUNTER_E_* error code on error."]
+    pub fn mobile_image_mounter_unmount_image(
+        client: mobile_image_mounter_client_t,
+        mount_path: *const ::std::os::raw::c_char,
     ) -> mobile_image_mounter_error_t;
 }
 extern "C" {
@@ -11432,6 +10817,93 @@ extern "C" {
     #[doc = "     MOBILE_IMAGE_MOUNTER_E_INVALID_ARG if client is invalid,"]
     #[doc = "     or another error code otherwise."]
     pub fn mobile_image_mounter_hangup(
+        client: mobile_image_mounter_client_t,
+    ) -> mobile_image_mounter_error_t;
+}
+extern "C" {
+    #[doc = " Query the developer mode status of the given device."]
+    #[doc = ""]
+    #[doc = " @param client The connected mobile_image_mounter client."]
+    #[doc = " @param result A pointer to a plist_t that will be set to the resulting developer mode status dictionary."]
+    #[doc = ""]
+    #[doc = " @return MOBILE_IMAGE_MOUNTER_E_SUCCESS on success,"]
+    #[doc = "    or a MOBILE_IMAGE_MOUNTER_E_* error code on error."]
+    pub fn mobile_image_mounter_query_developer_mode_status(
+        client: mobile_image_mounter_client_t,
+        result: *mut plist_t,
+    ) -> mobile_image_mounter_error_t;
+}
+extern "C" {
+    #[doc = " Query a personalization nonce for the given image type, used for personalized disk images (iOS 17+)."]
+    #[doc = " This nonce is supposed to be added to the TSS request for the corresponding image."]
+    #[doc = ""]
+    #[doc = " @param client The connected mobile_image_mounter client."]
+    #[doc = " @param image_type The image_type to get the personalization nonce for, usually `DeveloperDiskImage`."]
+    #[doc = " @param nonce Pointer that will be set to an allocated buffer with the nonce value."]
+    #[doc = " @param nonce_size Pointer to an unsigned int that will receive the size of the nonce value."]
+    #[doc = ""]
+    #[doc = " @return MOBILE_IMAGE_MOUNTER_E_SUCCESS on success,"]
+    #[doc = "    or a MOBILE_IMAGE_MOUNTER_E_* error code on error."]
+    pub fn mobile_image_mounter_query_nonce(
+        client: mobile_image_mounter_client_t,
+        image_type: *const ::std::os::raw::c_char,
+        nonce: *mut *mut ::std::os::raw::c_uchar,
+        nonce_size: *mut ::std::os::raw::c_uint,
+    ) -> mobile_image_mounter_error_t;
+}
+extern "C" {
+    #[doc = " Query personalization identitifers for the given image_type."]
+    #[doc = ""]
+    #[doc = " @param client The connected mobile_image_mounter client."]
+    #[doc = " @param image_type The image_type to get the personalization identifiers for. Can be NULL."]
+    #[doc = " @param result A pointer to a plist_t that will be set to the resulting identifier dictionary."]
+    #[doc = ""]
+    #[doc = " @return MOBILE_IMAGE_MOUNTER_E_SUCCESS on success,"]
+    #[doc = "    or a MOBILE_IMAGE_MOUNTER_E_* error code on error."]
+    pub fn mobile_image_mounter_query_personalization_identifiers(
+        client: mobile_image_mounter_client_t,
+        image_type: *const ::std::os::raw::c_char,
+        result: *mut plist_t,
+    ) -> mobile_image_mounter_error_t;
+}
+extern "C" {
+    #[doc = " @param client The connected mobile_image_mounter client."]
+    #[doc = " @param image_type The image_type to get the personalization identifiers for. Can be NULL."]
+    #[doc = " @param signature The signature of the corresponding personalized image."]
+    #[doc = " @param signature_size The size of signature."]
+    #[doc = " @param manifest Pointer that will be set to an allocated buffer with the manifest data."]
+    #[doc = " @param manifest_size Pointer to an unsigned int that will be set to the size of the manifest data."]
+    #[doc = ""]
+    #[doc = " @return MOBILE_IMAGE_MOUNTER_E_SUCCESS on success,"]
+    #[doc = "    or a MOBILE_IMAGE_MOUNTER_E_* error code on error."]
+    pub fn mobile_image_mounter_query_personalization_manifest(
+        client: mobile_image_mounter_client_t,
+        image_type: *const ::std::os::raw::c_char,
+        signature: *const ::std::os::raw::c_uchar,
+        signature_size: ::std::os::raw::c_uint,
+        manifest: *mut *mut ::std::os::raw::c_uchar,
+        manifest_size: *mut ::std::os::raw::c_uint,
+    ) -> mobile_image_mounter_error_t;
+}
+extern "C" {
+    #[doc = " Roll the personalization nonce."]
+    #[doc = ""]
+    #[doc = " @param client The connected mobile_image_mounter client."]
+    #[doc = ""]
+    #[doc = " @return MOBILE_IMAGE_MOUNTER_E_SUCCESS on success,"]
+    #[doc = "    or a MOBILE_IMAGE_MOUNTER_E_* error code on error."]
+    pub fn mobile_image_mounter_roll_personalization_nonce(
+        client: mobile_image_mounter_client_t,
+    ) -> mobile_image_mounter_error_t;
+}
+extern "C" {
+    #[doc = " Roll the Cryptex nonce."]
+    #[doc = ""]
+    #[doc = " @param client The connected mobile_image_mounter client."]
+    #[doc = ""]
+    #[doc = " @return MOBILE_IMAGE_MOUNTER_E_SUCCESS on success,"]
+    #[doc = "    or a MOBILE_IMAGE_MOUNTER_E_* error code on error."]
+    pub fn mobile_image_mounter_roll_cryptex_nonce(
         client: mobile_image_mounter_client_t,
     ) -> mobile_image_mounter_error_t;
 }
@@ -11556,7 +11028,7 @@ extern "C" {
     #[doc = " provided by mobileactivation_create_activation_session_info()."]
     #[doc = ""]
     #[doc = " @param client The mobileactivation client"]
-    #[doc = " @aram handshake_response The handshake response returned from drmHandshake"]
+    #[doc = " @param handshake_response The handshake response returned from drmHandshake"]
     #[doc = " @param info Pointer to a plist_t variable that will be set to the"]
     #[doc = "     activation info created by the mobileactivation service. The"]
     #[doc = "     consumer is responsible for freeing the returned object using"]
@@ -11631,6 +11103,7 @@ pub type mobilebackup_client_t = *mut mobilebackup_client_private;
 pub const mobilebackup_flags_t_MB_RESTORE_NOTIFY_SPRINGBOARD: mobilebackup_flags_t = 1;
 pub const mobilebackup_flags_t_MB_RESTORE_PRESERVE_SETTINGS: mobilebackup_flags_t = 2;
 pub const mobilebackup_flags_t_MB_RESTORE_PRESERVE_CAMERA_ROLL: mobilebackup_flags_t = 4;
+#[doc = " Available flags passed to #mobilebackup_request_restore"]
 pub type mobilebackup_flags_t = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " Connects to the mobilebackup service on the specified device."]
@@ -11973,7 +11446,7 @@ extern "C" {
     #[doc = " @param data Pointer to a buffer that will be filled with the received data."]
     #[doc = " @param length Number of bytes to receive. The data buffer needs to be large"]
     #[doc = "     enough to store this amount of data."]
-    #[doc = " @paran bytes Number of bytes actually received."]
+    #[doc = " @param bytes Number of bytes actually received."]
     #[doc = ""]
     #[doc = " @return MOBILEBACKUP2_E_SUCCESS if any or no data was received,"]
     #[doc = "     MOBILEBACKUP2_E_INVALID_ARG if one of the parameters is invalid,"]
@@ -12068,10 +11541,13 @@ pub struct mobilesync_client_private {
     _unused: [u8; 0],
 }
 pub type mobilesync_client_t = *mut mobilesync_client_private;
+#[doc = " Anchors used by the device and computer (structure)"]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct mobilesync_anchors {
+    #[doc = "< device anchor"]
     pub device_anchor: *mut ::std::os::raw::c_char,
+    #[doc = "< computer anchor"]
     pub computer_anchor: *mut ::std::os::raw::c_char,
 }
 #[test]
@@ -12111,6 +11587,7 @@ fn bindgen_test_layout_mobilesync_anchors() {
         )
     );
 }
+#[doc = " Anchors used by the device and computer"]
 pub type mobilesync_anchors_t = *mut mobilesync_anchors;
 extern "C" {
     #[doc = " Connects to the mobilesync service on the specified device."]
@@ -12420,7 +11897,7 @@ pub struct np_client_private {
     _unused: [u8; 0],
 }
 pub type np_client_t = *mut np_client_private;
-#[doc = " Reports which notification was received."]
+#[doc = " Callback function that reports which notification was received."]
 pub type np_notify_cb_t = ::std::option::Option<
     unsafe extern "C" fn(
         notification: *const ::std::os::raw::c_char,
@@ -12535,7 +12012,7 @@ extern "C" {
     pub fn np_set_notify_callback(
         client: np_client_t,
         notify_cb: np_notify_cb_t,
-        userdata: *mut ::std::os::raw::c_void,
+        user_data: *mut ::std::os::raw::c_void,
     ) -> np_error_t;
 }
 pub const preboard_error_t_PREBOARD_E_SUCCESS: preboard_error_t = 0;
@@ -12632,6 +12109,7 @@ extern "C" {
     #[doc = ""]
     #[doc = " @param client The preboard client"]
     #[doc = " @param plist Pointer to a plist_t what will be set to the received plist"]
+    #[doc = " @param timeout_ms Timeout in milliseconds"]
     #[doc = ""]
     #[doc = " @return PREBOARD_E_SUCCESS on success,"]
     #[doc = "  PREBOARD_E_INVALID_ARG when client or plist is NULL,"]
@@ -12662,7 +12140,7 @@ extern "C" {
     #[doc = "     { Timeout: true }"]
     #[doc = "     followed by { HideDialog: true }"]
     #[doc = " If the user aborts the passcode entry, the device sends a dictionary:"]
-    #[doc = "     { Error: 1, ErrorString: <error string> }"]
+    #[doc = "     { Error: 1, ErrorString: \\<error string\\> }"]
     #[doc = "     followed by { HideDialog: true }"]
     #[doc = ""]
     #[doc = " @return PREBOARD_E_SUCCESS if the command was successfully submitted,"]
@@ -12688,7 +12166,7 @@ extern "C" {
     #[doc = " receive a dictionary with:"]
     #[doc = "     { StashbagCommitComplete: true }"]
     #[doc = " or in case of an error:"]
-    #[doc = "     { StashbagCommitComplete: 0, Error: 1, <optional> ErrorString: <error string> }"]
+    #[doc = "     { StashbagCommitComplete: 0, Error: 1, \\<optional\\> ErrorString: \\<error string\\> }"]
     #[doc = ""]
     #[doc = " @return PREBOARD_E_SUCCESS if the command was successfully submitted,"]
     #[doc = "  PREBOARD_E_INVALID_ARG when client is invalid,"]
@@ -12699,6 +12177,82 @@ extern "C" {
         status_cb: preboard_status_cb_t,
         user_data: *mut ::std::os::raw::c_void,
     ) -> preboard_error_t;
+}
+pub const service_error_t_SERVICE_E_SUCCESS: service_error_t = 0;
+pub const service_error_t_SERVICE_E_INVALID_ARG: service_error_t = -1;
+pub const service_error_t_SERVICE_E_MUX_ERROR: service_error_t = -3;
+pub const service_error_t_SERVICE_E_SSL_ERROR: service_error_t = -4;
+pub const service_error_t_SERVICE_E_START_SERVICE_ERROR: service_error_t = -5;
+pub const service_error_t_SERVICE_E_NOT_ENOUGH_DATA: service_error_t = -6;
+pub const service_error_t_SERVICE_E_TIMEOUT: service_error_t = -7;
+pub const service_error_t_SERVICE_E_UNKNOWN_ERROR: service_error_t = -256;
+pub type service_error_t = ::std::os::raw::c_int;
+pub type service_client_t = *mut service_client_private;
+extern "C" {
+    pub fn service_client_new(
+        device: idevice_t,
+        service: lockdownd_service_descriptor_t,
+        client: *mut service_client_t,
+    ) -> service_error_t;
+}
+extern "C" {
+    pub fn service_client_factory_start_service(
+        device: idevice_t,
+        service_name: *const ::std::os::raw::c_char,
+        client: *mut *mut ::std::os::raw::c_void,
+        label: *const ::std::os::raw::c_char,
+        constructor_func: ::std::option::Option<
+            unsafe extern "C" fn(
+                arg1: idevice_t,
+                arg2: lockdownd_service_descriptor_t,
+                arg3: *mut *mut ::std::os::raw::c_void,
+            ) -> i32,
+        >,
+        error_code: *mut i32,
+    ) -> service_error_t;
+}
+extern "C" {
+    pub fn service_client_free(client: service_client_t) -> service_error_t;
+}
+extern "C" {
+    pub fn service_send(
+        client: service_client_t,
+        data: *const ::std::os::raw::c_char,
+        size: u32,
+        sent: *mut u32,
+    ) -> service_error_t;
+}
+extern "C" {
+    pub fn service_receive_with_timeout(
+        client: service_client_t,
+        data: *mut ::std::os::raw::c_char,
+        size: u32,
+        received: *mut u32,
+        timeout: ::std::os::raw::c_uint,
+    ) -> service_error_t;
+}
+extern "C" {
+    pub fn service_receive(
+        client: service_client_t,
+        data: *mut ::std::os::raw::c_char,
+        size: u32,
+        received: *mut u32,
+    ) -> service_error_t;
+}
+extern "C" {
+    pub fn service_enable_ssl(client: service_client_t) -> service_error_t;
+}
+extern "C" {
+    pub fn service_disable_ssl(client: service_client_t) -> service_error_t;
+}
+extern "C" {
+    pub fn service_disable_bypass_ssl(client: service_client_t, sslBypass: u8) -> service_error_t;
+}
+extern "C" {
+    pub fn service_get_connection(
+        client: service_client_t,
+        connection: *mut idevice_connection_t,
+    ) -> service_error_t;
 }
 pub const property_list_service_error_t_PROPERTY_LIST_SERVICE_E_SUCCESS:
     property_list_service_error_t = 0;
@@ -12716,6 +12270,7 @@ pub const property_list_service_error_t_PROPERTY_LIST_SERVICE_E_NOT_ENOUGH_DATA:
     property_list_service_error_t = -6;
 pub const property_list_service_error_t_PROPERTY_LIST_SERVICE_E_UNKNOWN_ERROR:
     property_list_service_error_t = -256;
+#[doc = " Error Codes"]
 pub type property_list_service_error_t = ::std::os::raw::c_int;
 pub type property_list_service_private = property_list_service_client_private;
 pub type property_list_service_client_t = *mut property_list_service_private;
@@ -12832,8 +12387,8 @@ extern "C" {
     #[doc = "     should be enabled."]
     #[doc = ""]
     #[doc = " @return PROPERTY_LIST_SERVICE_E_SUCCESS on success,"]
-    #[doc = "     PROPERTY_LIST_SERVICE_E_INVALID_ARG if client or client->connection is"]
-    #[doc = "     NULL, PROPERTY_LIST_SERVICE_E_SSL_ERROR when SSL could not be enabled,"]
+    #[doc = "     PROPERTY_LIST_SERVICE_E_INVALID_ARG if one or more of the arguments are invalid,"]
+    #[doc = "     PROPERTY_LIST_SERVICE_E_SSL_ERROR when SSL could not be enabled,"]
     #[doc = "     or PROPERTY_LIST_SERVICE_E_UNKNOWN_ERROR otherwise."]
     pub fn property_list_service_enable_ssl(
         client: property_list_service_client_t,
@@ -12846,10 +12401,23 @@ extern "C" {
     #[doc = "     should be disabled."]
     #[doc = ""]
     #[doc = " @return PROPERTY_LIST_SERVICE_E_SUCCESS on success,"]
-    #[doc = "     PROPERTY_LIST_SERVICE_E_INVALID_ARG if client or client->connection is"]
-    #[doc = "     NULL, or PROPERTY_LIST_SERVICE_E_UNKNOWN_ERROR otherwise."]
+    #[doc = "     PROPERTY_LIST_SERVICE_E_INVALID_ARG if one or more of the arguments are invalid,"]
+    #[doc = "     or PROPERTY_LIST_SERVICE_E_UNKNOWN_ERROR otherwise."]
     pub fn property_list_service_disable_ssl(
         client: property_list_service_client_t,
+    ) -> property_list_service_error_t;
+}
+extern "C" {
+    #[doc = " Return a handle to the parent #service_client_t of the given property list service client."]
+    #[doc = ""]
+    #[doc = " @param client The property list service client"]
+    #[doc = " @param service_client Pointer to be assigned to the parent #service_client_t"]
+    #[doc = ""]
+    #[doc = " @return PROPERTY_LIST_SERVICE_E_SUCCESS on success,"]
+    #[doc = "     PROPERTY_LIST_SERVICE_E_INVALID_ARG if one or more of the arguments are invalid."]
+    pub fn property_list_service_get_service_client(
+        client: property_list_service_client_t,
+        service_client: *mut service_client_t,
     ) -> property_list_service_error_t;
 }
 pub const restored_error_t_RESTORE_E_SUCCESS: restored_error_t = 0;
@@ -13020,6 +12588,7 @@ pub type reverse_proxy_client_t = *mut reverse_proxy_client_private;
 pub const reverse_proxy_client_type_t_RP_TYPE_CTRL: reverse_proxy_client_type_t = 1;
 #[doc = "< proxy connection"]
 pub const reverse_proxy_client_type_t_RP_TYPE_CONN: reverse_proxy_client_type_t = 2;
+#[doc = " reverse proxy client type"]
 pub type reverse_proxy_client_type_t = ::std::os::raw::c_uint;
 #[doc = "< proxy is ready"]
 pub const reverse_proxy_status_t_RP_STATUS_READY: reverse_proxy_status_t = 1;
@@ -13033,11 +12602,13 @@ pub const reverse_proxy_status_t_RP_STATUS_SHUTDOWN_REQ: reverse_proxy_status_t 
 pub const reverse_proxy_status_t_RP_STATUS_CONNECTED: reverse_proxy_status_t = 5;
 #[doc = "< connection closed (only RP_TYPE_CONN)"]
 pub const reverse_proxy_status_t_RP_STATUS_DISCONNECTED: reverse_proxy_status_t = 6;
+#[doc = " reverse proxy status for reverse_proxy_status_cb_t callback"]
 pub type reverse_proxy_status_t = ::std::os::raw::c_uint;
 #[doc = "< data going out to remote host"]
 pub const reverse_proxy_data_direction_t_RP_DATA_DIRECTION_OUT: reverse_proxy_data_direction_t = 1;
 #[doc = "< data coming in from remote host"]
 pub const reverse_proxy_data_direction_t_RP_DATA_DIRECTION_IN: reverse_proxy_data_direction_t = 2;
+#[doc = " reverse proxy data direction passed to reverse_proxy_data_cb_t callback"]
 pub type reverse_proxy_data_direction_t = ::std::os::raw::c_uint;
 #[doc = " Log callback function prototype."]
 #[doc = ""]
@@ -13218,6 +12789,7 @@ pub const sbservices_interface_orientation_t_SBSERVICES_INTERFACE_ORIENTATION_LA
     sbservices_interface_orientation_t = 3;
 pub const sbservices_interface_orientation_t_SBSERVICES_INTERFACE_ORIENTATION_LANDSCAPE_LEFT:
     sbservices_interface_orientation_t = 4;
+#[doc = " Orientation of the user interface on the device"]
 pub type sbservices_interface_orientation_t = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -13437,169 +13009,6 @@ extern "C" {
         imgsize: *mut u64,
     ) -> screenshotr_error_t;
 }
-pub const service_error_t_SERVICE_E_SUCCESS: service_error_t = 0;
-pub const service_error_t_SERVICE_E_INVALID_ARG: service_error_t = -1;
-pub const service_error_t_SERVICE_E_MUX_ERROR: service_error_t = -3;
-pub const service_error_t_SERVICE_E_SSL_ERROR: service_error_t = -4;
-pub const service_error_t_SERVICE_E_START_SERVICE_ERROR: service_error_t = -5;
-pub const service_error_t_SERVICE_E_NOT_ENOUGH_DATA: service_error_t = -6;
-pub const service_error_t_SERVICE_E_TIMEOUT: service_error_t = -7;
-pub const service_error_t_SERVICE_E_UNKNOWN_ERROR: service_error_t = -256;
-#[doc = " Error Codes"]
-pub type service_error_t = ::std::os::raw::c_int;
-pub type service_client_t = *mut service_client_private;
-extern "C" {
-    #[doc = " Creates a new service for the specified service descriptor."]
-    #[doc = ""]
-    #[doc = " @param device The device to connect to."]
-    #[doc = " @param service The service descriptor returned by lockdownd_start_service."]
-    #[doc = " @param client Pointer that will be set to a newly allocated"]
-    #[doc = "     service_client_t upon successful return."]
-    #[doc = ""]
-    #[doc = " @return SERVICE_E_SUCCESS on success,"]
-    #[doc = "     SERVICE_E_INVALID_ARG when one of the arguments is invalid,"]
-    #[doc = "     or SERVICE_E_MUX_ERROR when connecting to the device failed."]
-    pub fn service_client_new(
-        device: idevice_t,
-        service: lockdownd_service_descriptor_t,
-        client: *mut service_client_t,
-    ) -> service_error_t;
-}
-extern "C" {
-    #[doc = " Starts a new service on the specified device with given name and"]
-    #[doc = " connects to it."]
-    #[doc = ""]
-    #[doc = " @param device The device to connect to."]
-    #[doc = " @param service_name The name of the service to start."]
-    #[doc = " @param client Pointer that will point to a newly allocated service_client_t"]
-    #[doc = "     upon successful return. Must be freed using service_client_free() after"]
-    #[doc = "     use."]
-    #[doc = " @param label The label to use for communication. Usually the program name."]
-    #[doc = "  Pass NULL to disable sending the label in requests to lockdownd."]
-    #[doc = ""]
-    #[doc = " @return SERVICE_E_SUCCESS on success, or a SERVICE_E_* error code"]
-    #[doc = "     otherwise."]
-    pub fn service_client_factory_start_service(
-        device: idevice_t,
-        service_name: *const ::std::os::raw::c_char,
-        client: *mut *mut ::std::os::raw::c_void,
-        label: *const ::std::os::raw::c_char,
-        constructor_func: ::std::option::Option<
-            unsafe extern "C" fn(
-                arg1: idevice_t,
-                arg2: lockdownd_service_descriptor_t,
-                arg3: *mut *mut ::std::os::raw::c_void,
-            ) -> i32,
-        >,
-        error_code: *mut i32,
-    ) -> service_error_t;
-}
-extern "C" {
-    #[doc = " Frees a service instance."]
-    #[doc = ""]
-    #[doc = " @param client The service instance to free."]
-    #[doc = ""]
-    #[doc = " @return SERVICE_E_SUCCESS on success,"]
-    #[doc = "     SERVICE_E_INVALID_ARG when client is invalid, or a"]
-    #[doc = "     SERVICE_E_UNKNOWN_ERROR when another error occurred."]
-    pub fn service_client_free(client: service_client_t) -> service_error_t;
-}
-extern "C" {
-    #[doc = " Sends data using the given service client."]
-    #[doc = ""]
-    #[doc = " @param client The service client to use for sending."]
-    #[doc = " @param data Data to send"]
-    #[doc = " @param size Size of the data to send"]
-    #[doc = " @param sent Number of bytes sent (can be NULL to ignore)"]
-    #[doc = ""]
-    #[doc = " @return SERVICE_E_SUCCESS on success,"]
-    #[doc = "      SERVICE_E_INVALID_ARG when one or more parameters are"]
-    #[doc = "      invalid, or SERVICE_E_UNKNOWN_ERROR when an unspecified"]
-    #[doc = "      error occurs."]
-    pub fn service_send(
-        client: service_client_t,
-        data: *const ::std::os::raw::c_char,
-        size: u32,
-        sent: *mut u32,
-    ) -> service_error_t;
-}
-extern "C" {
-    #[doc = " Receives data using the given service client with specified timeout."]
-    #[doc = ""]
-    #[doc = " @param client The service client to use for receiving"]
-    #[doc = " @param data Buffer that will be filled with the data received"]
-    #[doc = " @param size Number of bytes to receive"]
-    #[doc = " @param received Number of bytes received (can be NULL to ignore)"]
-    #[doc = " @param timeout Maximum time in milliseconds to wait for data."]
-    #[doc = ""]
-    #[doc = " @return SERVICE_E_SUCCESS on success,"]
-    #[doc = "      SERVICE_E_INVALID_ARG when one or more parameters are"]
-    #[doc = "      invalid, SERVICE_E_MUX_ERROR when a communication error"]
-    #[doc = "      occurs, or SERVICE_E_UNKNOWN_ERROR when an unspecified"]
-    #[doc = "      error occurs."]
-    pub fn service_receive_with_timeout(
-        client: service_client_t,
-        data: *mut ::std::os::raw::c_char,
-        size: u32,
-        received: *mut u32,
-        timeout: ::std::os::raw::c_uint,
-    ) -> service_error_t;
-}
-extern "C" {
-    #[doc = " Receives data using the given service client."]
-    #[doc = ""]
-    #[doc = " @param client The service client to use for receiving"]
-    #[doc = " @param data Buffer that will be filled with the data received"]
-    #[doc = " @param size Number of bytes to receive"]
-    #[doc = " @param received Number of bytes received (can be NULL to ignore)"]
-    #[doc = ""]
-    #[doc = " @return SERVICE_E_SUCCESS on success,"]
-    #[doc = "      SERVICE_E_INVALID_ARG when one or more parameters are"]
-    #[doc = "      invalid, SERVICE_E_NOT_ENOUGH_DATA when not enough data"]
-    #[doc = "      received, SERVICE_E_TIMEOUT when the connection times out,"]
-    #[doc = "      SERVICE_E_MUX_ERROR when a communication error"]
-    #[doc = "      occurs, or SERVICE_E_UNKNOWN_ERROR when an unspecified"]
-    #[doc = "      error occurs."]
-    pub fn service_receive(
-        client: service_client_t,
-        data: *mut ::std::os::raw::c_char,
-        size: u32,
-        received: *mut u32,
-    ) -> service_error_t;
-}
-extern "C" {
-    #[doc = " Enable SSL for the given service client."]
-    #[doc = ""]
-    #[doc = " @param client The connected service client for that SSL should be enabled."]
-    #[doc = ""]
-    #[doc = " @return SERVICE_E_SUCCESS on success,"]
-    #[doc = "     SERVICE_E_INVALID_ARG if client or client->connection is"]
-    #[doc = "     NULL, SERVICE_E_NOT_ENOUGH_DATA when not enough data"]
-    #[doc = "     received, SERVICE_E_TIMEOUT when the connection times out,"]
-    #[doc = "     SERVICE_E_SSL_ERROR when SSL could not be enabled,"]
-    #[doc = "     or SERVICE_E_UNKNOWN_ERROR otherwise."]
-    pub fn service_enable_ssl(client: service_client_t) -> service_error_t;
-}
-extern "C" {
-    #[doc = " Disable SSL for the given service client."]
-    #[doc = ""]
-    #[doc = " @param client The connected service client for that SSL should be disabled."]
-    #[doc = ""]
-    #[doc = " @return SERVICE_E_SUCCESS on success,"]
-    #[doc = "     SERVICE_E_INVALID_ARG if client or client->connection is"]
-    #[doc = "     NULL, or SERVICE_E_UNKNOWN_ERROR otherwise."]
-    pub fn service_disable_ssl(client: service_client_t) -> service_error_t;
-}
-extern "C" {
-    #[doc = " Disable SSL for the given service client without sending SSL terminate messages."]
-    #[doc = ""]
-    #[doc = " @param client The connected service client for that SSL should be disabled."]
-    #[doc = ""]
-    #[doc = " @return SERVICE_E_SUCCESS on success,"]
-    #[doc = "     SERVICE_E_INVALID_ARG if client or client->connection is"]
-    #[doc = "     NULL, or SERVICE_E_UNKNOWN_ERROR otherwise."]
-    pub fn service_disable_bypass_ssl(client: service_client_t, sslBypass: u8) -> service_error_t;
-}
 pub const syslog_relay_error_t_SYSLOG_RELAY_E_SUCCESS: syslog_relay_error_t = 0;
 pub const syslog_relay_error_t_SYSLOG_RELAY_E_INVALID_ARG: syslog_relay_error_t = -1;
 pub const syslog_relay_error_t_SYSLOG_RELAY_E_MUX_ERROR: syslog_relay_error_t = -2;
@@ -13749,7 +13158,6 @@ extern "C" {
     #[doc = " @param data Buffer that will be filled with the data received"]
     #[doc = " @param size Number of bytes to receive"]
     #[doc = " @param received Number of bytes received (can be NULL to ignore)"]
-    #[doc = " @param timeout Maximum time in milliseconds to wait for data."]
     #[doc = ""]
     #[doc = " @return SYSLOG_RELAY_E_SUCCESS on success,"]
     #[doc = "  SYSLOG_RELAY_E_INVALID_ARG when client or plist is NULL"]
@@ -13851,7 +13259,7 @@ extern "C" {
     #[doc = " @param client The webinspector client to use for receiving"]
     #[doc = " @param plist pointer to a plist_t that will point to the received plist"]
     #[doc = "      upon successful return"]
-    #[doc = " @param timeout Maximum time in milliseconds to wait for data."]
+    #[doc = " @param timeout_ms Maximum time in milliseconds to wait for data."]
     #[doc = ""]
     #[doc = " @return WEBINSPECTOR_E_SUCCESS on success,"]
     #[doc = "      WEBINSPECTOR_E_INVALID_ARG when client or *plist is NULL,"]
@@ -14232,4 +13640,70 @@ extern "C" {
         query_match: *const ::std::os::raw::c_char,
     ) -> lockdownd_error_t;
 }
-pub type __builtin_va_list = *mut ::std::os::raw::c_char;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __locale_data {
+    pub _address: u8,
+}
+pub type __builtin_va_list = [__va_list_tag; 1usize];
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __va_list_tag {
+    pub gp_offset: ::std::os::raw::c_uint,
+    pub fp_offset: ::std::os::raw::c_uint,
+    pub overflow_arg_area: *mut ::std::os::raw::c_void,
+    pub reg_save_area: *mut ::std::os::raw::c_void,
+}
+#[test]
+fn bindgen_test_layout___va_list_tag() {
+    assert_eq!(
+        ::std::mem::size_of::<__va_list_tag>(),
+        24usize,
+        concat!("Size of: ", stringify!(__va_list_tag))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__va_list_tag>(),
+        8usize,
+        concat!("Alignment of ", stringify!(__va_list_tag))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__va_list_tag>())).gp_offset as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__va_list_tag),
+            "::",
+            stringify!(gp_offset)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__va_list_tag>())).fp_offset as *const _ as usize },
+        4usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__va_list_tag),
+            "::",
+            stringify!(fp_offset)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__va_list_tag>())).overflow_arg_area as *const _ as usize },
+        8usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__va_list_tag),
+            "::",
+            stringify!(overflow_arg_area)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__va_list_tag>())).reg_save_area as *const _ as usize },
+        16usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__va_list_tag),
+            "::",
+            stringify!(reg_save_area)
+        )
+    );
+}

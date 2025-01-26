@@ -313,12 +313,7 @@ impl DebugServer<'_> {
                 &mut encoded_buffer_size,
             );
         }
-        unsafe {
-            std::slice::from_raw_parts(
-                encoded_buffer,
-                encoded_buffer_size as usize,
-            ).to_vec()
-        }
+        unsafe { std::slice::from_raw_parts(encoded_buffer, encoded_buffer_size as usize).to_vec() }
     }
 
     /// Decodes a string encoded in hex
@@ -342,6 +337,33 @@ impl DebugServer<'_> {
                 .to_string()
         };
         decoded_buffer_str
+    }
+
+    /// Sets behavior when awaiting a response from the server.
+    /// # Arguments
+    /// * `cancel_receive` - A option of a function that will be called approximately
+    ///     every receive_loop_timeout milliseconds; the function should return a
+    ///     boolean flag specifying whether to stop waiting for a response. If None,
+    ///     behaves as if it always returns true.
+    /// * `receive_loop_timeout` - Time in milliseconds between calls to cancel_receive.
+    pub fn set_receive_params(
+        &self,
+        cancel_receive: Option<unsafe extern "C" fn() -> i32>,
+        receive_loop_timeout: i32,
+    ) -> Result<(), DebugServerError> {
+        let result = unsafe {
+            unsafe_bindings::debugserver_client_set_receive_params(
+                self.pointer,
+                cancel_receive,
+                receive_loop_timeout,
+            )
+            .into()
+        };
+        if result != DebugServerError::Success {
+            return Err(result);
+        }
+
+        Ok(())
     }
 }
 

@@ -6,6 +6,7 @@ use std::os::raw::c_char;
 use crate::bindings as unsafe_bindings;
 use crate::error::IdeviceError;
 use crate::idevice::Device;
+use crate::service::ServiceClient;
 
 pub struct DeviceConnection<'a> {
     pub(crate) pointer: *mut unsafe_bindings::idevice_connection_private,
@@ -44,6 +45,25 @@ impl DeviceConnection<'_> {
             pointer: to_fill,
             phantom: std::marker::PhantomData,
         })
+    }
+
+    /// Get connection from a service client
+    /// # Arguments
+    /// * `pointer` - The service client
+    /// # Returns
+    /// A handle for the connection
+    ///
+    /// ***Verified:*** False
+    pub(crate) fn from_service_client<'a>(client: &'a ServiceClient) -> DeviceConnection<'a> {
+        let ptr = unsafe {
+            let mut to_fill = std::mem::zeroed();
+            unsafe_bindings::service_get_connection(client.pointer, &mut to_fill);
+            to_fill
+        };
+        DeviceConnection {
+            pointer: ptr,
+            phantom: std::marker::PhantomData,
+        }
     }
 
     /// Sends data to the device

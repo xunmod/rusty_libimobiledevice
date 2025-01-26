@@ -2,7 +2,7 @@
 
 use crate::{
     bindings as unsafe_bindings, error::PropertyListServiceError, idevice::Device,
-    services::lockdownd::LockdowndService,
+    service::ServiceClient, services::lockdownd::LockdowndService,
 };
 
 pub struct PropertyListServiceClient<'a> {
@@ -151,6 +151,17 @@ impl PropertyListServiceClient<'_> {
         }
 
         Ok(())
+    }
+
+    /// Get service client
+    /// # Arguments
+    /// *none*
+    /// # Returns
+    /// *none*
+    ///
+    /// ***Verified:*** False
+    pub fn get_service_client(&self) -> ServiceClient<'_> {
+        ServiceClient::from_property_list_service_client(self)
     }
 }
 

@@ -3,7 +3,9 @@
 use std::ffi::CString;
 use std::os::raw::c_char;
 
+use crate::connection::DeviceConnection;
 use crate::services::lockdownd::LockdowndService;
+use crate::services::property_list_service::PropertyListServiceClient;
 use crate::{bindings as unsafe_bindings, error::ServiceError, idevice::Device};
 
 pub struct ServiceClient<'a> {
@@ -203,6 +205,38 @@ impl ServiceClient<'_> {
         }
 
         Ok(())
+    }
+
+    /// Get the connection of the device
+    /// # Arguments
+    /// *none*
+    /// # Returns
+    /// The connection
+    ///
+    /// ***Verified:*** False
+    pub fn get_connection(&self) -> DeviceConnection<'_> {
+        DeviceConnection::from_service_client(self)
+    }
+
+    /// Get service client from a property list service client
+    /// # Arguments
+    /// * `pointer` - The property list service client
+    /// # Returns
+    /// A handle for the connection
+    ///
+    /// ***Verified:*** False
+    pub(crate) fn from_property_list_service_client<'a>(
+        client: &'a PropertyListServiceClient,
+    ) -> ServiceClient<'a> {
+        let ptr = unsafe {
+            let mut to_fill = std::mem::zeroed();
+            unsafe_bindings::property_list_service_get_service_client(client.pointer, &mut to_fill);
+            to_fill
+        };
+        ServiceClient {
+            pointer: ptr,
+            phantom: std::marker::PhantomData,
+        }
     }
 }
 
